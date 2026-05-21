@@ -1,21 +1,25 @@
 #!/bin/bash
 # get_radio_json.sh
+# get_radio.sh 와 동일한 로직이지만 결과를 channels.json 형식으로 출력한다.
+# GitHub Actions에서 실행되어 Pages에 배포된다.
 
 COOKIE_FILE=$(mktemp)
+
+# 브라우저 실제 요청에 맞춰 더블 인코딩된 해시태그 목록으로 수정
 HASHTAGS=(
-    "%F0%9F%8E%B6%20%EA%B0%80%EC%9A%94"
-    "%EC%A2%85%ED%95%A9"
-    "%EB%89%B4%EC%8A%A4"
-    "%ED%8C%9D"
-    "%EC%9E%AC%EC%A6%88"
-    "%ED%8A%B8%EB%A1%9C%ED%8A%B8"
-    "%ED%81%B4%EB%9E%98%EC%8B%9D"
+    "%25F0%259F%258E%25B6%2520%25EA%25B0%25B0%25EA%25B0%2580%25EC%259A%2594"  # 🎵 가요
+    "%25EC%25A2%25A5%25ED%2595%25A9"                                          # 종합
+    "%25EB%2589%25B4%25EC%25A2%25A4"                                          # 뉴스
+    "%25ED%258C%259D"                                                          # 팝
+    "%25EC%259E%25AC%25EC%25A6%2588"                                          # 재즈
+    "%25ED%258A%25B8%25EB%25A1%259C%25ED%258A%25B8"                            # 트로트
+    "%25ED%2581%25B4%25EB%259E%2598%25EC%25AA%25A1"                            # 클래식
     "OST"
 )
 
-# CSRF 토큰 획득
+# CSRF 토큰 및 초기 세션 쿠키 획득 (크롬 148 버전 User-Agent 반영)
 INITIAL_PAGE=$(curl -s -c "$COOKIE_FILE" \
-  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" \
   "https://www.inlive.co.kr/toplive")
 CSRF_TOKEN=$(echo "$INITIAL_PAGE" | grep -oP 'meta name="csrf-token" content="\K[^"]+')
 
@@ -29,17 +33,27 @@ ALL_IDS=""
 
 # 해시태그별 방송 ID 수집
 for TAG in "${HASHTAGS[@]}"; do
+  # 브라우저의 최신 Sec-Fetch 및 필수 헤더들을 모두 추가하여 차단 우회
   IDS=$(curl -s -b "$COOKIE_FILE" "https://www.inlive.co.kr/ajaxGetTopLiveList" \
     -X POST \
     -H "Accept: application/json, text/javascript, */*; q=0.01" \
+    -H "Accept-Language: ko,en;q=0.9,zh-CN;q=0.8,zh;q=0.7" \
+    -H "Connection: keep-alive" \
     -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" \
     -H "X-Requested-With: XMLHttpRequest" \
     -H "Origin: https://www.inlive.co.kr" \
     -H "Referer: https://www.inlive.co.kr/toplive" \
-    -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+    -H "Sec-Fetch-Dest: empty" \
+    -H "Sec-Fetch-Mode: cors" \
+    -H "Sec-Fetch-Site: same-origin" \
+    -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" \
     -H "X-CSRF-TOKEN: $CSRF_TOKEN" \
+    -H "sec-ch-ua: \"Chromium\";v=\"148\", \"Google Chrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"" \
+    -H "sec-ch-ua-mobile: ?0" \
+    -H "sec-ch-ua-platform: \"Windows\"" \
     --data-raw "page_no=1&hashtag=${TAG}&searchval=" \
     | jq -r '.result[]? | "\(.f_bsid)\t\(.f_title // "")\t\(.f_hashtag // "")\t\(.f_img // "")"' 2>/dev/null)
+  
   [ -n "$IDS" ] && ALL_IDS="${ALL_IDS}"$'\n'"${IDS}"
 done
 
@@ -61,10 +75,9 @@ while IFS=$'\t' read -r BSID TITLE HASHTAG IMG; do
 
   # 이름 결정: PLS 타이틀 > API 타이틀 > bsid
   NAME="${PLS_TITLE:-${TITLE:-$BSID}}"
-  
-  # [수정] echo 대신 printf를 쓰고, \r(줄바꿈) 및 제어문자 제거와 JSON 이스케이프 안전하게 처리
-  NAME=$(printf "%s" "$NAME" | tr -d '\r\n\t\000-\037' | sed 's/\\/\\\\/g; s/"/\\"/g')
-  STREAM_URL=$(printf "%s" "$STREAM_URL" | tr -d '\r\n\t\000-\037')
+  # JSON 특수문자 이스케이프
+  NAME=$(echo "$NAME" | sed 's/\\/\\\\/g; s/"/\\"/g; s/	/ /g')
+  STREAM_URL=$(echo "$STREAM_URL" | tr -d '\r')
 
   THUMB=""
   if [ -n "$IMG" ]; then
