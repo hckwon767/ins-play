@@ -1,126 +1,6 @@
 {
   "channels": [
     {
-      "tag": "종합",
-      "name": ".ılılıll♪ 안부가그리운날에 ♪llılılı",
-      "streamUrl": "http://pb2.inlive.co.kr:10010"
-    },
-    {
-      "tag": "종합",
-      "name": "II화니&amp; 라이브아지트 방송",
-      "streamUrl": "http://live06.inlive.co.kr:10870"
-    },
-    {
-      "tag": "종합",
-      "name": "파라솔  Music in 라이브  &amp; 파일 방송국",
-      "streamUrl": "http://pb2.inlive.co.kr:10030"
-    },
-    {
-      "tag": "종합",
-      "name": "쟈스민정 &amp; 정다운쉼터7080 방송",
-      "streamUrl": "http://pb3.inlive.co.kr:10030"
-    },
-    {
-      "tag": "종합",
-      "name": "그대라는 이름으로~~˚˚",
-      "streamUrl": "http://live10.inlive.co.kr:12660"
-    },
-    {
-      "tag": "종합",
-      "name": "口의 人フ止",
-      "streamUrl": "http://live10.inlive.co.kr:13920"
-    },
-    {
-      "tag": "종합",
-      "name": "Hello하루ノ &amp; 바닷가우체국(종합) 방송",
-      "streamUrl": "http://pb3.inlive.co.kr:10020"
-    },
-    {
-      "tag": "종합",
-      "name": "성그니 &amp; 해피 (happy)라이브^........^",
-      "streamUrl": "http://pb2.inlive.co.kr:10140"
-    },
-    {
-      "tag": "종합",
-      "name": "라이브사랑24&amp;우미",
-      "streamUrl": "http://pb3.inlive.co.kr:10090"
-    },
-    {
-      "tag": "종합",
-      "name": "☆그리운 우리들의 추억이 있는 곳☆ &quot;추억속으로 7080o&quot;",
-      "streamUrl": "http://pb2.inlive.co.kr:10130"
-    },
-    {
-      "tag": "종합",
-      "name": "스칼레인 ♬라이브. 파일.♬♬",
-      "streamUrl": "http://live10.inlive.co.kr:11710"
-    },
-    {
-      "tag": "종합",
-      "name": "대충 듣는 바보의 품격...",
-      "streamUrl": "http://pb2.inlive.co.kr:10020"
-    },
-    {
-      "tag": "종합",
-      "name": "러쉬중입니다 II설레는 오늘II",
-      "streamUrl": "http://pb1.inlive.co.kr:10010"
-    },
-    {
-      "tag": "종합",
-      "name": "*˚ 굿 라이브 . 라이브~파일!!",
-      "streamUrl": "http://live07.inlive.co.kr:14510"
-    },
-    {
-      "tag": "종합",
-      "name": "[CJ모집] 소듕한 가족 모십니다.",
-      "streamUrl": "http://live07.inlive.co.kr:12860"
-    },
-    {
-      "tag": "종합",
-      "name": "항상 감사 하는 마음으로..... 오늘도 화이팅    8시종방",
-      "streamUrl": "http://live03.inlive.co.kr:10650"
-    },
-    {
-      "tag": "종합",
-      "name": "ll지은♡음악여행 All_MUSIC。파라파라",
-      "streamUrl": "http://live09.inlive.co.kr:10740"
-    },
-    {
-      "tag": "종합",
-      "name": "it&#039;s Raining :)",
-      "streamUrl": "http://pb1.inlive.co.kr:10030"
-    },
-    {
-      "tag": "종합",
-      "name": "케빈",
-      "streamUrl": "http://live06.inlive.co.kr:12660"
-    },
-    {
-      "tag": "종합",
-      "name": "추억여행",
-      "streamUrl": "http://live09.inlive.co.kr:10820"
-    },
-    {
-      "tag": "종합",
-      "name": "철 민 - 행복한 다락방 (5060)",
-      "streamUrl": "http://live06.inlive.co.kr:11650"
-    },
-    {
-      "tag": "종합",
-      "name": "체인。 &amp; *┼º ☆ CLUB EZ ☆ º┼* 방송",
-      "streamUrl": "http://live06.inlive.co.kr:10040"
-    },
-    {
-      "tag": "종합",
-      "name": "가슴으로 듣는 라이브 음악 ♬",
-      "streamUrl": "http://live06.inlive.co.kr:10200"
-    },
-    {
-      "tag": "종합",
-      "name": "음악동행 같이해요^^",
-      "streamUrl": "http://live10.inlive.co.kr:10720"
-    },
-    {
       "tag": "🎶 가요",
       "name": "♬♩즐거운 뮤직 포레스트 가슴 울리는 레이 인디 발라드.♬♪",
       "streamUrl": "http://live07.inlive.co.kr:20660"
@@ -132,18 +12,23 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "편히 듣기",
-      "streamUrl": "http://live07.inlive.co.kr:16690"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "추억의 종합 가요 리믹스 방송 &amp; 켈리",
       "streamUrl": "http://live06.inlive.co.kr:11080"
     },
     {
       "tag": "🎶 가요",
+      "name": "편히 듣기",
+      "streamUrl": "http://live07.inlive.co.kr:16690"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "〃Ballad 。˚",
       "streamUrl": "http://live07.inlive.co.kr:13780"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "   ",
+      "streamUrl": "http://live09.inlive.co.kr:12140"
     },
     {
       "tag": "🎶 가요",
@@ -154,11 +39,6 @@
       "tag": "🎶 가요",
       "name": "왕초보 Music 1인방송방",
       "streamUrl": "http://live09.inlive.co.kr:12390"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "   ",
-      "streamUrl": "http://live09.inlive.co.kr:12140"
     },
     {
       "tag": "🎶 가요",
@@ -239,76 +119,6 @@
       "tag": "🎶 가요",
       "name": "INLIVECAST",
       "streamUrl": "http://live10.inlive.co.kr:14170"
-    },
-    {
-      "tag": "트로트",
-      "name": "단합 릴레이방송 21(목) 진행:♡현아♡담:ll 이쁜세리",
-      "streamUrl": "http://live03.inlive.co.kr:15600"
-    },
-    {
-      "tag": "트로트",
-      "name": "당신의 힐링파트너진행◈: 이민영 담: ◈ 링링 (첫방)",
-      "streamUrl": "http://pb1.inlive.co.kr:10090"
-    },
-    {
-      "tag": "트로트",
-      "name": "활기찬방송국*.° 쎄미트롯 *.°진행:섬ll벼리:담:반키내림",
-      "streamUrl": "http://pb2.inlive.co.kr:10110"
-    },
-    {
-      "tag": "트로트",
-      "name": "&quot;함께여서 행복한&quot; 진행:이쁜동해 ◈ 담:주현",
-      "streamUrl": "http://pb1.inlive.co.kr:10070"
-    },
-    {
-      "tag": "트로트",
-      "name": "기쁜우리 즐거운우리진행:ll강릉지아담:ll아로마향기",
-      "streamUrl": "http://pb1.inlive.co.kr:10100"
-    },
-    {
-      "tag": "트로트",
-      "name": "◈6/20(토)천안모임◈진행: 윈드 ◈ 담: 영자˚☆ ◈",
-      "streamUrl": "http://pb3.inlive.co.kr:10100"
-    },
-    {
-      "tag": "트로트",
-      "name": "24시간 트롯트전문 (20주년) 방송국",
-      "streamUrl": "http://pb1.inlive.co.kr:10110"
-    },
-    {
-      "tag": "트로트",
-      "name": "◈사랑과 진실 웃음이넘치는방송◈진행:오스카부국 ◈:엔젤국장",
-      "streamUrl": "http://live10.inlive.co.kr:11280"
-    },
-    {
-      "tag": "트로트",
-      "name": "가수변월주음악실 방송방",
-      "streamUrl": "http://live07.inlive.co.kr:11610"
-    },
-    {
-      "tag": "트로트",
-      "name": "세이클럽&amp;인라이브&amp; youtube 동시방송",
-      "streamUrl": "http://live07.inlive.co.kr:19880"
-    },
-    {
-      "tag": "트로트",
-      "name": "★마이크＆전화라이브★엘＆금＆태★033-554-3778",
-      "streamUrl": "http://live07.inlive.co.kr:20520"
-    },
-    {
-      "tag": "트로트",
-      "name": "음악여행",
-      "streamUrl": "http://live09.inlive.co.kr:10470"
-    },
-    {
-      "tag": "트로트",
-      "name": "\u0007┼\u0007누비자\u0007즐기자 \u0007함께하자\u0007┼\u0007",
-      "streamUrl": "http://live03.inlive.co.kr:13040"
-    },
-    {
-      "tag": "트로트",
-      "name": "앗싸 ~ 관광가자 !!",
-      "streamUrl": "http://live07.inlive.co.kr:15040"
     },
     {
       "tag": "락&메탈",
@@ -397,6 +207,36 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "&quot;함께여서 행복한&quot; 진행:이쁜동해 ◈ 담:주현",
+      "streamUrl": "http://pb1.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "파라솔  Music in 라이브  &amp; 파일 방송국",
+      "streamUrl": "http://pb2.inlive.co.kr:10030"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "성그니 &amp; 해피 (happy)라이브^........^",
+      "streamUrl": "http://pb2.inlive.co.kr:10140"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "라이브사랑24&amp;우미",
+      "streamUrl": "http://pb3.inlive.co.kr:10090"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "스칼레인 ♬라이브. 파일.♬♬",
+      "streamUrl": "http://live10.inlive.co.kr:11710"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "케빈",
+      "streamUrl": "http://live06.inlive.co.kr:12660"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "☞ 현추뮤직 댄스 종합 방송국 ☜",
       "streamUrl": "http://live10.inlive.co.kr:12730"
     },
@@ -462,8 +302,38 @@
     },
     {
       "tag": "☕ 힐링",
+      "name": "기쁜우리 즐거운우리진행:ll강릉지아담:ll아로마향기",
+      "streamUrl": "http://pb1.inlive.co.kr:10100"
+    },
+    {
+      "tag": "☕ 힐링",
       "name": "Just Music",
       "streamUrl": "http://live06.inlive.co.kr:10090"
+    },
+    {
+      "tag": "☕ 힐링",
+      "name": "그대라는 이름으로~~˚˚",
+      "streamUrl": "http://live10.inlive.co.kr:12660"
+    },
+    {
+      "tag": "☕ 힐링",
+      "name": "口의 人フ止",
+      "streamUrl": "http://live10.inlive.co.kr:13920"
+    },
+    {
+      "tag": "☕ 힐링",
+      "name": "it&#039;s Raining :)",
+      "streamUrl": "http://pb1.inlive.co.kr:10030"
+    },
+    {
+      "tag": "☕ 힐링",
+      "name": "추억여행",
+      "streamUrl": "http://live09.inlive.co.kr:10820"
+    },
+    {
+      "tag": "☕ 힐링",
+      "name": "가슴으로 듣는 라이브 음악 ♬",
+      "streamUrl": "http://live06.inlive.co.kr:10200"
     },
     {
       "tag": "☕ 힐링",
@@ -502,8 +372,43 @@
     },
     {
       "tag": "😙 수다",
+      "name": "단합 릴레이방송 21(목) 진행:♡현아♡담:ll 이쁜세리",
+      "streamUrl": "http://live03.inlive.co.kr:15600"
+    },
+    {
+      "tag": "😙 수다",
+      "name": "II화니&amp; 라이브아지트 방송",
+      "streamUrl": "http://live06.inlive.co.kr:10870"
+    },
+    {
+      "tag": "😙 수다",
+      "name": "쟈스민정 &amp; 정다운쉼터7080 방송",
+      "streamUrl": "http://pb3.inlive.co.kr:10030"
+    },
+    {
+      "tag": "😙 수다",
+      "name": "Hello하루ノ &amp; 바닷가우체국(종합) 방송",
+      "streamUrl": "http://pb3.inlive.co.kr:10020"
+    },
+    {
+      "tag": "😙 수다",
+      "name": "ll지은♡음악여행 All_MUSIC。파라파라",
+      "streamUrl": "http://live09.inlive.co.kr:10740"
+    },
+    {
+      "tag": "😙 수다",
+      "name": "체인。 &amp; *┼º ☆ CLUB EZ ☆ º┼* 방송",
+      "streamUrl": "http://live06.inlive.co.kr:10040"
+    },
+    {
+      "tag": "😙 수다",
       "name": "소리새 &amp; 찬양의샘 방송",
       "streamUrl": "http://live06.inlive.co.kr:10430"
+    },
+    {
+      "tag": "😙 수다",
+      "name": "데이 &amp; 행복한동행나눔터&amp;라이브(함께하실 쟈키님 모십니다 )",
+      "streamUrl": "http://live10.inlive.co.kr:10720"
     },
     {
       "tag": "😙 수다",
