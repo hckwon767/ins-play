@@ -95,7 +95,7 @@ do
             [ -z "$station_name" ] && station_name="Inlive_Station"
             
             # 타이틀에 '트로트'라는 글자가 포함되어 있다면 리스트에서 제외 (스킵)
-            if echo "$station_name" | grep -q "트로트"; then
+            if echo "$station_name" | grep -q -E "트로트|테스트"; then
                 continue
             fi
             
