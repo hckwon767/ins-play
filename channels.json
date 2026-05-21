@@ -2,13 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《 가요ノ Holic 》스타비",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "잘자요 (러쉬)",
+      "streamUrl": "http://live10.inlive.co.kr:10150"
     },
     {
       "tag": "🎶 가요",
-      "name": "잘자요 (러쉬)",
-      "streamUrl": "http://live10.inlive.co.kr:10150"
+      "name": "《 가요ノ Holic 》스타비",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -81,54 +81,19 @@
       "streamUrl": "http://live03.inlive.co.kr:13520"
     },
     {
-      "tag": "락&메탈",
-      "name": "nonstopMUSIC2 컨트리/락",
-      "streamUrl": "http://live06.inlive.co.kr:12030"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "Rock.metal.BluesRock",
-      "streamUrl": "http://live03.inlive.co.kr:10350"
-    },
-    {
-      "tag": "재즈",
-      "name": "nevertheless",
-      "streamUrl": "http://live07.inlive.co.kr:19250"
-    },
-    {
-      "tag": "기타",
-      "name": "그냥 그렇게",
-      "streamUrl": "http://live10.inlive.co.kr:10960"
-    },
-    {
-      "tag": "기타",
-      "name": "애니＆게임＆성우 랜덤 discord.gg/3PQN4PN",
-      "streamUrl": "http://live06.inlive.co.kr:12390"
-    },
-    {
-      "tag": "기타",
-      "name": "천년바다 하얀섬 홀로연가",
-      "streamUrl": "http://live06.inlive.co.kr:16210"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "수양버들  &amp; 해피 (happy)라이브^........^",
-      "streamUrl": "http://pb2.inlive.co.kr:10140"
-    },
-    {
       "tag": "🎤 노래",
       "name": "휴게실, 흡연실",
       "streamUrl": "http://live07.inlive.co.kr:11450"
     },
     {
       "tag": "🎤 노래",
-      "name": "˚.ılı. 음악듣기 。라이브 &amp; 음악 좋은친구들..。",
-      "streamUrl": "http://live06.inlive.co.kr:12660"
+      "name": "가비 &amp; ♡라이브사랑24♡ 방송",
+      "streamUrl": "http://pb3.inlive.co.kr:10090"
     },
     {
       "tag": "🎤 노래",
-      "name": "가비 &amp; ♡라이브사랑24♡ 방송",
-      "streamUrl": "http://pb3.inlive.co.kr:10090"
+      "name": "˚.ılı. 음악듣기 。라이브 &amp; 음악 좋은친구들..。",
+      "streamUrl": "http://live06.inlive.co.kr:12660"
     },
     {
       "tag": "🎤 노래",
@@ -144,31 +109,6 @@
       "tag": "🎤 노래",
       "name": "한마음 마이크",
       "streamUrl": "http://live06.inlive.co.kr:10020"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": " O  Y",
-      "streamUrl": "http://live03.inlive.co.kr:10590"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "┕〓Amigo Music Date〓┙",
-      "streamUrl": "http://live06.inlive.co.kr:10090"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "팝 세미클래식 연주 경음악",
-      "streamUrl": "http://live06.inlive.co.kr:15330"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "이한장의명반",
-      "streamUrl": "http://live10.inlive.co.kr:12060"
-    },
-    {
-      "tag": "☕ 힐링",
-      "name": "고즈넉한 :)",
-      "streamUrl": "http://pb1.inlive.co.kr:10030"
     },
     {
       "tag": "☕ 힐링",
@@ -217,11 +157,6 @@
     },
     {
       "tag": "☕ 힐링",
-      "name": "WithU &amp; ˚°감성과 이끌림˚° 방송",
-      "streamUrl": "http://live10.inlive.co.kr:10780"
-    },
-    {
-      "tag": "☕ 힐링",
       "name": "♥ ˚Music Station…─‥˚♡。",
       "streamUrl": "http://live09.inlive.co.kr:16390"
     },
@@ -266,9 +201,24 @@
       "streamUrl": "http://live03.inlive.co.kr:11620"
     },
     {
+      "tag": "☕ 힐링",
+      "name": "에스프레카 \u0011\b▶\u0011˚ ♥Sweet Melancholy\u0011",
+      "streamUrl": "http://live07.inlive.co.kr:12720"
+    },
+    {
+      "tag": "😙 수다",
+      "name": "워리 &amp; 해피 (happy)라이브 방송 ^......^",
+      "streamUrl": "http://pb2.inlive.co.kr:10140"
+    },
+    {
       "tag": "😙 수다",
       "name": "행복가득한방송국진행:서산마루,아우토반담:@은서@",
       "streamUrl": "http://live03.inlive.co.kr:15600"
+    },
+    {
+      "tag": "😙 수다",
+      "name": "꽃길만 걷자~~",
+      "streamUrl": "http://live07.inlive.co.kr:18210"
     },
     {
       "tag": "😙 수다",
@@ -282,11 +232,6 @@
     },
     {
       "tag": "😙 수다",
-      "name": "suave",
-      "streamUrl": "http://live03.inlive.co.kr:10790"
-    },
-    {
-      "tag": "😙 수다",
       "name": "코스모스 &amp; 추억속으로7080o 방송",
       "streamUrl": "http://pb2.inlive.co.kr:10130"
     },
@@ -297,11 +242,6 @@
     },
     {
       "tag": "😙 수다",
-      "name": "꽃길만 걷자~~",
-      "streamUrl": "http://live07.inlive.co.kr:18210"
-    },
-    {
-      "tag": "😙 수다",
       "name": "만금e (러쉬)",
       "streamUrl": "http://live07.inlive.co.kr:11410"
     },
@@ -309,6 +249,76 @@
       "tag": "😙 수다",
       "name": "사랑하던 그때 그 노래들",
       "streamUrl": "http://live09.inlive.co.kr:16580"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "커피 그리고",
+      "streamUrl": "http://live07.inlive.co.kr:11810"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "같이, 갈래?? 볕 주으러...",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "# New Age &amp; Classic ♪",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": " O  Y",
+      "streamUrl": "http://live03.inlive.co.kr:10590"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "팝 세미클래식 연주 경음악",
+      "streamUrl": "http://live06.inlive.co.kr:15330"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "이한장의명반",
+      "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "nonstopMUSIC2 컨트리/락",
+      "streamUrl": "http://live06.inlive.co.kr:12030"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "Rock.metal.BluesRock",
+      "streamUrl": "http://live03.inlive.co.kr:10350"
+    },
+    {
+      "tag": "재즈",
+      "name": "♪늘~ 함께하는 Blues",
+      "streamUrl": "http://live09.inlive.co.kr:11710"
+    },
+    {
+      "tag": "재즈",
+      "name": "nevertheless",
+      "streamUrl": "http://live07.inlive.co.kr:19250"
+    },
+    {
+      "tag": "기타",
+      "name": "그냥...음악이 듣고싶은날...",
+      "streamUrl": "http://live06.inlive.co.kr:11980"
+    },
+    {
+      "tag": "기타",
+      "name": "그냥 그렇게",
+      "streamUrl": "http://live10.inlive.co.kr:10960"
+    },
+    {
+      "tag": "기타",
+      "name": "애니＆게임＆성우 랜덤 discord.gg/3PQN4PN",
+      "streamUrl": "http://live06.inlive.co.kr:12390"
+    },
+    {
+      "tag": "기타",
+      "name": "천년바다 하얀섬 홀로연가",
+      "streamUrl": "http://live06.inlive.co.kr:16210"
     }
   ]
 }
