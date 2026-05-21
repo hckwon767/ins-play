@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21 16:51 KST",
+  "updatedAt": "2026-05-21 19:00 KST",
   "count": 28,
   "channels": [
     {
@@ -9,22 +9,22 @@
       "thumbUrl": "https://cdn.inlive.co.kr/profile/123iii.jpg"
     },
     {
-      "bsid": "abc120",
-      "name": "설레는 봄 날 산책",
-      "streamUrl": "https://live10.inlive.co.kr:10120",
-      "thumbUrl": "https://cdn.inlive.co.kr/profile/abc120.jpg"
-    },
-    {
       "bsid": "alove1005",
-      "name": "CJ(모심)다정한트로트진행:홍채연담:부기",
+      "name": "CJ 모심다정한트로트 진행: 부기 담: 올빼미",
       "streamUrl": "https://live06.inlive.co.kr:20410",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/alove1005.jpg"
     },
     {
       "bsid": "choyoung105",
-      "name": "◈사랑과 진실 웃음이넘치는방송◈진행:옥돌메◈담:담이",
+      "name": "◈사랑과 진실 웃음이넘치는방송◈진행:담이◈담:엔젤국장",
       "streamUrl": "https://live10.inlive.co.kr:11280",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/choyoung105.jpg"
+    },
+    {
+      "bsid": "dkfmaekdnsvn",
+      "name": "*^수진e^*  ( 수진e  트로트 ^*)",
+      "streamUrl": "https://live06.inlive.co.kr:15410",
+      "thumbUrl": "https://cdn.inlive.co.kr/profile/dkfmaekdnsvn.jpg"
     },
     {
       "bsid": "dnfltkfkdrnt",
@@ -33,8 +33,14 @@
       "thumbUrl": "https://cdn.inlive.co.kr/profile/dnfltkfkdrnt.jpg"
     },
     {
+      "bsid": "dyddl23",
+      "name": "음악여행",
+      "streamUrl": "https://live09.inlive.co.kr:10470",
+      "thumbUrl": "https://cdn.inlive.co.kr/profile/dyddl23.jpg"
+    },
+    {
       "bsid": "ekdldiahsem",
-      "name": "♥즐거운사랑트로트♥ 진행: 팔공달˚담:소금인형",
+      "name": "♥즐거운사랑트로트♥진행:소금인형♥다음:Oi나현",
       "streamUrl": "https://pb2.inlive.co.kr:10170",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/ekdldiahsem.jpg"
     },
@@ -51,40 +57,22 @@
       "thumbUrl": "https://cdn.inlive.co.kr/profile/fkdlqm.jpg"
     },
     {
-      "bsid": "fpemdhkdls",
-      "name": "\u0007┼\u0007♪정겨운 음율과 동행하세요♪\u0007┼\u0007",
-      "streamUrl": "https://live03.inlive.co.kr:13300",
-      "thumbUrl": "https://cdn.inlive.co.kr/profile/fpemdhkdls.jpg"
-    },
-    {
-      "bsid": "gg900",
-      "name": "앗싸 ~ 관광가자 !!",
-      "streamUrl": "https://live07.inlive.co.kr:15040",
-      "thumbUrl": "https://cdn.inlive.co.kr/profile/gg900.jpg"
+      "bsid": "happymusig",
+      "name": "트로트",
+      "streamUrl": "https://live10.inlive.co.kr:11740",
+      "thumbUrl": "https://cdn.inlive.co.kr/profile/happymusig.jpg"
     },
     {
       "bsid": "hwaqaz",
-      "name": "기쁜우리 즐거운우리진행:뿌미담: 강릉지아",
+      "name": "기쁜우리 즐거운우리진행:ll강릉지아담:ll아로마향기",
       "streamUrl": "https://pb1.inlive.co.kr:10100",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/hwaqaz.jpg"
     },
     {
       "bsid": "jun28w",
-      "name": "◈6/20(토)천안모임◈진행: 신나라 ◈담: 윈드 ◈",
+      "name": "◈6/20(토)천안모임◈진행: 윈드 ◈ 담: 영자˚☆ ◈",
       "streamUrl": "https://pb3.inlive.co.kr:10100",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/jun28w.jpg"
-    },
-    {
-      "bsid": "killer",
-      "name": "■☞소풍길에♬음악카페☜■",
-      "streamUrl": "https://live06.inlive.co.kr:14400",
-      "thumbUrl": "https://cdn.inlive.co.kr/profile/killer.jpg"
-    },
-    {
-      "bsid": "kts5058",
-      "name": "세이크럽&amp;인라이브&amp;유투브 동시방송 트로트커피숍음악방송국",
-      "streamUrl": "https://live07.inlive.co.kr:19880",
-      "thumbUrl": "https://cdn.inlive.co.kr/profile/kts5058.jpg"
     },
     {
       "bsid": "olg9990",
@@ -100,7 +88,7 @@
     },
     {
       "bsid": "qharhc",
-      "name": "행복이 머무는 그자리:트로트:진행:꿈꾸는o장미:담: 봄꽃",
+      "name": "행복이 머무는 그자리:트로트:진행:봄꽃담:as솔지sa",
       "streamUrl": "https://live09.inlive.co.kr:11590",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/qharhc.jpg"
     },
@@ -112,13 +100,13 @@
     },
     {
       "bsid": "rudnfduwk001",
-      "name": "♬트로트사랑♪  청산두환 방송중  ON AIR",
+      "name": "♬트로트사랑♪ ㉦ㅔ♡경 방송중 ON AIR",
       "streamUrl": "https://live09.inlive.co.kr:11940",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/rudnfduwk001.jpg"
     },
     {
       "bsid": "rudska7335",
-      "name": "단합릴레이방송 21(목)진행:ll수아담:  나지영",
+      "name": "행복가득한방송국  진행:ll청음지애  담: 현아",
       "streamUrl": "https://live03.inlive.co.kr:15600",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/rudska7335.jpg"
     },
@@ -136,7 +124,7 @@
     },
     {
       "bsid": "semitrot",
-      "name": "활기찬방송국쎄미트롯진행:하느리 담: 섬벼리",
+      "name": "활기찬방송국*.° 쎄미트롯 *.°진행:섬ll벼리:담:반키내림",
       "streamUrl": "https://pb2.inlive.co.kr:10110",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/semitrot.jpg"
     },
@@ -147,8 +135,14 @@
       "thumbUrl": "https://cdn.inlive.co.kr/profile/shine50.jpg"
     },
     {
+      "bsid": "sksnfl8290",
+      "name": "트로트로 행복한 휴식을~",
+      "streamUrl": "https://live06.inlive.co.kr:12720",
+      "thumbUrl": "https://cdn.inlive.co.kr/profile/sksnfl8290.jpg"
+    },
+    {
       "bsid": "smrlsepfh",
-      "name": "˚함께여서 행복한◈ 진행:류시아◈담:이쁜동해",
+      "name": "&quot;함께여서 행복한&quot; 진행:이쁜동해 ◈ 담:주현",
       "streamUrl": "https://pb1.inlive.co.kr:10070",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/smrlsepfh.jpg"
     },
@@ -159,14 +153,20 @@
       "thumbUrl": "https://cdn.inlive.co.kr/profile/sunroadkr.jpg"
     },
     {
+      "bsid": "tlffkrl",
+      "name": "한잔의 여유 음악 들어면서",
+      "streamUrl": "https://live07.inlive.co.kr:13370",
+      "thumbUrl": "https://cdn.inlive.co.kr/profile/tlffkrl.jpg"
+    },
+    {
       "bsid": "usskk77",
-      "name": "╋가수  변월주  음악실 ╋",
+      "name": "가수변월주음악실 방송방",
       "streamUrl": "https://live07.inlive.co.kr:11610",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/usskk77.jpg"
     },
     {
       "bsid": "vv1vv2",
-      "name": "당신의 힐링 파트너 진행:우정향기 담:이민영",
+      "name": "당신의 힐링파트너진행◈: 이민영 담: ◈ 링링 (첫방)",
       "streamUrl": "https://pb1.inlive.co.kr:10090",
       "thumbUrl": "https://cdn.inlive.co.kr/profile/vv1vv2.jpg"
     }
