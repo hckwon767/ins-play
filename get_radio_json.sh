@@ -7,11 +7,7 @@ COOKIE_FILE=$(mktemp)
 
 # 브라우저 실제 요청에 맞춰 더블 인코딩된 해시태그 목록으로 수정
 HASHTAGS=(
-    "%25F0%259F%258E%25B6%2520%25EA%25B0%25B0%25EA%25B0%2580%25EC%259A%2594"  # 🎵 가요
-    "%25ED%258C%259D"                                                          # 팝
-    "%25EC%259E%25AC%25EC%25A6%2588"                                          # 재즈
-    "%25ED%2581%25B4%25EB%259E%2598%25EC%25AA%25A1"                            # 클래식
-    "OST"
+    "%F0%9F%8E%B6%20%EA%B0%80%EC%9A%94"  # 🎵 가요
 )
 
 # CSRF 토큰 및 초기 세션 쿠키 획득 (크롬 148 버전 User-Agent 반영)
@@ -75,6 +71,11 @@ while IFS=$'\t' read -r BSID TITLE HASHTAG IMG; do
   # JSON 특수문자 이스케이프
   NAME=$(echo "$NAME" | sed 's/\\/\\\\/g; s/"/\\"/g; s/	/ /g')
   STREAM_URL=$(echo "$STREAM_URL" | tr -d '\r')
+
+  # http:// 주소를 https:// 로 변경 (이미 https 이거나 형식이 다르면 유지)
+  if [[ "$STREAM_URL" == http://* ]]; then
+    STREAM_URL="https://${STREAM_URL#http://}"
+  fi
 
   THUMB=""
   if [ -n "$IMG" ]; then
