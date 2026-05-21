@@ -263,8 +263,9 @@ const S = {
   tag:     '',   // 활성 해시태그 필터
 };
 
-const audio = document.getElementById('audio');
-audio.volume = 0.8;
+const audio = new Audio();
+audio.crossOrigin = "anonymous";
+audio.preload = "none";
 
 // ── channels.json 로드 ───────────────────────────────────────────
 async function loadChannels() {
@@ -393,40 +394,54 @@ function playCard(bsid, fromSaved) {
   const list = fromSaved ? S.saved : filtered();
   const ch   = list.find(c => c.bsid === bsid);
   if (!ch) return;
-  if (S.current?.bsid === ch.bsid) { togglePlay(); return; }
+  
+  // 이미 재생 중인 채널을 다시 누르면 일시정지/재생 토글
+  if (S.current?.bsid === ch.bsid) { 
+    togglePlay(); 
+    return; 
+  }
 
   S.current = ch;
   S.playing = true;
 
-  // ── [수정] HTTPS 보안 차단 우회 및 주소 변환 로직 추가 ──
+  // 1. 오디오 소스 초기화 (기존 스트림 찌꺼기 완벽 제거)
+  audio.pause();
+  audio.removeAttribute('src');
+  audio.load();
+
+  // 2. 인라이브 스트리밍 주소 HTTPS 우회 처리
   let streamUrl = ch.streamUrl;
-  
-  // 1) http:// 주소를 https:// 로 변경
   if (streamUrl.startsWith('http://')) {
     streamUrl = streamUrl.replace('http://', 'https://');
   }
-  
-  // 2) 인라이브 특정 포트(:8000 등) 스트리밍의 경우 HTTPS 프록시나 
-  // 브라우저 차단 완화를 위해 오디오 객체에 anonymous CORS 속성 부여
-  audio.removeAttribute('src'); // 기존 스트림 찌꺼기 제거
-  audio.crossOrigin = "anonymous"; 
+
+  // 3. 새 스트림 주소 주입 및 재생
   audio.src = streamUrl;
-  // ──────────────────────────────────────────────────────
-
   audio.volume = +document.getElementById('vol').value;
-  
-  // 재생 시도 및 에러 로그 상세화
-  audio.play().catch(e => {
-    console.error("재생 실패 상세 에러:", e);
-    toast('재생 오류: ' + e.message + ' (크롬 주소창 옆 자물쇠 버튼에서 [안전하지 않은 콘텐츠 허용]이 필요할 수 있습니다.)');
-  });
 
+  audio.play()
+    .then(() => {
+      console.log("재생 성공:", streamUrl);
+    })
+    .catch(e => {
+      console.error("재생 실패 에러:", e);
+      toast('재생 실패! 브라우저 주소창 자물쇠 버튼을 눌러 [안전하지 않은 콘텐츠 허용]을 켜야 할 수 있습니다.');
+      S.playing = false;
+      setPP(false);
+      refreshCards();
+    });
+
+  // UI 상태 반영
   document.getElementById('np').classList.add('on');
   document.getElementById('np-name').textContent = ch.name;
   document.getElementById('np-bsid').textContent = ch.bsid + '.inlive.co.kr';
+  
   const t = document.getElementById('np-thumb');
-  t.src = ch.thumbUrl; t.style.display = '';
-  setPP(true); refreshCards();
+  t.src = ch.thumbUrl; 
+  t.style.display = '';
+  
+  setPP(true); 
+  refreshCards();
 }
 
 function togglePlay() {
