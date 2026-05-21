@@ -1,527 +1,502 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>InStation</title>
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0a0a0a">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#0a0a0a;--bg2:#131313;--bg3:#1c1c1c;
-  --line:rgba(255,255,255,0.07);--line2:rgba(255,255,255,0.14);
-  --text:#efefef;--text2:#888;--text3:#444;
-  --accent:#e8ff47;--accent2:#b8cc30;--adim:rgba(232,255,71,0.09);
-  --red:#ff4d4d;--r:10px;--rsm:6px;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;background:var(--bg);color:var(--text);
-  font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.5}
-::-webkit-scrollbar{width:4px;height:4px}
-::-webkit-scrollbar-track{background:transparent}
-::-webkit-scrollbar-thumb{background:var(--line2);border-radius:4px}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INS-PLAY Music Player</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+        }
 
-.app{display:flex;flex-direction:column;min-height:100vh}
+        body {
+            background-color: #0f0f11;
+            color: #e4e4e7;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
 
-/* header */
-header{
-  display:flex;align-items:center;justify-content:space-between;
-  padding:18px 20px 14px;border-bottom:0.5px solid var(--line);
-  position:sticky;top:0;background:var(--bg);z-index:100;gap:12px;
-}
-.logo{font-family:'Space Mono',monospace;font-weight:700;font-size:17px;
-  letter-spacing:-0.5px;color:var(--accent);flex-shrink:0}
-.logo em{color:var(--text3);font-style:normal;font-weight:400}
-.header-right{display:flex;align-items:center;gap:10px}
-.last-update{font-family:'Space Mono',monospace;font-size:10px;color:var(--text3);white-space:nowrap}
-.btn-refresh{
-  display:flex;align-items:center;gap:5px;
-  font-family:'Space Mono',monospace;font-size:10px;font-weight:700;
-  padding:5px 10px;border-radius:var(--rsm);
-  border:0.5px solid var(--line2);background:transparent;color:var(--text3);
-  cursor:pointer;transition:all .15s;white-space:nowrap;
-}
-.btn-refresh:hover{border-color:var(--accent);color:var(--accent)}
-.btn-refresh svg{width:11px;height:11px;flex-shrink:0}
-.btn-refresh.spin svg{animation:spin 1s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
+        /* 상단 네비게이션 및 검색 */
+        header {
+            background-color: #18181b;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #27272a;
+            gap: 20px;
+        }
 
-/* tabs */
-.tabs{display:flex;gap:2px;padding:10px 20px 0;border-bottom:0.5px solid var(--line);
-  overflow-x:auto;scrollbar-width:none}
-.tabs::-webkit-scrollbar{display:none}
-.tab{font-size:12px;font-weight:500;padding:7px 14px;
-  border-radius:var(--rsm) var(--rsm) 0 0;border:0.5px solid transparent;border-bottom:none;
-  background:transparent;color:var(--text3);cursor:pointer;white-space:nowrap;
-  transition:color .15s,background .15s;position:relative;bottom:-0.5px}
-.tab:hover{color:var(--text2)}
-.tab.on{color:var(--accent);background:var(--bg3);border-color:var(--line);border-bottom-color:var(--bg3)}
-.badge{display:inline-flex;align-items:center;justify-content:center;
-  font-size:10px;font-weight:700;min-width:16px;height:16px;padding:0 4px;
-  border-radius:8px;background:var(--adim);color:var(--accent);
-  margin-left:5px;font-family:'Space Mono',monospace}
+        .header-logo-zone {
+            display: flex;
+            flex-direction: column;
+        }
 
-/* main */
-main{flex:1;padding:16px 20px 20px}
+        .header-title {
+            font-size: 20px;
+            font-weight: 800;
+            color: #3b82f6; /* 부드러운 블루 포인트 */
+            letter-spacing: -0.5px;
+        }
 
-/* search + filter */
-.toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px}
-.search-wrap{position:relative;flex:1;min-width:160px;max-width:280px}
-.search-wrap svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);
-  width:13px;height:13px;color:var(--text3);pointer-events:none}
-#search{width:100%;padding:7px 10px 7px 30px;border-radius:var(--rsm);
-  border:0.5px solid var(--line2);background:var(--bg2);color:var(--text);
-  font-size:12px;font-family:'Noto Sans KR',sans-serif;outline:none}
-#search:focus{border-color:var(--accent)}
-#search::placeholder{color:var(--text3)}
-.tag{font-size:11px;padding:4px 11px;border-radius:20px;
-  border:0.5px solid var(--line2);background:var(--bg2);
-  color:var(--text2);cursor:pointer;transition:all .15s;white-space:nowrap}
-.tag:hover{border-color:var(--accent);color:var(--accent)}
-.tag.on{background:var(--adim);border-color:var(--accent);color:var(--accent)}
+        .update-time {
+            font-size: 11px;
+            color: #71717a;
+            margin-top: 2px;
+        }
 
-/* grid */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+        .search-container {
+            flex: 1;
+            max-width: 400px;
+            position: relative;
+        }
 
-/* card */
-.card{background:var(--bg2);border:0.5px solid var(--line);border-radius:var(--r);
-  padding:14px;display:flex;align-items:center;gap:12px;
-  cursor:pointer;transition:border-color .15s,background .15s;position:relative;overflow:hidden}
-.card:hover{border-color:var(--line2);background:var(--bg3)}
-.card.on{border-color:var(--accent);background:var(--adim)}
-.thumb{width:48px;height:48px;border-radius:8px;object-fit:cover;
-  background:var(--bg3);flex-shrink:0;border:0.5px solid var(--line)}
-.thumb-ph{width:48px;height:48px;border-radius:8px;background:var(--bg3);flex-shrink:0;
-  display:none;align-items:center;justify-content:center;
-  color:var(--text3);font-size:20px;border:0.5px solid var(--line)}
-.cinfo{flex:1;min-width:0}
-.cname{font-size:13px;font-weight:500;color:var(--text);
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px}
-.card.on .cname{color:var(--accent)}
-.cmeta{font-size:10px;font-family:'Space Mono',monospace;color:var(--text3);
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.play-ic{width:30px;height:30px;border-radius:50%;border:0.5px solid var(--line2);
-  display:flex;align-items:center;justify-content:center;
-  color:var(--text2);flex-shrink:0;transition:all .15s}
-.card.on .play-ic{background:var(--accent);border-color:var(--accent);color:var(--bg)}
-.card:hover .play-ic{border-color:var(--accent);color:var(--accent)}
+        .search-input {
+            width: 100%;
+            padding: 10px 16px;
+            background-color: #27272a;
+            border: 1px solid #3f3f46;
+            border-radius: 20px;
+            color: #ffffff;
+            font-size: 14px;
+            outline: none;
+            transition: all 0.2s ease;
+        }
 
-/* skel */
-.skel{height:76px;border-radius:var(--r);background:var(--bg2);border:0.5px solid var(--line);
-  background:linear-gradient(90deg,var(--bg2) 25%,var(--bg3) 50%,var(--bg2) 75%);
-  background-size:200% 100%;animation:shim 1.5s infinite}
-@keyframes shim{to{background-position:-200% 0}}
+        .search-input:focus {
+            border-color: #3b82f6;
+            background-color: #18181b;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
 
-/* empty */
-.empty{text-align:center;padding:48px 20px;color:var(--text3)}
-.empty .ic{font-size:32px;margin-bottom:10px}
-.empty p{font-size:13px;line-height:1.7}
+        .counter-badge {
+            background-color: #27272a;
+            padding: 6px 12px;
+            border-radius: 12px;
+            font-size: 13px;
+            color: #a1a1aa;
+            font-weight: 600;
+        }
 
-/* now playing */
-#np{position:sticky;bottom:0;background:rgba(19,19,19,.95);
-  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
-  border-top:0.5px solid var(--line2);padding:12px 20px;
-  display:none;align-items:center;gap:14px;z-index:100}
-#np.on{display:flex}
-#np-thumb{width:40px;height:40px;border-radius:7px;object-fit:cover;
-  background:var(--bg3);flex-shrink:0;border:0.5px solid var(--line)}
-.np-info{flex:1;min-width:0}
-#np-name{font-size:13px;font-weight:500;
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.np-sub{font-size:10px;font-family:'Space Mono',monospace;color:var(--text3);
-  display:flex;align-items:center;gap:4px}
-.live-dot{display:inline-flex;align-items:center;gap:3px;color:var(--red);font-weight:700}
-.live-dot::before{content:'';width:5px;height:5px;border-radius:50%;
-  background:var(--red);animation:pulse 1.2s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.75)}}
-.np-ctrl{display:flex;align-items:center;gap:10px}
-.cbtn{width:36px;height:36px;border-radius:50%;border:0.5px solid var(--line2);
-  background:transparent;color:var(--text);cursor:pointer;
-  display:flex;align-items:center;justify-content:center;transition:all .15s}
-.cbtn:hover{border-color:var(--accent);color:var(--accent)}
-.cbtn.pp{width:40px;height:40px;background:var(--accent);border-color:var(--accent);color:var(--bg)}
-.cbtn.pp:hover{background:var(--accent2);border-color:var(--accent2)}
-.vol{-webkit-appearance:none;appearance:none;
-  width:72px;height:3px;border-radius:3px;background:var(--line2);outline:none;cursor:pointer}
-.vol::-webkit-slider-thumb{-webkit-appearance:none;width:13px;height:13px;
-  border-radius:50%;background:var(--accent);cursor:pointer}
+        /* 메인 콘텐츠 영역 (스크롤) */
+        main {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px;
+        }
 
-/* toast */
-.toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);
-  background:var(--bg3);border:0.5px solid var(--line2);color:var(--text);
-  font-size:12px;padding:7px 16px;border-radius:20px;z-index:300;
-  white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .2s}
-.toast.show{opacity:1}
+        .channel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
 
-/* pls download btn */
-.btn-pls{display:none;align-items:center;gap:5px;margin-left:auto;
-  font-family:'Space Mono',monospace;font-size:10px;
-  padding:5px 10px;border-radius:var(--rsm);
-  border:0.5px solid var(--line2);background:transparent;color:var(--text3);
-  cursor:pointer;transition:all .15s;white-space:nowrap}
-.btn-pls:hover{border-color:var(--line2);color:var(--text);background:var(--bg3)}
-.btn-pls svg{width:11px;height:11px}
-.btn-pls.show{display:flex}
-</style>
+        /* 채널 카드 디자인 */
+        .channel-card {
+            background-color: #18181b;
+            border: 1px solid #27272a;
+            border-radius: 12px;
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .channel-card:hover {
+            background-color: #242427;
+            border-color: #3f3f46;
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .channel-card.active {
+            background-color: #1e293b;
+            border-color: #3b82f6;
+        }
+
+        .thumb-wrapper {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            border-radius: 8px;
+            background-color: #27272a;
+            margin-bottom: 14px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .channel-thumb {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .channel-card:hover .channel-thumb {
+            transform: scale(1.05);
+        }
+
+        .fallback-thumb {
+            font-size: 42px;
+            color: #52525b;
+        }
+
+        .channel-name {
+            font-size: 15px;
+            font-weight: 600;
+            color: #f4f4f5;
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            height: 42px; /* 2줄 확보 고정 */
+            margin-bottom: 4px;
+        }
+
+        .channel-id {
+            font-size: 12px;
+            color: #71717a;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        /* 하단 컨트롤러 바 */
+        footer {
+            background-color: #111113;
+            border-top: 1px solid #27272a;
+            padding: 16px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            z-index: 10;
+        }
+
+        .player-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            width: 30%;
+            min-width: 240px;
+        }
+
+        .player-thumb {
+            width: 52px;
+            height: 52px;
+            border-radius: 6px;
+            object-fit: cover;
+            background-color: #27272a;
+            border: 1px solid #3f3f46;
+        }
+
+        .player-text {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .player-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #ffffff;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .player-status {
+            font-size: 12px;
+            color: #9a9a9a;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #52525b;
+            display: inline-block;
+        }
+
+        .status-dot.playing {
+            background-color: #10b981;
+            box-shadow: 0 0 8px #10b981;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+
+        .player-controls {
+            width: 40%;
+            max-width: 600px;
+            display: flex;
+            justify-content: center;
+        }
+
+        audio {
+            width: 100%;
+            height: 36px;
+        }
+
+        .right-spacer {
+            width: 30%;
+            min-width: 240px;
+        }
+
+        .loading-box {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px;
+            color: #a1a1aa;
+            font-size: 15px;
+        }
+
+        /* 모바일 최적화 레이아웃 */
+        @media (max-width: 768px) {
+            header {
+                padding: 12px 16px;
+                flex-wrap: wrap;
+            }
+            .search-container {
+                order: 3;
+                max-width: 100%;
+                width: 100%;
+                margin-top: 4px;
+            }
+            footer {
+                flex-direction: column;
+                padding: 16px;
+                gap: 14px;
+            }
+            .player-info {
+                width: 100%;
+                justify-content: center;
+                text-align: center;
+            }
+            .player-controls {
+                width: 100%;
+            }
+            .right-spacer {
+                display: none;
+            }
+            main {
+                padding: 16px;
+            }
+            .channel-grid {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 12px;
+            }
+            .channel-name {
+                font-size: 13px;
+                height: 36px;
+            }
+        }
+    </style>
 </head>
 <body>
-<div class="app">
 
-<header>
-  <div class="logo">InStation<em>.kr</em></div>
-  <div class="header-right">
-    <span class="last-update" id="last-update"></span>
-    <button class="btn-refresh" id="btn-refresh" onclick="loadChannels()">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
-        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
-      </svg>
-      새로고침
-    </button>
-    <button class="btn-pls" id="btn-pls" onclick="downloadPls()">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-        <polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
-      </svg>
-      .pls
-    </button>
-  </div>
-</header>
+    <header>
+        <div class="header-logo-zone">
+            <div class="header-title">INS-PLAY</div>
+            <div class="update-time" id="updateTime">업데이트: --</div>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="채널 이름으로 검색...">
+        </div>
+        <div class="counter-badge" id="channelCounter">Channels: 0</div>
+    </header>
 
-<div class="tabs">
-  <button class="tab on" data-tab="live" onclick="switchTab('live')">
-    라이브<span class="badge" id="b-live">0</span>
-  </button>
-  <button class="tab" data-tab="saved" onclick="switchTab('saved')">
-    즐겨찾기<span class="badge" id="b-saved">0</span>
-  </button>
-</div>
+    <main>
+        <div class="channel-grid" id="channelGrid">
+            <div class="loading-box">스트리밍 채널 데이터를 가져오는 중입니다...</div>
+        </div>
+    </main>
 
-<main>
-  <div id="tab-live">
-    <div class="toolbar">
-      <div class="search-wrap">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-        </svg>
-        <input type="search" id="search" placeholder="채널 검색" oninput="renderLive()">
-      </div>
-      <div id="tag-bar" style="display:contents"></div>
-    </div>
-    <div class="grid" id="live-grid">
-      <div class="empty"><div class="ic">📻</div><p>채널 목록을 불러오는 중…</p></div>
-    </div>
-  </div>
+    <footer>
+        <div class="player-info">
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='52' height='52'><rect width='52' height='52' fill='%2327272a'/></svg>" id="playerThumb" class="player-thumb" alt="정지">
+            <div class="player-text">
+                <div class="player-title" id="playerTitle">선택된 채널 없음</div>
+                <div class="player-status">
+                    <span class="status-dot" id="statusDot"></span>
+                    <span id="statusText">대기 중</span>
+                </div>
+            </div>
+        </div>
 
-  <div id="tab-saved" style="display:none">
-    <div class="grid" id="saved-grid">
-      <div class="empty"><div class="ic">🔖</div><p>채널 카드를 길게 눌러<br>즐겨찾기에 추가하세요</p></div>
-    </div>
-  </div>
-</main>
+        <div class="player-controls">
+            <audio id="audioPlayer" controls autoplay></audio>
+        </div>
+        
+        <div class="right-spacer"></div>
+    </footer>
 
-<div id="np">
-  <img id="np-thumb" src="" alt="" onerror="this.style.display='none'">
-  <div class="np-info">
-    <div id="np-name">—</div>
-    <div class="np-sub">
-      <span class="live-dot">LIVE</span>
-      <span id="np-bsid"></span>
-    </div>
-  </div>
-  <div class="np-ctrl">
-    <input type="range" class="vol" id="vol" min="0" max="1" step="0.05" value="0.8"
-      oninput="audio.volume=+this.value">
-    <button class="cbtn pp" id="pp-btn" onclick="togglePlay()">
-      <svg id="pp-ico" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-        <rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>
-      </svg>
-    </button>
-    <button class="cbtn" onclick="stopPlay()" title="정지">
-      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
-        <rect x="4" y="4" width="16" height="16" rx="2"/>
-      </svg>
-    </button>
-  </div>
-</div>
+    <script>
+        // 제공해주신 원본 GitHub JSON URL
+        const jsonUrl = 'https://raw.githubusercontent.com/hckwon767/ins-play/refs/heads/main/channels.json';
+        
+        let allChannels = [];
 
-</div>
-<div class="toast" id="toast"></div>
-<audio id="audio" preload="none"></audio>
+        const channelGrid = document.getElementById('channelGrid');
+        const searchInput = document.getElementById('searchInput');
+        const updateTimeEl = document.getElementById('updateTime');
+        const counterBadge = document.getElementById('channelCounter');
+        
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playerThumb = document.getElementById('playerThumb');
+        const playerTitle = document.getElementById('playerTitle');
+        const statusDot = document.getElementById('statusDot');
+        const statusText = document.getElementById('statusText');
 
-<script>
-const S = {
-  all:     [],   // 전체 채널 (channels.json)
-  saved:   JSON.parse(localStorage.getItem('instation-saved') || '[]'),
-  current: null,
-  playing: false,
-  tab:     'live',
-  tag:     '',   // 활성 해시태그 필터
-};
+        // 기본 무지개 투명 이미지 픽셀 (에러 방지용 기본 커버)
+        const defaultImg = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2327272a'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='%2371717a' font-size='28'>📻</text></svg>";
 
-const audio = new Audio();
-audio.crossOrigin = "anonymous";
-audio.preload = "none";
+        // 1. JSON 리포지토리에서 가져오기
+        async function fetchChannels() {
+            try {
+                let response = await fetch(jsonUrl);
+                
+                // 만약 CORS 문제 등으로 외부 fetch가 제한될 경우 로컬 파일을 예비로 호출
+                if (!response.ok) {
+                    response = await fetch('channels.json');
+                }
+                
+                const data = await response.json();
+                
+                // 상단 메타데이터 파싱
+                if(data.updatedAt) updateTimeEl.innerText = `업데이트: ${data.updatedAt}`;
+                if(data.channels) {
+                    allChannels = data.channels;
+                } else if(Array.isArray(data)) {
+                    allChannels = data;
+                }
+                
+                counterBadge.innerText = `Channels: ${allChannels.length}`;
+                renderGrid(allChannels);
 
-// ── channels.json 로드 ───────────────────────────────────────────
-async function loadChannels() {
-  const btn = document.getElementById('btn-refresh');
-  btn.classList.add('spin');
-  document.getElementById('live-grid').innerHTML =
-    Array(8).fill('<div class="skel"></div>').join('');
+            } catch (error) {
+                console.error("데이터 로드 실패:", error);
+                channelGrid.innerHTML = `
+                    <div class="loading-box" style="color: #ef4444;">
+                        채널 로드에 실패했습니다. <br>
+                        <span style="font-size:12px; color:#a1a1aa; display:block; margin-top:8px;">
+                            보안 정책(CORS) 제한이 감지되면 이 html 파일과 같은 자리에 복사한 channels.json을 배치해 수동 구동해 주세요.
+                        </span>
+                    </div>`;
+            }
+        }
 
-  try {
-    // ?t= 로 캐시 우회 (새로고침 버튼 클릭 시 최신 파일 반영)
-    const res = await fetch(`channels.json?t=${Date.now()}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+        // 2. 그리드 아이템 생성 렌더링
+        function renderGrid(channels) {
+            channelGrid.innerHTML = '';
+            if(channels.length === 0) {
+                channelGrid.innerHTML = '<div class="loading-box">검색된 채널이 없습니다.</div>';
+                return;
+            }
 
-    S.all = data.channels || [];
-    document.getElementById('b-live').textContent = S.all.length;
-    document.getElementById('last-update').textContent = data.updatedAt || '';
+            channels.forEach(ch => {
+                const card = document.createElement('div');
+                card.className = 'channel-card';
+                
+                // HTML Entities (&amp; 등) 디코딩을 위한 안전한 처리
+                const txtNode = document.createElement('textarea');
+                txtNode.innerHTML = ch.name;
+                const cleanName = txtNode.value;
 
-    buildTagBar();
-    renderLive();
+                // 썸네일 체크
+                const thumbSrc = ch.thumbUrl ? ch.thumbUrl : defaultImg;
 
-    if (S.all.length) document.getElementById('btn-pls').classList.add('show');
-    else              document.getElementById('btn-pls').classList.remove('show');
+                card.innerHTML = `
+                    <div class="thumb-wrapper">
+                        <img src="${thumbSrc}" class="channel-thumb" alt="cover" onerror="this.src='${defaultImg}'">
+                    </div>
+                    <div class="channel-name" title="${cleanName}">${cleanName}</div>
+                    <div class="channel-id">${ch.bsid}</div>
+                `;
 
-  } catch(e) {
-    document.getElementById('live-grid').innerHTML =
-      `<div class="empty"><div class="ic">⚠️</div>
-       <p>channels.json 로드 실패<br><small style="font-family:monospace;font-size:11px">${e.message}</small><br><br>
-       GitHub Actions 워크플로우가 아직 실행되지 않았거나<br>파일이 없을 수 있습니다.</p></div>`;
-  } finally {
-    btn.classList.remove('spin');
-  }
-}
+                card.addEventListener('click', () => {
+                    selectAndPlay(ch.streamUrl, cleanName, thumbSrc, card);
+                });
 
-// ── 해시태그 버튼 (channels.json에서 동적 생성) ──────────────────
-function buildTagBar() {
-  // 모든 채널 이름에서 공통 키워드 추출 (단순화: 사전 정의 목록 사용)
-  const TAGS = ['가요','종합','뉴스','팝','재즈','트로트','클래식','OST'];
-  const bar = document.getElementById('tag-bar');
-  bar.innerHTML = '';
+                channelGrid.appendChild(card);
+            });
+        }
 
-  // '전체' 버튼
-  const all = document.createElement('button');
-  all.className = 'tag' + (S.tag === '' ? ' on' : '');
-  all.textContent = '전체';
-  all.onclick = () => setTag('', all);
-  bar.appendChild(all);
+        // 3. 오디오 재생 엔진 연동
+        function selectAndPlay(streamUrl, name, thumb, cardElement) {
+            // 액티브 클래스 순환 전환
+            document.querySelectorAll('.channel-card').forEach(el => el.classList.remove('active'));
+            if(cardElement) cardElement.classList.add('active');
 
-  TAGS.forEach(t => {
-    // 해당 태그를 이름에 포함한 채널이 있을 때만 표시
-    if (!S.all.some(ch => ch.name.includes(t))) return;
-    const btn = document.createElement('button');
-    btn.className = 'tag' + (S.tag === t ? ' on' : '');
-    btn.textContent = t;
-    btn.onclick = () => setTag(t, btn);
-    bar.appendChild(btn);
-  });
-}
+            // 소스 주입 및 하단 오디오 로딩 시작
+            audioPlayer.src = streamUrl;
+            playerTitle.innerText = name;
+            playerThumb.src = thumb;
+            
+            audioPlayer.play()
+                .catch(err => {
+                    console.log("Playback interrupted/error:", err);
+                    statusText.innerText = "연결 실패 (오프라인 주소)";
+                    statusDot.className = "status-dot";
+                    statusDot.style.backgroundColor = "#ef4444";
+                });
+        }
 
-function setTag(t, btn) {
-  S.tag = t;
-  document.querySelectorAll('#tag-bar .tag').forEach(b => b.classList.remove('on'));
-  btn.classList.add('on');
-  renderLive();
-}
+        // 4. 실시간 타이핑 서치 필터
+        searchInput.addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase().trim();
+            const filtered = allChannels.filter(ch => {
+                return ch.name.toLowerCase().includes(val) || ch.bsid.toLowerCase().includes(val);
+            });
+            renderGrid(filtered);
+        });
 
-// ── 탭 전환 ──────────────────────────────────────────────────────
-function switchTab(tab) {
-  S.tab = tab;
-  document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b.dataset.tab === tab));
-  document.getElementById('tab-live').style.display  = tab === 'live'  ? '' : 'none';
-  document.getElementById('tab-saved').style.display = tab === 'saved' ? '' : 'none';
-  if (tab === 'saved') renderSaved();
-}
+        /* 오디오 이벤트를 감지해 우측 하단 상태 점등 제어 */
+        audioPlayer.addEventListener('loadstart', () => {
+            statusText.innerText = "버퍼링/연결 중...";
+            statusDot.className = "status-dot";
+            statusDot.style.backgroundColor = "#eab308";
+        });
 
-// ── 렌더링 ────────────────────────────────────────────────────────
-function filtered() {
-  const q = (document.getElementById('search')?.value || '').trim().toLowerCase();
-  return S.all.filter(ch => {
-    const matchTag = !S.tag || ch.name.includes(S.tag);
-    const matchQ   = !q    || ch.name.toLowerCase().includes(q) || ch.bsid.includes(q);
-    return matchTag && matchQ;
-  });
-}
+        audioPlayer.addEventListener('playing', () => {
+            statusText.innerText = "방송 재생 중";
+            statusDot.className = "status-dot playing";
+            statusDot.style.backgroundColor = ""; // CSS 클래스 내부 컬러 지정
+        });
 
-function renderLive() {
-  const list = filtered();
-  const grid = document.getElementById('live-grid');
-  grid.innerHTML = list.length
-    ? list.map((ch, i) => cardHTML(ch, i, false)).join('')
-    : '<div class="empty"><div class="ic">📭</div><p>검색 결과가 없습니다</p></div>';
-}
+        audioPlayer.addEventListener('pause', () => {
+            statusText.innerText = "일시 정지";
+            statusDot.className = "status-dot";
+            statusDot.style.backgroundColor = "#52525b";
+        });
 
-function renderSaved() {
-  document.getElementById('b-saved').textContent = S.saved.length;
-  const grid = document.getElementById('saved-grid');
-  grid.innerHTML = S.saved.length
-    ? S.saved.map((ch, i) => cardHTML(ch, i, true)).join('')
-    : '<div class="empty"><div class="ic">🔖</div><p>채널 카드를 길게 눌러<br>즐겨찾기에 추가하세요</p></div>';
-}
+        audioPlayer.addEventListener('error', () => {
+            statusText.innerText = "주소 에러 (스트림 중단)";
+            statusDot.className = "status-dot";
+            statusDot.style.backgroundColor = "#ef4444";
+        });
 
-function cardHTML(ch, i, fromSaved) {
-  const on  = S.current?.bsid === ch.bsid;
-  const ico = on && S.playing
-    ? '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>'
-    : '<polygon points="5 3 19 12 5 21 5 3"/>';
-  return `<div class="card${on?' on':''}" data-bsid="${ch.bsid}"
-    onclick="playCard(${i},${fromSaved})"
-    onmousedown="lpStart(event,'${ch.bsid}')" onmouseup="lpStop()" onmouseleave="lpStop()"
-    ontouchstart="lpStart(event,'${ch.bsid}',true)" ontouchend="lpStop()">
-    <img class="thumb" src="${ch.thumbUrl}" alt=""
-      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-    <div class="thumb-ph">📻</div>
-    <div class="cinfo">
-      <div class="cname">${ch.name}</div>
-      <div class="cmeta">${ch.bsid}.inlive.co.kr</div>
-    </div>
-    <div class="play-ic">
-      <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">${ico}</svg>
-    </div>
-  </div>`;
-}
-
-// ── 재생 ──────────────────────────────────────────────────────────
-function playCard(bsid, fromSaved) {
-  const list = fromSaved ? S.saved : filtered();
-  const ch   = list.find(c => c.bsid === bsid);
-  if (!ch) return;
-  
-  // 이미 재생 중인 채널을 다시 누르면 일시정지/재생 토글
-  if (S.current?.bsid === ch.bsid) { 
-    togglePlay(); 
-    return; 
-  }
-
-  S.current = ch;
-  S.playing = true;
-
-  // 1. 오디오 소스 초기화 (기존 스트림 찌꺼기 완벽 제거)
-  audio.pause();
-  audio.removeAttribute('src');
-  audio.load();
-
-  // 2. 인라이브 스트리밍 주소 HTTPS 우회 처리
-  let streamUrl = ch.streamUrl;
-  if (streamUrl.startsWith('http://')) {
-    streamUrl = streamUrl.replace('http://', 'https://');
-  }
-
-  // 3. 새 스트림 주소 주입 및 재생
-  audio.src = streamUrl;
-  audio.volume = +document.getElementById('vol').value;
-
-  audio.play()
-    .then(() => {
-      console.log("재생 성공:", streamUrl);
-    })
-    .catch(e => {
-      console.error("재생 실패 에러:", e);
-      toast('재생 실패! 브라우저 주소창 자물쇠 버튼을 눌러 [안전하지 않은 콘텐츠 허용]을 켜야 할 수 있습니다.');
-      S.playing = false;
-      setPP(false);
-      refreshCards();
-    });
-
-  // UI 상태 반영
-  document.getElementById('np').classList.add('on');
-  document.getElementById('np-name').textContent = ch.name;
-  document.getElementById('np-bsid').textContent = ch.bsid + '.inlive.co.kr';
-  
-  const t = document.getElementById('np-thumb');
-  t.src = ch.thumbUrl; 
-  t.style.display = '';
-  
-  setPP(true); 
-  refreshCards();
-}
-
-function togglePlay() {
-  if (!S.current) return;
-  if (S.playing) { audio.pause(); S.playing=false; setPP(false); }
-  else           { audio.play();  S.playing=true;  setPP(true);  }
-  refreshCards();
-}
-
-function stopPlay() {
-  audio.pause(); audio.src='';
-  S.playing=false; S.current=null;
-  document.getElementById('np').classList.remove('on');
-  refreshCards();
-}
-
-function setPP(p) {
-  document.getElementById('pp-ico').innerHTML = p
-    ? '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>'
-    : '<polygon points="5 3 19 12 5 21 5 3"/>';
-}
-
-function refreshCards() {
-  document.querySelectorAll('.card').forEach(card => {
-    const on = S.current?.bsid === card.dataset.bsid;
-    card.classList.toggle('on', on);
-    const svg = card.querySelector('.play-ic svg');
-    if (!svg) return;
-    svg.innerHTML = (on && S.playing)
-      ? '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>'
-      : '<polygon points="5 3 19 12 5 21 5 3"/>';
-  });
-}
-
-// ── 즐겨찾기 (long press 600ms) ──────────────────────────────────
-let lpTimer = null;
-function lpStart(e, bsid, isTouch) {
-  if (isTouch) e.preventDefault();
-  lpTimer = setTimeout(() => {
-    const ch = S.all.find(c=>c.bsid===bsid) || S.saved.find(c=>c.bsid===bsid);
-    if (!ch) return;
-    const idx = S.saved.findIndex(c=>c.bsid===bsid);
-    if (idx===-1) { S.saved.push(ch);        toast(`"${ch.name}" 즐겨찾기 추가`); }
-    else          { S.saved.splice(idx,1);   toast(`"${ch.name}" 즐겨찾기 삭제`);
-                    if (S.tab==='saved') renderSaved(); }
-    localStorage.setItem('instation-saved', JSON.stringify(S.saved));
-    document.getElementById('b-saved').textContent = S.saved.length;
-  }, 600);
-}
-function lpStop() { clearTimeout(lpTimer); }
-
-// ── PLS 다운로드 ──────────────────────────────────────────────────
-function downloadPls() {
-  if (!S.all.length) return;
-  const lines = ['#','# InStation — ' + (document.getElementById('last-update').textContent),'[playlist]'];
-  S.all.forEach((ch,i) => {
-    lines.push(`File${i+1}=${ch.streamUrl}`);
-    lines.push(`Title${i+1}=${ch.name.replace(/ /g,'_')}`);
-  });
-  lines.push(`NumberOfEntries=${S.all.length}`,'Version=2');
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(new Blob([lines.join('\n')],{type:'audio/x-scpls'}));
-  a.download = 'inlive_channels.pls';
-  a.click();
-}
-
-// ── 유틸 ─────────────────────────────────────────────────────────
-function toast(msg) {
-  const el = document.getElementById('toast');
-  el.textContent = msg; el.classList.add('show');
-  clearTimeout(el._t); el._t = setTimeout(()=>el.classList.remove('show'), 2000);
-}
-
-// ── Service Worker ────────────────────────────────────────────────
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').catch(()=>{});
-}
-
-// ── 초기 로드 ─────────────────────────────────────────────────────
-loadChannels();
-</script>
+        // 돔 트리 빌드 후 즉시 작동
+        window.addEventListener('DOMContentLoaded', fetchChannels);
+    </script>
 </body>
 </html>
