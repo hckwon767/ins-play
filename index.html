@@ -11,158 +11,110 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
-:root {
-  --bg:       #0a0a0a;
-  --bg2:      #131313;
-  --bg3:      #1c1c1c;
-  --line:     rgba(255,255,255,0.07);
-  --line2:    rgba(255,255,255,0.14);
-  --text:     #efefef;
-  --text2:    #888;
-  --text3:    #444;
-  --accent:   #e8ff47;
-  --accent2:  #b8cc30;
-  --adim:     rgba(232,255,71,0.09);
-  --red:      #ff4d4d;
-  --r: 10px;
-  --rsm: 6px;
+:root{
+  --bg:#0a0a0a;--bg2:#131313;--bg3:#1c1c1c;
+  --line:rgba(255,255,255,0.07);--line2:rgba(255,255,255,0.14);
+  --text:#efefef;--text2:#888;--text3:#444;
+  --accent:#e8ff47;--accent2:#b8cc30;--adim:rgba(232,255,71,0.09);
+  --red:#ff4d4d;--r:10px;--rsm:6px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;background:var(--bg);color:var(--text);
   font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.5}
-
-/* scrollbar */
 ::-webkit-scrollbar{width:4px;height:4px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--line2);border-radius:4px}
 
-/* layout */
 .app{display:flex;flex-direction:column;min-height:100vh}
 
 /* header */
 header{
   display:flex;align-items:center;justify-content:space-between;
   padding:18px 20px 14px;border-bottom:0.5px solid var(--line);
-  position:sticky;top:0;background:var(--bg);z-index:100;
+  position:sticky;top:0;background:var(--bg);z-index:100;gap:12px;
 }
-.logo{
-  font-family:'Space Mono',monospace;font-weight:700;font-size:17px;
-  letter-spacing:-0.5px;color:var(--accent)
-}
+.logo{font-family:'Space Mono',monospace;font-weight:700;font-size:17px;
+  letter-spacing:-0.5px;color:var(--accent);flex-shrink:0}
 .logo em{color:var(--text3);font-style:normal;font-weight:400}
-.last-update{font-family:'Space Mono',monospace;font-size:10px;color:var(--text3)}
+.header-right{display:flex;align-items:center;gap:10px}
+.last-update{font-family:'Space Mono',monospace;font-size:10px;color:var(--text3);white-space:nowrap}
+.btn-refresh{
+  display:flex;align-items:center;gap:5px;
+  font-family:'Space Mono',monospace;font-size:10px;font-weight:700;
+  padding:5px 10px;border-radius:var(--rsm);
+  border:0.5px solid var(--line2);background:transparent;color:var(--text3);
+  cursor:pointer;transition:all .15s;white-space:nowrap;
+}
+.btn-refresh:hover{border-color:var(--accent);color:var(--accent)}
+.btn-refresh svg{width:11px;height:11px;flex-shrink:0}
+.btn-refresh.spin svg{animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
 
 /* tabs */
-.tabs{
-  display:flex;gap:2px;padding:10px 20px 0;
-  border-bottom:0.5px solid var(--line);
-  overflow-x:auto;scrollbar-width:none
-}
+.tabs{display:flex;gap:2px;padding:10px 20px 0;border-bottom:0.5px solid var(--line);
+  overflow-x:auto;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
-.tab{
-  font-family:'Noto Sans KR',sans-serif;font-size:12px;font-weight:500;
-  padding:7px 14px;border-radius:var(--rsm) var(--rsm) 0 0;
-  border:0.5px solid transparent;border-bottom:none;
-  background:transparent;color:var(--text3);cursor:pointer;
-  white-space:nowrap;transition:color .15s,background .15s;
-  position:relative;bottom:-0.5px
-}
+.tab{font-size:12px;font-weight:500;padding:7px 14px;
+  border-radius:var(--rsm) var(--rsm) 0 0;border:0.5px solid transparent;border-bottom:none;
+  background:transparent;color:var(--text3);cursor:pointer;white-space:nowrap;
+  transition:color .15s,background .15s;position:relative;bottom:-0.5px}
 .tab:hover{color:var(--text2)}
 .tab.on{color:var(--accent);background:var(--bg3);border-color:var(--line);border-bottom-color:var(--bg3)}
-.badge{
-  display:inline-flex;align-items:center;justify-content:center;
+.badge{display:inline-flex;align-items:center;justify-content:center;
   font-size:10px;font-weight:700;min-width:16px;height:16px;padding:0 4px;
   border-radius:8px;background:var(--adim);color:var(--accent);
-  margin-left:5px;font-family:'Space Mono',monospace
-}
+  margin-left:5px;font-family:'Space Mono',monospace}
 
 /* main */
 main{flex:1;padding:16px 20px 20px}
 
-/* filter bar */
-.filter-bar{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:14px}
-.filter-label{font-size:11px;font-family:'Space Mono',monospace;color:var(--text3)}
-.tag{
-  font-size:12px;padding:4px 12px;border-radius:20px;
+/* search + filter */
+.toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.search-wrap{position:relative;flex:1;min-width:160px;max-width:280px}
+.search-wrap svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);
+  width:13px;height:13px;color:var(--text3);pointer-events:none}
+#search{width:100%;padding:7px 10px 7px 30px;border-radius:var(--rsm);
+  border:0.5px solid var(--line2);background:var(--bg2);color:var(--text);
+  font-size:12px;font-family:'Noto Sans KR',sans-serif;outline:none}
+#search:focus{border-color:var(--accent)}
+#search::placeholder{color:var(--text3)}
+.tag{font-size:11px;padding:4px 11px;border-radius:20px;
   border:0.5px solid var(--line2);background:var(--bg2);
-  color:var(--text2);cursor:pointer;transition:all .15s
-}
+  color:var(--text2);cursor:pointer;transition:all .15s;white-space:nowrap}
 .tag:hover{border-color:var(--accent);color:var(--accent)}
 .tag.on{background:var(--adim);border-color:var(--accent);color:var(--accent)}
-
-/* fetch row */
-.fetch-row{display:flex;align-items:center;gap:10px;margin-bottom:16px}
-.btn-fetch{
-  display:flex;align-items:center;gap:7px;
-  font-family:'Space Mono',monospace;font-size:11px;font-weight:700;
-  padding:8px 16px;border-radius:var(--rsm);
-  border:0.5px solid var(--accent);background:var(--adim);color:var(--accent);
-  cursor:pointer;transition:all .15s;letter-spacing:.4px
-}
-.btn-fetch:hover{background:var(--accent);color:var(--bg)}
-.btn-fetch:disabled{opacity:.35;cursor:not-allowed}
-.btn-fetch svg{width:13px;height:13px;flex-shrink:0}
-.btn-fetch.spin svg{animation:spin 1s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.fetch-st{font-size:11px;font-family:'Space Mono',monospace;color:var(--text3)}
-.fetch-st.ok{color:#5cb85c}
-.fetch-st.err{color:var(--red)}
-
-/* btn-pls (download) */
-.btn-pls{
-  margin-left:auto;display:flex;align-items:center;gap:6px;
-  font-family:'Space Mono',monospace;font-size:11px;
-  padding:7px 13px;border-radius:var(--rsm);
-  border:0.5px solid var(--line2);background:transparent;color:var(--text2);
-  cursor:pointer;transition:all .15s
-}
-.btn-pls:hover{border-color:var(--line2);color:var(--text);background:var(--bg3)}
-.btn-pls svg{width:12px;height:12px}
 
 /* grid */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
 
 /* card */
-.card{
-  background:var(--bg2);border:0.5px solid var(--line);border-radius:var(--r);
+.card{background:var(--bg2);border:0.5px solid var(--line);border-radius:var(--r);
   padding:14px;display:flex;align-items:center;gap:12px;
-  cursor:pointer;transition:border-color .15s,background .15s;position:relative;overflow:hidden
-}
+  cursor:pointer;transition:border-color .15s,background .15s;position:relative;overflow:hidden}
 .card:hover{border-color:var(--line2);background:var(--bg3)}
 .card.on{border-color:var(--accent);background:var(--adim)}
-.thumb{
-  width:48px;height:48px;border-radius:8px;object-fit:cover;
-  background:var(--bg3);flex-shrink:0;border:0.5px solid var(--line)
-}
-.thumb-ph{
-  width:48px;height:48px;border-radius:8px;background:var(--bg3);flex-shrink:0;
+.thumb{width:48px;height:48px;border-radius:8px;object-fit:cover;
+  background:var(--bg3);flex-shrink:0;border:0.5px solid var(--line)}
+.thumb-ph{width:48px;height:48px;border-radius:8px;background:var(--bg3);flex-shrink:0;
   display:none;align-items:center;justify-content:center;
-  color:var(--text3);font-size:18px;border:0.5px solid var(--line)
-}
+  color:var(--text3);font-size:20px;border:0.5px solid var(--line)}
 .cinfo{flex:1;min-width:0}
-.cname{
-  font-size:13px;font-weight:500;color:var(--text);
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px
-}
+.cname{font-size:13px;font-weight:500;color:var(--text);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px}
 .card.on .cname{color:var(--accent)}
 .cmeta{font-size:10px;font-family:'Space Mono',monospace;color:var(--text3);
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.play-ic{
-  width:30px;height:30px;border-radius:50%;border:0.5px solid var(--line2);
+.play-ic{width:30px;height:30px;border-radius:50%;border:0.5px solid var(--line2);
   display:flex;align-items:center;justify-content:center;
-  color:var(--text2);flex-shrink:0;transition:all .15s
-}
+  color:var(--text2);flex-shrink:0;transition:all .15s}
 .card.on .play-ic{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 .card:hover .play-ic{border-color:var(--accent);color:var(--accent)}
 
-/* skeleton */
-.skel{background:var(--bg2);border:0.5px solid var(--line);border-radius:var(--r);height:76px;
-  background-size:200% 100%;
-  animation:shim 1.4s infinite}
-@keyframes shim{
-  0%{background-position:200% 0}
-  100%{background-position:-200% 0}
-}
+/* skel */
+.skel{height:76px;border-radius:var(--r);background:var(--bg2);border:0.5px solid var(--line);
+  background:linear-gradient(90deg,var(--bg2) 25%,var(--bg3) 50%,var(--bg2) 75%);
+  background-size:200% 100%;animation:shim 1.5s infinite}
+@keyframes shim{to{background-position:-200% 0}}
 
 /* empty */
 .empty{text-align:center;padding:48px 20px;color:var(--text3)}
@@ -170,17 +122,16 @@ main{flex:1;padding:16px 20px 20px}
 .empty p{font-size:13px;line-height:1.7}
 
 /* now playing */
-#np{
-  position:sticky;bottom:0;background:rgba(19,19,19,.92);
+#np{position:sticky;bottom:0;background:rgba(19,19,19,.95);
   backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
   border-top:0.5px solid var(--line2);padding:12px 20px;
-  display:none;align-items:center;gap:14px;z-index:100
-}
+  display:none;align-items:center;gap:14px;z-index:100}
 #np.on{display:flex}
 #np-thumb{width:40px;height:40px;border-radius:7px;object-fit:cover;
   background:var(--bg3);flex-shrink:0;border:0.5px solid var(--line)}
 .np-info{flex:1;min-width:0}
-#np-name{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#np-name{font-size:13px;font-weight:500;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .np-sub{font-size:10px;font-family:'Space Mono',monospace;color:var(--text3);
   display:flex;align-items:center;gap:4px}
 .live-dot{display:inline-flex;align-items:center;gap:3px;color:var(--red);font-weight:700}
@@ -188,85 +139,84 @@ main{flex:1;padding:16px 20px 20px}
   background:var(--red);animation:pulse 1.2s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.75)}}
 .np-ctrl{display:flex;align-items:center;gap:10px}
-.cbtn{
-  width:36px;height:36px;border-radius:50%;border:0.5px solid var(--line2);
+.cbtn{width:36px;height:36px;border-radius:50%;border:0.5px solid var(--line2);
   background:transparent;color:var(--text);cursor:pointer;
-  display:flex;align-items:center;justify-content:center;transition:all .15s
-}
+  display:flex;align-items:center;justify-content:center;transition:all .15s}
 .cbtn:hover{border-color:var(--accent);color:var(--accent)}
-.cbtn.pp{
-  width:40px;height:40px;background:var(--accent);
-  border-color:var(--accent);color:var(--bg)
-}
+.cbtn.pp{width:40px;height:40px;background:var(--accent);border-color:var(--accent);color:var(--bg)}
 .cbtn.pp:hover{background:var(--accent2);border-color:var(--accent2)}
-.vol{
-  -webkit-appearance:none;appearance:none;
-  width:72px;height:3px;border-radius:3px;background:var(--line2);
-  outline:none;cursor:pointer
-}
-.vol::-webkit-slider-thumb{
-  -webkit-appearance:none;width:13px;height:13px;
-  border-radius:50%;background:var(--accent);cursor:pointer
-}
+.vol{-webkit-appearance:none;appearance:none;
+  width:72px;height:3px;border-radius:3px;background:var(--line2);outline:none;cursor:pointer}
+.vol::-webkit-slider-thumb{-webkit-appearance:none;width:13px;height:13px;
+  border-radius:50%;background:var(--accent);cursor:pointer}
 
 /* toast */
-.toast{
-  position:fixed;bottom:80px;left:50%;transform:translateX(-50%);
+.toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);
   background:var(--bg3);border:0.5px solid var(--line2);color:var(--text);
   font-size:12px;padding:7px 16px;border-radius:20px;z-index:300;
-  font-family:'Noto Sans KR',sans-serif;white-space:nowrap;
-  pointer-events:none;opacity:0;transition:opacity .2s
-}
+  white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .2s}
 .toast.show{opacity:1}
+
+/* pls download btn */
+.btn-pls{display:none;align-items:center;gap:5px;margin-left:auto;
+  font-family:'Space Mono',monospace;font-size:10px;
+  padding:5px 10px;border-radius:var(--rsm);
+  border:0.5px solid var(--line2);background:transparent;color:var(--text3);
+  cursor:pointer;transition:all .15s;white-space:nowrap}
+.btn-pls:hover{border-color:var(--line2);color:var(--text);background:var(--bg3)}
+.btn-pls svg{width:11px;height:11px}
+.btn-pls.show{display:flex}
 </style>
 </head>
 <body>
 <div class="app">
 
-<!-- header -->
 <header>
   <div class="logo">InStation<em>.kr</em></div>
-  <div class="last-update" id="last-update"></div>
+  <div class="header-right">
+    <span class="last-update" id="last-update"></span>
+    <button class="btn-refresh" id="btn-refresh" onclick="loadChannels()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+      </svg>
+      새로고침
+    </button>
+    <button class="btn-pls" id="btn-pls" onclick="downloadPls()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      .pls
+    </button>
+  </div>
 </header>
 
-<!-- tabs -->
 <div class="tabs">
   <button class="tab on" data-tab="live" onclick="switchTab('live')">
-    라이브 채널<span class="badge" id="b-live">0</span>
+    라이브<span class="badge" id="b-live">0</span>
   </button>
   <button class="tab" data-tab="saved" onclick="switchTab('saved')">
     즐겨찾기<span class="badge" id="b-saved">0</span>
   </button>
 </div>
 
-<!-- main -->
 <main>
-  <!-- live tab -->
   <div id="tab-live">
-    <div class="filter-bar" id="tag-bar"></div>
-    <div class="fetch-row">
-      <button class="btn-fetch" id="fetch-btn" onclick="doFetch()">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
-          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
-        </svg>
-        채널 불러오기
-      </button>
-      <span class="fetch-st" id="fetch-st"></span>
-      <button class="btn-pls" id="btn-pls" onclick="downloadPls()" style="display:none">
+    <div class="toolbar">
+      <div class="search-wrap">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-          <polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
         </svg>
-        .pls 다운로드
-      </button>
+        <input type="search" id="search" placeholder="채널 검색" oninput="renderLive()">
+      </div>
+      <div id="tag-bar" style="display:contents"></div>
     </div>
     <div class="grid" id="live-grid">
-      <div class="empty"><div class="ic">📻</div><p>버튼을 눌러 라이브 채널을 불러오세요</p></div>
+      <div class="empty"><div class="ic">📻</div><p>채널 목록을 불러오는 중…</p></div>
     </div>
   </div>
 
-  <!-- saved tab -->
   <div id="tab-saved" style="display:none">
     <div class="grid" id="saved-grid">
       <div class="empty"><div class="ic">🔖</div><p>채널 카드를 길게 눌러<br>즐겨찾기에 추가하세요</p></div>
@@ -274,7 +224,6 @@ main{flex:1;padding:16px 20px 20px}
   </div>
 </main>
 
-<!-- now playing -->
 <div id="np">
   <img id="np-thumb" src="" alt="" onerror="this.style.display='none'">
   <div class="np-info">
@@ -285,7 +234,8 @@ main{flex:1;padding:16px 20px 20px}
     </div>
   </div>
   <div class="np-ctrl">
-    <input type="range" class="vol" id="vol" min="0" max="1" step="0.05" value="0.8" oninput="audio.volume=this.value">
+    <input type="range" class="vol" id="vol" min="0" max="1" step="0.05" value="0.8"
+      oninput="audio.volume=+this.value">
     <button class="cbtn pp" id="pp-btn" onclick="togglePlay()">
       <svg id="pp-ico" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
         <rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>
@@ -299,108 +249,121 @@ main{flex:1;padding:16px 20px 20px}
   </div>
 </div>
 
-</div><!-- .app -->
-
+</div>
 <div class="toast" id="toast"></div>
 <audio id="audio" preload="none"></audio>
 
-<script type="module">
-import { fetchChannels, toPls, HASHTAGS } from './radio.js';
-
-// ── 상태 ────────────────────────────────────────────────────────
+<script>
 const S = {
-  channels:   [],
-  saved:      JSON.parse(localStorage.getItem('instation-saved') || '[]'),
-  current:    null,
-  playing:    false,
-  activeTags: ['%F0%9F%8E%B6%20%EA%B0%80%EC%9A%94'],
-  tab:        'live',
+  all:     [],   // 전체 채널 (channels.json)
+  saved:   JSON.parse(localStorage.getItem('instation-saved') || '[]'),
+  current: null,
+  playing: false,
+  tab:     'live',
+  tag:     '',   // 활성 해시태그 필터
 };
 
 const audio = document.getElementById('audio');
 audio.volume = 0.8;
 
-// ── 해시태그 버튼 생성 ─────────────────────────────────────────
-(function buildTags() {
+// ── channels.json 로드 ───────────────────────────────────────────
+async function loadChannels() {
+  const btn = document.getElementById('btn-refresh');
+  btn.classList.add('spin');
+  document.getElementById('live-grid').innerHTML =
+    Array(8).fill('<div class="skel"></div>').join('');
+
+  try {
+    // ?t= 로 캐시 우회 (새로고침 버튼 클릭 시 최신 파일 반영)
+    const res = await fetch(`channels.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    S.all = data.channels || [];
+    document.getElementById('b-live').textContent = S.all.length;
+    document.getElementById('last-update').textContent = data.updatedAt || '';
+
+    buildTagBar();
+    renderLive();
+
+    if (S.all.length) document.getElementById('btn-pls').classList.add('show');
+    else              document.getElementById('btn-pls').classList.remove('show');
+
+  } catch(e) {
+    document.getElementById('live-grid').innerHTML =
+      `<div class="empty"><div class="ic">⚠️</div>
+       <p>channels.json 로드 실패<br><small style="font-family:monospace;font-size:11px">${e.message}</small><br><br>
+       GitHub Actions 워크플로우가 아직 실행되지 않았거나<br>파일이 없을 수 있습니다.</p></div>`;
+  } finally {
+    btn.classList.remove('spin');
+  }
+}
+
+// ── 해시태그 버튼 (channels.json에서 동적 생성) ──────────────────
+function buildTagBar() {
+  // 모든 채널 이름에서 공통 키워드 추출 (단순화: 사전 정의 목록 사용)
+  const TAGS = ['가요','종합','뉴스','팝','재즈','트로트','클래식','OST'];
   const bar = document.getElementById('tag-bar');
-  bar.innerHTML = '<span class="filter-label">#</span>';
-  HASHTAGS.forEach(h => {
+  bar.innerHTML = '';
+
+  // '전체' 버튼
+  const all = document.createElement('button');
+  all.className = 'tag' + (S.tag === '' ? ' on' : '');
+  all.textContent = '전체';
+  all.onclick = () => setTag('', all);
+  bar.appendChild(all);
+
+  TAGS.forEach(t => {
+    // 해당 태그를 이름에 포함한 채널이 있을 때만 표시
+    if (!S.all.some(ch => ch.name.includes(t))) return;
     const btn = document.createElement('button');
-    btn.className = 'tag' + (S.activeTags.includes(h.value) ? ' on' : '');
-    btn.textContent = h.label;
-    btn.dataset.val = h.value;
-    btn.onclick = () => {
-      const v = h.value;
-      const i = S.activeTags.indexOf(v);
-      if (i === -1) { S.activeTags.push(v); btn.classList.add('on'); }
-      else if (S.activeTags.length > 1) { S.activeTags.splice(i,1); btn.classList.remove('on'); }
-    };
+    btn.className = 'tag' + (S.tag === t ? ' on' : '');
+    btn.textContent = t;
+    btn.onclick = () => setTag(t, btn);
     bar.appendChild(btn);
   });
-})();
+}
 
-// ── 탭 전환 ─────────────────────────────────────────────────────
-window.switchTab = function(tab) {
+function setTag(t, btn) {
+  S.tag = t;
+  document.querySelectorAll('#tag-bar .tag').forEach(b => b.classList.remove('on'));
+  btn.classList.add('on');
+  renderLive();
+}
+
+// ── 탭 전환 ──────────────────────────────────────────────────────
+function switchTab(tab) {
   S.tab = tab;
   document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b.dataset.tab === tab));
   document.getElementById('tab-live').style.display  = tab === 'live'  ? '' : 'none';
   document.getElementById('tab-saved').style.display = tab === 'saved' ? '' : 'none';
   if (tab === 'saved') renderSaved();
-};
-
-// ── 채널 불러오기 ────────────────────────────────────────────────
-window.doFetch = async function() {
-  const btn = document.getElementById('fetch-btn');
-  const st  = document.getElementById('fetch-st');
-  const grid = document.getElementById('live-grid');
-
-  btn.disabled = true;
-  btn.classList.add('spin');
-  setSt('채널 수집 중…', '');
-  document.getElementById('btn-pls').style.display = 'none';
-  grid.innerHTML = Array(8).fill('<div class="skel"></div>').join('');
-
-  try {
-    S.channels = await fetchChannels(S.activeTags, ({ step, done, total }) => {
-      const msgs = { csrf:'세션 초기화…', ids:`방송 ID 수집 중… (${done}/${total})`, pls:`PLS 파싱 중… (${done}/${total})` };
-      setSt(msgs[step] || '…', '');
-    });
-
-    renderLive();
-    document.getElementById('b-live').textContent = S.channels.length;
-    setSt(`${S.channels.length}개 채널`, 'ok');
-    document.getElementById('last-update').textContent =
-      new Date().toLocaleTimeString('ko-KR', {hour:'2-digit',minute:'2-digit'}) + ' 기준';
-
-    if (S.channels.length) document.getElementById('btn-pls').style.display = '';
-
-  } catch(e) {
-    setSt('실패: ' + e.message, 'err');
-    grid.innerHTML = `<div class="empty"><div class="ic">⚠️</div><p>${e.message}</p></div>`;
-  } finally {
-    btn.disabled = false;
-    btn.classList.remove('spin');
-  }
-};
+}
 
 // ── 렌더링 ────────────────────────────────────────────────────────
+function filtered() {
+  const q = (document.getElementById('search')?.value || '').trim().toLowerCase();
+  return S.all.filter(ch => {
+    const matchTag = !S.tag || ch.name.includes(S.tag);
+    const matchQ   = !q    || ch.name.toLowerCase().includes(q) || ch.bsid.includes(q);
+    return matchTag && matchQ;
+  });
+}
+
 function renderLive() {
+  const list = filtered();
   const grid = document.getElementById('live-grid');
-  if (!S.channels.length) {
-    grid.innerHTML = '<div class="empty"><div class="ic">📭</div><p>채널이 없습니다</p></div>';
-    return;
-  }
-  grid.innerHTML = S.channels.map((ch,i) => cardHTML(ch, i, false)).join('');
+  grid.innerHTML = list.length
+    ? list.map((ch, i) => cardHTML(ch, i, false)).join('')
+    : '<div class="empty"><div class="ic">📭</div><p>검색 결과가 없습니다</p></div>';
 }
 
 function renderSaved() {
   document.getElementById('b-saved').textContent = S.saved.length;
   const grid = document.getElementById('saved-grid');
-  if (!S.saved.length) {
-    grid.innerHTML = '<div class="empty"><div class="ic">🔖</div><p>채널 카드를 길게 눌러<br>즐겨찾기에 추가하세요</p></div>';
-    return;
-  }
-  grid.innerHTML = S.saved.map((ch,i) => cardHTML(ch, i, true)).join('');
+  grid.innerHTML = S.saved.length
+    ? S.saved.map((ch, i) => cardHTML(ch, i, true)).join('')
+    : '<div class="empty"><div class="ic">🔖</div><p>채널 카드를 길게 눌러<br>즐겨찾기에 추가하세요</p></div>';
 }
 
 function cardHTML(ch, i, fromSaved) {
@@ -408,11 +371,11 @@ function cardHTML(ch, i, fromSaved) {
   const ico = on && S.playing
     ? '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>'
     : '<polygon points="5 3 19 12 5 21 5 3"/>';
-  return `<div class="card ${on?'on':''}" data-bsid="${ch.bsid}"
+  return `<div class="card${on?' on':''}" data-bsid="${ch.bsid}"
     onclick="playCard(${i},${fromSaved})"
     onmousedown="lpStart(event,'${ch.bsid}')" onmouseup="lpStop()" onmouseleave="lpStop()"
-    ontouchstart="lpStart(event,'${ch.bsid}')" ontouchend="lpStop()">
-    <img class="thumb" src="${ch.thumbUrl}" alt="${ch.name}"
+    ontouchstart="lpStart(event,'${ch.bsid}',true)" ontouchend="lpStop()">
+    <img class="thumb" src="${ch.thumbUrl}" alt=""
       onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <div class="thumb-ph">📻</div>
     <div class="cinfo">
@@ -425,16 +388,17 @@ function cardHTML(ch, i, fromSaved) {
   </div>`;
 }
 
-// ── 재생 ────────────────────────────────────────────────────────
-window.playCard = function(i, fromSaved) {
-  const ch = fromSaved ? S.saved[i] : S.channels[i];
+// ── 재생 ──────────────────────────────────────────────────────────
+function playCard(i, fromSaved) {
+  const list = fromSaved ? S.saved : filtered();
+  const ch   = list[i];
   if (!ch) return;
   if (S.current?.bsid === ch.bsid) { togglePlay(); return; }
 
   S.current = ch;
   S.playing = true;
   audio.src = ch.streamUrl;
-  audio.volume = parseFloat(document.getElementById('vol').value);
+  audio.volume = +document.getElementById('vol').value;
   audio.play().catch(e => toast('재생 오류: ' + e.message));
 
   document.getElementById('np').classList.add('on');
@@ -442,23 +406,22 @@ window.playCard = function(i, fromSaved) {
   document.getElementById('np-bsid').textContent = ch.bsid + '.inlive.co.kr';
   const t = document.getElementById('np-thumb');
   t.src = ch.thumbUrl; t.style.display = '';
-  setPP(true);
-  refreshCards();
-};
+  setPP(true); refreshCards();
+}
 
-window.togglePlay = function() {
+function togglePlay() {
   if (!S.current) return;
-  if (S.playing) { audio.pause(); S.playing = false; setPP(false); }
-  else           { audio.play(); S.playing = true;  setPP(true);  }
+  if (S.playing) { audio.pause(); S.playing=false; setPP(false); }
+  else           { audio.play();  S.playing=true;  setPP(true);  }
   refreshCards();
-};
+}
 
-window.stopPlay = function() {
-  audio.pause(); audio.src = '';
-  S.playing = false; S.current = null;
+function stopPlay() {
+  audio.pause(); audio.src='';
+  S.playing=false; S.current=null;
   document.getElementById('np').classList.remove('on');
   refreshCards();
-};
+}
 
 function setPP(p) {
   document.getElementById('pp-ico').innerHTML = p
@@ -470,59 +433,60 @@ function refreshCards() {
   document.querySelectorAll('.card').forEach(card => {
     const on = S.current?.bsid === card.dataset.bsid;
     card.classList.toggle('on', on);
-    const ico = card.querySelector('.play-ic svg');
-    if (!ico) return;
-    ico.innerHTML = (on && S.playing)
+    const svg = card.querySelector('.play-ic svg');
+    if (!svg) return;
+    svg.innerHTML = (on && S.playing)
       ? '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>'
       : '<polygon points="5 3 19 12 5 21 5 3"/>';
   });
 }
 
-// ── 즐겨찾기 (long press) ────────────────────────────────────────
+// ── 즐겨찾기 (long press 600ms) ──────────────────────────────────
 let lpTimer = null;
-window.lpStart = function(e, bsid) {
+function lpStart(e, bsid, isTouch) {
+  if (isTouch) e.preventDefault();
   lpTimer = setTimeout(() => {
-    const ch = S.channels.find(c=>c.bsid===bsid) || S.saved.find(c=>c.bsid===bsid);
+    const ch = S.all.find(c=>c.bsid===bsid) || S.saved.find(c=>c.bsid===bsid);
     if (!ch) return;
     const idx = S.saved.findIndex(c=>c.bsid===bsid);
-    if (idx === -1) { S.saved.push(ch); toast(`"${ch.name}" 즐겨찾기 추가`); }
-    else            { S.saved.splice(idx,1); toast(`"${ch.name}" 즐겨찾기 삭제`);
-                      if (S.tab==='saved') renderSaved(); }
+    if (idx===-1) { S.saved.push(ch);        toast(`"${ch.name}" 즐겨찾기 추가`); }
+    else          { S.saved.splice(idx,1);   toast(`"${ch.name}" 즐겨찾기 삭제`);
+                    if (S.tab==='saved') renderSaved(); }
     localStorage.setItem('instation-saved', JSON.stringify(S.saved));
     document.getElementById('b-saved').textContent = S.saved.length;
   }, 600);
-};
-window.lpStop = function() { clearTimeout(lpTimer); };
+}
+function lpStop() { clearTimeout(lpTimer); }
 
-// ── PLS 다운로드 ─────────────────────────────────────────────────
-window.downloadPls = function() {
-  if (!S.channels.length) return;
-  const blob = new Blob([toPls(S.channels)], { type: 'audio/x-scpls' });
+// ── PLS 다운로드 ──────────────────────────────────────────────────
+function downloadPls() {
+  if (!S.all.length) return;
+  const lines = ['#','# InStation — ' + (document.getElementById('last-update').textContent),'[playlist]'];
+  S.all.forEach((ch,i) => {
+    lines.push(`File${i+1}=${ch.streamUrl}`);
+    lines.push(`Title${i+1}=${ch.name.replace(/ /g,'_')}`);
+  });
+  lines.push(`NumberOfEntries=${S.all.length}`,'Version=2');
   const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
+  a.href = URL.createObjectURL(new Blob([lines.join('\n')],{type:'audio/x-scpls'}));
   a.download = 'inlive_channels.pls';
   a.click();
-  URL.revokeObjectURL(a.href);
-};
-
-// ── 유틸 ─────────────────────────────────────────────────────────
-function setSt(msg, cls) {
-  const el = document.getElementById('fetch-st');
-  el.textContent = msg; el.className = 'fetch-st ' + cls;
 }
 
+// ── 유틸 ─────────────────────────────────────────────────────────
 function toast(msg) {
   const el = document.getElementById('toast');
-  el.textContent = msg;
-  el.classList.add('show');
-  clearTimeout(el._t);
-  el._t = setTimeout(() => el.classList.remove('show'), 2000);
+  el.textContent = msg; el.classList.add('show');
+  clearTimeout(el._t); el._t = setTimeout(()=>el.classList.remove('show'), 2000);
 }
 
 // ── Service Worker ────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').catch(() => {});
+  navigator.serviceWorker.register('./sw.js').catch(()=>{});
 }
+
+// ── 초기 로드 ─────────────────────────────────────────────────────
+loadChannels();
 </script>
 </body>
 </html>
