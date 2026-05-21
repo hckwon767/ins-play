@@ -1,7 +1,5 @@
 #!/bin/bash
 # get_radio_json.sh
-# get_radio.sh 와 동일한 로직이지만 결과를 channels.json 형식으로 출력한다.
-# GitHub Actions에서 실행되어 Pages에 배포된다.
 
 COOKIE_FILE=$(mktemp)
 HASHTAGS=(
@@ -63,9 +61,10 @@ while IFS=$'\t' read -r BSID TITLE HASHTAG IMG; do
 
   # 이름 결정: PLS 타이틀 > API 타이틀 > bsid
   NAME="${PLS_TITLE:-${TITLE:-$BSID}}"
-  # JSON 특수문자 이스케이프
-  NAME=$(echo "$NAME" | sed 's/\\/\\\\/g; s/"/\\"/g; s/	/ /g')
-  STREAM_URL=$(echo "$STREAM_URL" | tr -d '\r')
+  
+  # [수정] echo 대신 printf를 쓰고, \r(줄바꿈) 및 제어문자 제거와 JSON 이스케이프 안전하게 처리
+  NAME=$(printf "%s" "$NAME" | tr -d '\r\n\t\000-\037' | sed 's/\\/\\\\/g; s/"/\\"/g')
+  STREAM_URL=$(printf "%s" "$STREAM_URL" | tr -d '\r\n\t\000-\037')
 
   THUMB=""
   if [ -n "$IMG" ]; then
