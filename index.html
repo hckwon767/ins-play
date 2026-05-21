@@ -389,17 +389,37 @@ function cardHTML(ch, i, fromSaved) {
 }
 
 // ── 재생 ──────────────────────────────────────────────────────────
-function playCard(i, fromSaved) {
+function playCard(bsid, fromSaved) {
   const list = fromSaved ? S.saved : filtered();
-  const ch   = list[i];
+  const ch   = list.find(c => c.bsid === bsid);
   if (!ch) return;
   if (S.current?.bsid === ch.bsid) { togglePlay(); return; }
 
   S.current = ch;
   S.playing = true;
-  audio.src = ch.streamUrl;
+
+  // ── [수정] HTTPS 보안 차단 우회 및 주소 변환 로직 추가 ──
+  let streamUrl = ch.streamUrl;
+  
+  // 1) http:// 주소를 https:// 로 변경
+  if (streamUrl.startsWith('http://')) {
+    streamUrl = streamUrl.replace('http://', 'https://');
+  }
+  
+  // 2) 인라이브 특정 포트(:8000 등) 스트리밍의 경우 HTTPS 프록시나 
+  // 브라우저 차단 완화를 위해 오디오 객체에 anonymous CORS 속성 부여
+  audio.removeAttribute('src'); // 기존 스트림 찌꺼기 제거
+  audio.crossOrigin = "anonymous"; 
+  audio.src = streamUrl;
+  // ──────────────────────────────────────────────────────
+
   audio.volume = +document.getElementById('vol').value;
-  audio.play().catch(e => toast('재생 오류: ' + e.message));
+  
+  // 재생 시도 및 에러 로그 상세화
+  audio.play().catch(e => {
+    console.error("재생 실패 상세 에러:", e);
+    toast('재생 오류: ' + e.message + ' (크롬 주소창 옆 자물쇠 버튼에서 [안전하지 않은 콘텐츠 허용]이 필요할 수 있습니다.)');
+  });
 
   document.getElementById('np').classList.add('on');
   document.getElementById('np-name').textContent = ch.name;
