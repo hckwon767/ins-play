@@ -1,7 +1,8 @@
-const CACHE_NAME = 'instation-v1';
+const CACHE_NAME = 'instation-v2';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
+  '/radio.js',
   '/manifest.json',
   '/icon-192.png',
   '/icon-512.png',
@@ -31,14 +32,18 @@ self.addEventListener('activate', event => {
 });
 
 /* Fetch 전략
-   - 스트리밍 오디오 (live01.inlive.co.kr): 캐시 건너뜀
+   - 스트리밍 오디오 (live01.inlive.co.kr 등 *.inlive.co.kr): 캐시 건너뜀
+   - CORS 프록시 (api.allorigins.win): 캐시 건너뜀 (항상 최신 데이터 필요)
    - 채널 이미지 (cdn.inlive.co.kr): Cache-First
-   - 나머지: Network-First → 실패 시 캐시 */
+   - 앱 셸 (index.html, radio.js 등): Network-First → 실패 시 캐시 */
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
 
-  /* 오디오 스트림: 그냥 네트워크로 */
-  if (url.hostname === 'live01.inlive.co.kr') return;
+  /* 오디오 스트림: 네트워크 직통 */
+  if (url.hostname.endsWith('.inlive.co.kr') && url.hostname !== 'cdn.inlive.co.kr') return;
+
+  /* CORS 프록시: 네트워크 직통 */
+  if (url.hostname === 'api.allorigins.win') return;
 
   /* 채널 썸네일: Cache-First */
   if (url.hostname === 'cdn.inlive.co.kr') {
