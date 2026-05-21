@@ -17,11 +17,6 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Power Music",
-      "streamUrl": "http://live03.inlive.co.kr:11830"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "꼬마인형ll발라드",
       "streamUrl": "http://live07.inlive.co.kr:23090"
     },
@@ -82,13 +77,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "휴게실, 흡연실",
-      "streamUrl": "http://live07.inlive.co.kr:11450"
+      "name": "라이브사랑24 언제든 강제종료 이어받기 방송 하세요",
+      "streamUrl": "http://pb3.inlive.co.kr:10090"
     },
     {
       "tag": "🎤 노래",
-      "name": "가비 &amp; ♡라이브사랑24♡ 방송",
-      "streamUrl": "http://pb3.inlive.co.kr:10090"
+      "name": "휴게실, 흡연실",
+      "streamUrl": "http://live07.inlive.co.kr:11450"
     },
     {
       "tag": "🎤 노래",
@@ -112,6 +107,11 @@
     },
     {
       "tag": "☕ 힐링",
+      "name": "플러스방송",
+      "streamUrl": "http://live03.inlive.co.kr:14260"
+    },
+    {
+      "tag": "☕ 힐링",
       "name": "[Life After 6]",
       "streamUrl": "http://live07.inlive.co.kr:13640"
     },
@@ -119,6 +119,11 @@
       "tag": "☕ 힐링",
       "name": "우연과 함께하는 친구들...",
       "streamUrl": "http://live10.inlive.co.kr:14160"
+    },
+    {
+      "tag": "☕ 힐링",
+      "name": "WithU &amp; ˚°감성과 이끌림˚° 방송",
+      "streamUrl": "http://live10.inlive.co.kr:10780"
     },
     {
       "tag": "☕ 힐링",
@@ -191,29 +196,9 @@
       "streamUrl": "http://live03.inlive.co.kr:21590"
     },
     {
-      "tag": "☕ 힐링",
-      "name": "【발라드 24시】Dreaming of eternal happiness.-장난감병정의발라드",
-      "streamUrl": "http://live07.inlive.co.kr:22830"
-    },
-    {
-      "tag": "☕ 힐링",
-      "name": "말씀과 찬송이 있는 삶",
-      "streamUrl": "http://live03.inlive.co.kr:11620"
-    },
-    {
-      "tag": "☕ 힐링",
-      "name": "에스프레카 \u0011\b▶\u0011˚ ♥Sweet Melancholy\u0011",
-      "streamUrl": "http://live07.inlive.co.kr:12720"
-    },
-    {
       "tag": "😙 수다",
       "name": "워리 &amp; 해피 (happy)라이브 방송 ^......^",
       "streamUrl": "http://pb2.inlive.co.kr:10140"
-    },
-    {
-      "tag": "😙 수다",
-      "name": "행복가득한방송국진행:서산마루,아우토반담:@은서@",
-      "streamUrl": "http://live03.inlive.co.kr:15600"
     },
     {
       "tag": "😙 수다",
@@ -252,6 +237,11 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "# New Age &amp; Classic ♪",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "커피 그리고",
       "streamUrl": "http://live07.inlive.co.kr:11810"
     },
@@ -259,11 +249,6 @@
       "tag": "🎹 연주",
       "name": "같이, 갈래?? 볕 주으러...",
       "streamUrl": "http://live09.inlive.co.kr:14700"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "# New Age &amp; Classic ♪",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
@@ -279,11 +264,6 @@
       "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "nonstopMUSIC2 컨트리/락",
-      "streamUrl": "http://live06.inlive.co.kr:12030"
     },
     {
       "tag": "락&메탈",
@@ -304,11 +284,6 @@
       "tag": "기타",
       "name": "그냥...음악이 듣고싶은날...",
       "streamUrl": "http://live06.inlive.co.kr:11980"
-    },
-    {
-      "tag": "기타",
-      "name": "그냥 그렇게",
-      "streamUrl": "http://live10.inlive.co.kr:10960"
     },
     {
       "tag": "기타",
