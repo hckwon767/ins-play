@@ -4,15 +4,20 @@
 # GitHub Actions에서 실행되어 Pages에 배포된다.
 
 COOKIE_FILE=$(mktemp)
-
-# 브라우저 실제 요청에 맞춰 더블 인코딩된 해시태그 목록으로 수정
 HASHTAGS=(
-    "%F0%9F%8E%B6%20%EA%B0%80%EC%9A%94"  # 🎵 가요
+    "%F0%9F%8E%B6%20%EA%B0%80%EC%9A%94"
+    "%EC%A2%85%ED%95%A9"
+    "%EB%89%B4%EC%8A%A4"
+    "%ED%8C%9D"
+    "%EC%9E%AC%EC%A6%88"
+    "%ED%8A%B8%EB%A1%9C%ED%8A%B8"
+    "%ED%81%B4%EB%9E%98%EC%8B%9D"
+    "OST"
 )
 
-# CSRF 토큰 및 초기 세션 쿠키 획득 (크롬 148 버전 User-Agent 반영)
+# CSRF 토큰 획득
 INITIAL_PAGE=$(curl -s -c "$COOKIE_FILE" \
-  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" \
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
   "https://www.inlive.co.kr/toplive")
 CSRF_TOKEN=$(echo "$INITIAL_PAGE" | grep -oP 'meta name="csrf-token" content="\K[^"]+')
 
@@ -26,27 +31,17 @@ ALL_IDS=""
 
 # 해시태그별 방송 ID 수집
 for TAG in "${HASHTAGS[@]}"; do
-  # 브라우저의 최신 Sec-Fetch 및 필수 헤더들을 모두 추가하여 차단 우회
   IDS=$(curl -s -b "$COOKIE_FILE" "https://www.inlive.co.kr/ajaxGetTopLiveList" \
     -X POST \
     -H "Accept: application/json, text/javascript, */*; q=0.01" \
-    -H "Accept-Language: ko,en;q=0.9,zh-CN;q=0.8,zh;q=0.7" \
-    -H "Connection: keep-alive" \
     -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" \
     -H "X-Requested-With: XMLHttpRequest" \
     -H "Origin: https://www.inlive.co.kr" \
     -H "Referer: https://www.inlive.co.kr/toplive" \
-    -H "Sec-Fetch-Dest: empty" \
-    -H "Sec-Fetch-Mode: cors" \
-    -H "Sec-Fetch-Site: same-origin" \
-    -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" \
+    -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
     -H "X-CSRF-TOKEN: $CSRF_TOKEN" \
-    -H "sec-ch-ua: \"Chromium\";v=\"148\", \"Google Chrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"" \
-    -H "sec-ch-ua-mobile: ?0" \
-    -H "sec-ch-ua-platform: \"Windows\"" \
     --data-raw "page_no=1&hashtag=${TAG}&searchval=" \
     | jq -r '.result[]? | "\(.f_bsid)\t\(.f_title // "")\t\(.f_hashtag // "")\t\(.f_img // "")"' 2>/dev/null)
-  
   [ -n "$IDS" ] && ALL_IDS="${ALL_IDS}"$'\n'"${IDS}"
 done
 
