@@ -19,7 +19,7 @@ jobs:
 
       - name: Run get_radio.sh and export JSON
         run: |
-          chmod +x get_radio.sh
+          chmod +x get_radio_json.sh
           bash get_radio_json.sh > channels.json
           echo "Generated channels.json:"
           cat channels.json | jq '.channels | length'
