@@ -2,13 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《 가요ノ Holic 》스타비",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "꽃이여사랑이여 ♪。。。음악만 올립니다...",
+      "streamUrl": "http://live09.inlive.co.kr:12870"
     },
     {
       "tag": "🎶 가요",
-      "name": "-Music",
-      "streamUrl": "http://live07.inlive.co.kr:15700"
+      "name": "《 가요ノ Holic 》스타비",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -97,13 +97,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "라이브사랑24 언제든 강제종료 이어받기 방송 하세요",
-      "streamUrl": "http://pb3.inlive.co.kr:10090"
+      "name": "수양버들  &amp; 해피 (happy)라이브^........^",
+      "streamUrl": "http://pb2.inlive.co.kr:10140"
     },
     {
       "tag": "🎤 노래",
-      "name": "수양버들  &amp; 해피 (happy)라이브^........^",
-      "streamUrl": "http://pb2.inlive.co.kr:10140"
+      "name": "라이브사랑24 언제든 강제종료 이어받기 방송 하세요",
+      "streamUrl": "http://pb3.inlive.co.kr:10090"
     },
     {
       "tag": "🎤 노래",
@@ -147,13 +147,18 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
+      "name": "러브스토리",
+      "streamUrl": "http://live07.inlive.co.kr:14660"
     },
     {
       "tag": "📻 추억음악",
       "name": "24시 명품",
       "streamUrl": "http://live07.inlive.co.kr:14390"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -257,11 +262,6 @@
     },
     {
       "tag": "락&메탈",
-      "name": "그냥듣자 ~",
-      "streamUrl": "http://live09.inlive.co.kr:10830"
-    },
-    {
-      "tag": "락&메탈",
       "name": "메탈로의 초대",
       "streamUrl": "http://live03.inlive.co.kr:15760"
     },
@@ -277,6 +277,11 @@
     },
     {
       "tag": "재즈",
+      "name": "All Music n Request",
+      "streamUrl": "http://live09.inlive.co.kr:11800"
+    },
+    {
+      "tag": "재즈",
       "name": "nevertheless",
       "streamUrl": "http://live07.inlive.co.kr:19250"
     },
@@ -284,11 +289,6 @@
       "tag": "재즈",
       "name": "hours that never end",
       "streamUrl": "http://live06.inlive.co.kr:12650"
-    },
-    {
-      "tag": "기타",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:14590"
     },
     {
       "tag": "기타",
