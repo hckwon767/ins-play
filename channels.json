@@ -2,6 +2,11 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "추억의7080팝 발라드",
       "streamUrl": "http://live03.inlive.co.kr:14450"
     },
@@ -56,14 +61,34 @@
       "streamUrl": "http://live03.inlive.co.kr:10250"
     },
     {
-      "tag": "📻 추억음악",
-      "name": "24시 명품",
-      "streamUrl": "http://live07.inlive.co.kr:14390"
+      "tag": "🎤 노래",
+      "name": "까망이",
+      "streamUrl": "http://live06.inlive.co.kr:11190"
     },
     {
       "tag": "📻 추억음악",
-      "name": "그냥그래요",
-      "streamUrl": "http://live03.inlive.co.kr:10720"
+      "name": "옛뜨락카페",
+      "streamUrl": "http://live07.inlive.co.kr:21150"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "♬ 클래식 명곡 감상 ♬ 편안한 음악 ♬ 향긋한 커피 한 잔과 함께 ♬",
+      "streamUrl": "http://live03.inlive.co.kr:11400"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "그냥, 그렇게, 잠시.,",
+      "streamUrl": "http://live07.inlive.co.kr:11510"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": " 세이클럽&amp;인라이브  진행:왕건   다음: 오신님  ",
+      "streamUrl": "http://live07.inlive.co.kr:17990"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "24시 명품",
+      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
@@ -87,11 +112,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "◇비목음악카페 ◇",
-      "streamUrl": "http://live07.inlive.co.kr:13110"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "Jung Ju Young Golden Pop",
       "streamUrl": "http://live03.inlive.co.kr:19700"
     },
@@ -107,13 +127,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": " O  Y",
-      "streamUrl": "http://live03.inlive.co.kr:10590"
+      "name": "# New Age &amp; Classic ♪",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": " O  Y",
+      "streamUrl": "http://live03.inlive.co.kr:10590"
     },
     {
       "tag": "🎹 연주",
@@ -129,6 +149,16 @@
       "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "러~~~~쉬",
+      "streamUrl": "http://live03.inlive.co.kr:10520"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10680"
     },
     {
       "tag": "락&메탈",
@@ -162,6 +192,11 @@
     },
     {
       "tag": "재즈",
+      "name": "hours that never end",
+      "streamUrl": "http://live06.inlive.co.kr:12650"
+    },
+    {
+      "tag": "재즈",
       "name": "nevertheless",
       "streamUrl": "http://live07.inlive.co.kr:19250"
     },
@@ -169,11 +204,6 @@
       "tag": "재즈",
       "name": "Jazz  Vocal",
       "streamUrl": "http://live06.inlive.co.kr:11990"
-    },
-    {
-      "tag": "기타",
-      "name": "그리운 우리들의 추억이 있는 곳 &quot;추억속으로 7080o&quot;",
-      "streamUrl": "http://pb2.inlive.co.kr:10130"
     },
     {
       "tag": "기타",
