@@ -2,8 +2,28 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "   ",
-      "streamUrl": "http://live09.inlive.co.kr:12140"
+      "name": "pink.예나노리터",
+      "streamUrl": "http://live03.inlive.co.kr:10860"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "《 마성의 가요 》 흑장미",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "뮤직힐링",
+      "streamUrl": "http://live09.inlive.co.kr:10380"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Ballad Top 30",
+      "streamUrl": "http://live03.inlive.co.kr:11380"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "7080, 올드팝, 경음악,",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
     },
     {
       "tag": "🎶 가요",
@@ -19,16 +39,6 @@
       "tag": "🎶 가요",
       "name": "소리사랑 &amp; ♬음악이 머무는 풍경 방송",
       "streamUrl": "http://live06.inlive.co.kr:16350"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "《 마성의 가요 》 흑장미",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Ballad Top 50",
-      "streamUrl": "http://live03.inlive.co.kr:11380"
     },
     {
       "tag": "🎶 가요",
@@ -66,14 +76,14 @@
       "streamUrl": "http://live03.inlive.co.kr:10250"
     },
     {
-      "tag": "🎤 노래",
-      "name": "까망이",
-      "streamUrl": "http://live06.inlive.co.kr:11190"
-    },
-    {
       "tag": "📻 추억음악",
       "name": "옛뜨락카페",
       "streamUrl": "http://live07.inlive.co.kr:21150"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "무인음악힐링",
+      "streamUrl": "http://live10.inlive.co.kr:13260"
     },
     {
       "tag": "📻 추억음악",
@@ -137,13 +147,23 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
+      "streamUrl": "http://live03.inlive.co.kr:11690"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "# New Age &amp; Classic ♪",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": " O  Y",
-      "streamUrl": "http://live03.inlive.co.kr:10590"
+      "name": "New Age &amp; Piano Strings",
+      "streamUrl": "http://live09.inlive.co.kr:12730"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "새벽바다",
+      "streamUrl": "http://live10.inlive.co.kr:15590"
     },
     {
       "tag": "🎹 연주",
@@ -207,13 +227,13 @@
     },
     {
       "tag": "기타",
-      "name": "함께하는트로트",
-      "streamUrl": "http://live03.inlive.co.kr:15540"
+      "name": "━━━━\u0011\u007f\b추억음악\u007f\b\u0011석&amp;ⓔ━━━━▷Music전송",
+      "streamUrl": "http://live06.inlive.co.kr:11560"
     },
     {
       "tag": "기타",
-      "name": "━━━━\u0011\u007f\b추억음악\u007f\b\u0011석&amp;ⓔ━━━━▷Music전송",
-      "streamUrl": "http://live06.inlive.co.kr:11560"
+      "name": "함께하는트로트",
+      "streamUrl": "http://live03.inlive.co.kr:15540"
     },
     {
       "tag": "기타",
