@@ -81,8 +81,8 @@ do
         if echo "$PLS_DATA" | grep -q "File1="; then
             
             # 이름 추출
-            station_name=$(echo "$PLS_DATA" | grep "Title1=" | cut -d'=' -f2-)
-            [ -z "$station_name" ] && station_name="Inlive_Station"
+            station_name=$(echo "$PLS_DATA" | grep "File1=" | cut -d'=' -f2-)
+            port_num=$(echo "$stream_url" | grep -oP ':\K[0-9]+$')
             
             # 타이틀에 '트로트'라는 글자가 포함되어 있다면 리스트에서 제외 (스킵)
             if echo "$port_num" | grep -q -E "^(${EXCLUDE_PORTS})$"; then
