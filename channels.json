@@ -2,6 +2,11 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "소리사랑 &amp; ♬음악이 머무는 풍경 방송",
+      "streamUrl": "http://live06.inlive.co.kr:16350"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "《 마성의 가요 》 흑장미",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
@@ -14,11 +19,6 @@
       "tag": "🎶 가요",
       "name": "Ballad Top 50",
       "streamUrl": "http://live03.inlive.co.kr:11380"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "왕초보 Music 1인방송방",
-      "streamUrl": "http://live09.inlive.co.kr:12390"
     },
     {
       "tag": "🎶 가요",
@@ -87,13 +87,8 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "케이 타임~",
-      "streamUrl": "http://live03.inlive.co.kr:12840"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "성그니 &amp; 해피 (happy)라이브^........^",
-      "streamUrl": "http://pb2.inlive.co.kr:10140"
+      "name": "오래 된 라이브",
+      "streamUrl": "http://live10.inlive.co.kr:14710"
     },
     {
       "tag": "🎤 노래",
@@ -102,18 +97,18 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "파라솔 Music in 라이브 &amp; 파일",
-      "streamUrl": "http://pb2.inlive.co.kr:10030"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "오래 된 라이브",
-      "streamUrl": "http://live10.inlive.co.kr:14710"
+      "name": "수양버들  &amp; 해피 (happy)라이브^........^",
+      "streamUrl": "http://pb2.inlive.co.kr:10140"
     },
     {
       "tag": "🎤 노래",
       "name": "편지라이브",
       "streamUrl": "http://live09.inlive.co.kr:10300"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "파라솔 Music in 라이브 &amp; 파일",
+      "streamUrl": "http://pb2.inlive.co.kr:10030"
     },
     {
       "tag": "🎤 노래",
@@ -142,6 +137,16 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "그냥그래요",
+      "streamUrl": "http://live03.inlive.co.kr:10720"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "아랑의음악싸롱",
+      "streamUrl": "http://live10.inlive.co.kr:12330"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "OLD POP,그리운 추억(60대)",
       "streamUrl": "http://live03.inlive.co.kr:16700"
     },
@@ -167,11 +172,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "7080, 올드팝, 경음악,",
-      "streamUrl": "http://live07.inlive.co.kr:18430"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "◇비목음악카페 ◇",
       "streamUrl": "http://live07.inlive.co.kr:13110"
     },
@@ -179,11 +179,6 @@
       "tag": "📻 추억음악",
       "name": "*비와 그리움**",
       "streamUrl": "http://live06.inlive.co.kr:10790"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "4560 추억의 가요발라드 &amp; Old POP 같이 들어요~♬",
-      "streamUrl": "http://live03.inlive.co.kr:10180"
     },
     {
       "tag": "📻 추억음악",
@@ -214,11 +209,6 @@
       "tag": "🎹 연주",
       "name": " O  Y",
       "streamUrl": "http://live03.inlive.co.kr:10590"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Soft  01시까지~",
-      "streamUrl": "http://live09.inlive.co.kr:10150"
     },
     {
       "tag": "🎹 연주",
@@ -277,11 +267,6 @@
     },
     {
       "tag": "재즈",
-      "name": "hours that never end",
-      "streamUrl": "http://live06.inlive.co.kr:12650"
-    },
-    {
-      "tag": "재즈",
       "name": "Jazz  Vocal",
       "streamUrl": "http://live06.inlive.co.kr:11990"
     },
@@ -304,11 +289,6 @@
       "tag": "기타",
       "name": "그리운 우리들의 추억이 있는 곳 &quot;추억속으로 7080o&quot;",
       "streamUrl": "http://pb2.inlive.co.kr:10130"
-    },
-    {
-      "tag": "기타",
-      "name": "조용한 음악방",
-      "streamUrl": "http://live03.inlive.co.kr:10430"
     },
     {
       "tag": "기타",
