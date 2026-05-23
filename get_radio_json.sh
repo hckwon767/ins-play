@@ -3,10 +3,11 @@
 # 임시 파일 정의
 COOKIE_FILE=$(mktemp)
 JSON_TMP=$(mktemp)
+EXCLUDED_PORTS="12690|13520|12330|16700|11170|10460|13290|18940|10150|12150|10140|10090|10030|10920|10020|11830"
 
 # 최종적으로 저장할 파일명 설정
 OUTPUT_FILE="channels.json"
-EXCLUDE_PORTS="12690|13520|12330|16700|11170|10460|13290|18940|10150|12150|10140|10090|10030|10920|10020|11830"
+
 # ---------------------------------------------------------
 # [설정] 해시태그 목록 (URL 인코딩 값과 실제 매핑할 한글 태그명 부모 배열)
 # ---------------------------------------------------------
@@ -81,17 +82,19 @@ do
         if echo "$PLS_DATA" | grep -q "File1="; then
             
             # 이름 추출
-            station_name=$(echo "$PLS_DATA" | grep "File1=" | cut -d'=' -f2-)
-            port_num=$(echo "$stream_url" | grep -oP ':\K[0-9]+$')
-            
-            # 타이틀에 '트로트'라는 글자가 포함되어 있다면 리스트에서 제외 (스킵)
-            if echo "$port_num" | grep -q -E "^(${EXCLUDE_PORTS})$"; then
-                continue
-            fi
+            station_name=$(echo "$PLS_DATA" | grep "Title1=" | cut -d'=' -f2-)
+            [ -z "$station_name" ] && station_name="Inlive_Station"
             
             # 스트리밍 URL 추출
             stream_url=$(echo "$PLS_DATA" | grep "File1=" | cut -d'=' -f2-)
-            
+
+            # 포트 추출
+            port=$(echo "$stream_url" | sed -n 's#.*:\([0-9]\+\)$#\1#p')
+
+            # 제외 포트면 스킵
+            if echo "$EXCLUDED_PORTS" | grep -q -w "$port"; then
+                continue
+            fi
             # JSON 포맷에 맞는 요소 추가 (첫 항목이 아니면 콤마 추가)
             if [ "$first" = true ]; then
                 first=false
