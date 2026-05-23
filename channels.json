@@ -27,6 +27,11 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "AI음악/중년의 노래...",
+      "streamUrl": "http://pb2.inlive.co.kr:10150"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "♥ 추억의 종합 최신 가요 리믹스 〃з♥",
       "streamUrl": "http://live06.inlive.co.kr:11080"
     },
@@ -42,8 +47,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "추억의7080팝 발라드",
-      "streamUrl": "http://live03.inlive.co.kr:14450"
+      "name": "Power Music",
+      "streamUrl": "http://live03.inlive.co.kr:11830"
     },
     {
       "tag": "🎶 가요",
@@ -81,9 +86,49 @@
       "streamUrl": "http://live03.inlive.co.kr:13520"
     },
     {
+      "tag": "🎤 노래",
+      "name": "수양버들  &amp; 해피 (happy)라이브^........^",
+      "streamUrl": "http://pb2.inlive.co.kr:10140"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "라이브사랑24 언제든 강제종료 이어받기 방송 하세요",
+      "streamUrl": "http://pb3.inlive.co.kr:10090"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "노을과사랑",
+      "streamUrl": "http://live07.inlive.co.kr:12150"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "파라솔 Music in 라이브 &amp; 파일",
+      "streamUrl": "http://pb2.inlive.co.kr:10030"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "a 쉼터트로트 a세이쉼터트로트이원중",
+      "streamUrl": "http://live03.inlive.co.kr:10460"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": " 라이브&amp;파일~~~^^",
+      "streamUrl": "http://live07.inlive.co.kr:10920"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "한마음 마이크",
+      "streamUrl": "http://live06.inlive.co.kr:10020"
+    },
+    {
       "tag": "📻 추억음악",
       "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
       "streamUrl": "http://live07.inlive.co.kr:22660"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "테스트중",
+      "streamUrl": "http://live07.inlive.co.kr:18940"
     },
     {
       "tag": "📻 추억음악",
@@ -94,16 +139,6 @@
       "tag": "📻 추억음악",
       "name": "아랑의음악싸롱",
       "streamUrl": "http://live10.inlive.co.kr:12330"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "행복해지려고 듣는 음악...ノ。",
-      "streamUrl": "http://live07.inlive.co.kr:12610"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "OLD POP,그리운 추억(60대)",
-      "streamUrl": "http://live03.inlive.co.kr:16700"
     },
     {
       "tag": "📻 추억음악",
@@ -224,6 +259,11 @@
       "tag": "재즈",
       "name": "Jazz  Vocal",
       "streamUrl": "http://live06.inlive.co.kr:11990"
+    },
+    {
+      "tag": "기타",
+      "name": "요미트로트방송진행_ _ _",
+      "streamUrl": "http://live06.inlive.co.kr:13290"
     },
     {
       "tag": "기타",
