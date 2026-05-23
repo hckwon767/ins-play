@@ -2,6 +2,11 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "추억의7080팝 발라드",
+      "streamUrl": "http://live03.inlive.co.kr:14450"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "소리사랑 &amp; ♬음악이 머무는 풍경 방송",
       "streamUrl": "http://live06.inlive.co.kr:16350"
     },
@@ -19,11 +24,6 @@
       "tag": "🎶 가요",
       "name": "멈춘 내 심장을 뛰게 할 사람",
       "streamUrl": "http://live07.inlive.co.kr:12820"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "♥ 추억의 종합 최신 가요 리믹스 〃з♥",
-      "streamUrl": "http://live06.inlive.co.kr:11080"
     },
     {
       "tag": "🎶 가요",
@@ -52,18 +52,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "♥신나는 최신가요 리믹스♥ [검색:수란방송] djsr.co.kr",
-      "streamUrl": "http://live10.inlive.co.kr:11540"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "가요 리믹스  클럽유로 댄스 전문방송",
       "streamUrl": "http://live03.inlive.co.kr:10250"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -74,6 +64,11 @@
       "tag": "📻 추억음악",
       "name": "그냥그래요",
       "streamUrl": "http://live03.inlive.co.kr:10720"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -97,11 +92,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "*비와 그리움**",
-      "streamUrl": "http://live06.inlive.co.kr:10790"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "Jung Ju Young Golden Pop",
       "streamUrl": "http://live03.inlive.co.kr:19700"
     },
@@ -109,11 +99,6 @@
       "tag": "📻 추억음악",
       "name": "Old Record 올드 팝",
       "streamUrl": "http://live03.inlive.co.kr:14070"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "감미로운 &amp; 발라드 CJ 모십니다",
-      "streamUrl": "http://live07.inlive.co.kr:11540"
     },
     {
       "tag": "📻 추억음악",
@@ -172,6 +157,11 @@
     },
     {
       "tag": "재즈",
+      "name": "♪늘~ 함께하는 Blues",
+      "streamUrl": "http://live09.inlive.co.kr:11710"
+    },
+    {
+      "tag": "재즈",
       "name": "nevertheless",
       "streamUrl": "http://live07.inlive.co.kr:19250"
     },
@@ -179,16 +169,6 @@
       "tag": "재즈",
       "name": "Jazz  Vocal",
       "streamUrl": "http://live06.inlive.co.kr:11990"
-    },
-    {
-      "tag": "기타",
-      "name": "Le Voyage",
-      "streamUrl": "http://live07.inlive.co.kr:14180"
-    },
-    {
-      "tag": "기타",
-      "name": "… indie   pop...",
-      "streamUrl": "http://live06.inlive.co.kr:10950"
     },
     {
       "tag": "기타",
@@ -204,11 +184,6 @@
       "tag": "기타",
       "name": "애니＆게임＆성우 랜덤 discord.gg/3PQN4PN",
       "streamUrl": "http://live06.inlive.co.kr:12390"
-    },
-    {
-      "tag": "기타",
-      "name": "천년바다 하얀섬 홀로연가",
-      "streamUrl": "http://live06.inlive.co.kr:16210"
     }
   ]
 }
