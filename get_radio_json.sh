@@ -6,7 +6,7 @@ JSON_TMP=$(mktemp)
 
 # 최종적으로 저장할 파일명 설정
 OUTPUT_FILE="channels.json"
-
+EXCLUDE_PORTS="12100|14450"
 # ---------------------------------------------------------
 # [설정] 해시태그 목록 (URL 인코딩 값과 실제 매핑할 한글 태그명 부모 배열)
 # ---------------------------------------------------------
@@ -85,7 +85,7 @@ do
             [ -z "$station_name" ] && station_name="Inlive_Station"
             
             # 타이틀에 '트로트'라는 글자가 포함되어 있다면 리스트에서 제외 (스킵)
-            if echo "$station_name" | grep -q -E "트로트|테스트|찬송|중년|노을|라이브|마이크|Power Music"; then
+            if echo "$port_num" | grep -q -E "^(${EXCLUDE_PORTS})$"; then
                 continue
             fi
             
