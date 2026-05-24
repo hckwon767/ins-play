@@ -7,13 +7,18 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "편히  듣기",
-      "streamUrl": "http://live07.inlive.co.kr:16690"
+      "name": "《 마성의 가요 》 흑장미",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
-      "name": "감성 Music ─Ð 편히 。음악감상。。",
-      "streamUrl": "http://live06.inlive.co.kr:13720"
+      "name": "잔잔..",
+      "streamUrl": "http://live09.inlive.co.kr:10880"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "감성주파수에서 드리는 감미로운 음악 선물.... 함께해요",
+      "streamUrl": "http://live06.inlive.co.kr:13870"
     },
     {
       "tag": "🎶 가요",
@@ -22,18 +27,18 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "편히듣기..(음악만)",
-      "streamUrl": "http://live07.inlive.co.kr:18320"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "죠니  ㅡ 나 홀로  집에-(밴드)",
       "streamUrl": "http://live10.inlive.co.kr:13780"
     },
     {
       "tag": "🎶 가요",
-      "name": "같이들어요",
-      "streamUrl": "http://live10.inlive.co.kr:14740"
+      "name": "감성 Music ─Ð 편히 。음악감상。。",
+      "streamUrl": "http://live06.inlive.co.kr:13720"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "&quot;오늘이 더 좋아지는 시간! &quot;",
+      "streamUrl": "http://live10.inlive.co.kr:11760"
     },
     {
       "tag": "🎶 가요",
@@ -47,8 +52,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "《 마성의 가요 》 흑장미",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "같이들어요",
+      "streamUrl": "http://live10.inlive.co.kr:14740"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "편히듣기..(음악만)",
+      "streamUrl": "http://live07.inlive.co.kr:18320"
     },
     {
       "tag": "🎶 가요",
@@ -62,7 +72,7 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "cJ방장 부재중 ^.^",
+      "name": "멈춘 내 심장을 뛰게 할 사람",
       "streamUrl": "http://live07.inlive.co.kr:12820"
     },
     {
@@ -71,44 +81,19 @@
       "streamUrl": "http://live03.inlive.co.kr:12100"
     },
     {
-      "tag": "🎶 가요",
-      "name": "그시절 그곡부터 최근까지~♬ (무맨트&amp;잠수)",
-      "streamUrl": "http://live07.inlive.co.kr:15630"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "INLIVECAST",
-      "streamUrl": "http://live10.inlive.co.kr:14170"
+      "tag": "🎤 노래",
+      "name": "확그냥 막그냥",
+      "streamUrl": "http://live09.inlive.co.kr:10300"
     },
     {
       "tag": "🎤 노래",
-      "name": "음악을 사랑하는 사람들의 공간",
-      "streamUrl": "http://live06.inlive.co.kr:10870"
+      "name": "다음 63토끼",
+      "streamUrl": "http://live06.inlive.co.kr:11450"
     },
     {
       "tag": "🎤 노래",
-      "name": "백조아ㅆ방송  *˚라이브&amp;파일 .",
-      "streamUrl": "http://live07.inlive.co.kr:14510"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "민~!!",
-      "streamUrl": "http://live10.inlive.co.kr:15570"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "트로트라이브",
-      "streamUrl": "http://live06.inlive.co.kr:10210"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "☞ 현추뮤직 댄스 종합 방송국 ☜",
-      "streamUrl": "http://live10.inlive.co.kr:12730"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "행복해지려고 듣는 음악...ノ。",
-      "streamUrl": "http://live07.inlive.co.kr:12610"
+      "name": "연습",
+      "streamUrl": "http://live03.inlive.co.kr:20290"
     },
     {
       "tag": "📻 추억음악",
@@ -117,8 +102,33 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "추억 힐링",
-      "streamUrl": "http://live03.inlive.co.kr:11780"
+      "name": "추억의음악속으로 함께동행해요 백투더 올드뮤직 ??시종방 할까요//",
+      "streamUrl": "http://live07.inlive.co.kr:19800"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "밤하늘의 트럼펫",
+      "streamUrl": "http://live03.inlive.co.kr:13170"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Jung Ju Young Golden Pop",
+      "streamUrl": "http://live03.inlive.co.kr:19700"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "나무가 있는 언덕",
+      "streamUrl": "http://live06.inlive.co.kr:13230"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "서정7080, 올드팝etc",
+      "streamUrl": "http://live10.inlive.co.kr:12710"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "행복해지려고 듣는 음악...ノ。",
+      "streamUrl": "http://live07.inlive.co.kr:12610"
     },
     {
       "tag": "📻 추억음악",
@@ -129,11 +139,6 @@
       "tag": "📻 추억음악",
       "name": "4560 추억의 가요발라드 &amp; Old POP 같이 들어요~♬",
       "streamUrl": "http://live03.inlive.co.kr:10180"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "rock n",
-      "streamUrl": "http://live10.inlive.co.kr:10900"
     },
     {
       "tag": "📻 추억음악",
@@ -162,13 +167,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "멜로디의 뮤직 아일랜드",
-      "streamUrl": "http://live09.inlive.co.kr:16670"
+      "name": "INLIVECAST",
+      "streamUrl": "http://live10.inlive.co.kr:14170"
     },
     {
-      "tag": "🎹 연주",
-      "name": "On air  6 ~ 8",
-      "streamUrl": "http://live03.inlive.co.kr:14420"
+      "tag": "📻 추억음악",
+      "name": "멜로디의 뮤직 아일랜드",
+      "streamUrl": "http://live09.inlive.co.kr:16670"
     },
     {
       "tag": "🎹 연주",
@@ -177,13 +182,18 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
-      "streamUrl": "http://live03.inlive.co.kr:11690"
+      "name": "듣기좋은뉴팝*올드팝*샹송etc*무멘트송출",
+      "streamUrl": "http://live07.inlive.co.kr:14520"
     },
     {
       "tag": "🎹 연주",
-      "name": "바람이전하는말",
-      "streamUrl": "http://live10.inlive.co.kr:15490"
+      "name": "짬뽕",
+      "streamUrl": "http://live03.inlive.co.kr:18560"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
+      "streamUrl": "http://live03.inlive.co.kr:11690"
     },
     {
       "tag": "🎹 연주",
@@ -212,13 +222,13 @@
     },
     {
       "tag": "락&메탈",
-      "name": "EX&amp;냅다번외",
-      "streamUrl": "http://live03.inlive.co.kr:15180"
+      "name": "Ex -3000",
+      "streamUrl": "http://live09.inlive.co.kr:13280"
     },
     {
       "tag": "락&메탈",
-      "name": "Ex -3000",
-      "streamUrl": "http://live09.inlive.co.kr:13280"
+      "name": "그냥듣자 ~",
+      "streamUrl": "http://live09.inlive.co.kr:10830"
     },
     {
       "tag": "락&메탈",
@@ -244,6 +254,11 @@
       "tag": "락&메탈",
       "name": "Rock.metal.BluesRock",
       "streamUrl": "http://live03.inlive.co.kr:10350"
+    },
+    {
+      "tag": "재즈",
+      "name": "hours that never end",
+      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
