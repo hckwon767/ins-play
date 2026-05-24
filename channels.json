@@ -7,6 +7,21 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "《 마성의 가요 》 흑장미",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "   ",
+      "streamUrl": "http://live09.inlive.co.kr:12140"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "해피데이, 나이스데이, 그리고  러브데이  ~~~",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
       "streamUrl": "http://live03.inlive.co.kr:23500"
     },
@@ -24,11 +39,6 @@
       "tag": "🎶 가요",
       "name": "선이 발라드 여행",
       "streamUrl": "http://live07.inlive.co.kr:11250"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "《 마성의 가요 》 흑장미",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -71,19 +81,24 @@
       "streamUrl": "http://live03.inlive.co.kr:10250"
     },
     {
-      "tag": "🎤 노래",
-      "name": "AlanWalker 방에서는 그 곡이 없엇닷:)^^",
-      "streamUrl": "http://live10.inlive.co.kr:14880"
+      "tag": "📻 추억음악",
+      "name": "동행하는여정",
+      "streamUrl": "http://live03.inlive.co.kr:13890"
     },
     {
       "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
+      "name": "추억음악",
+      "streamUrl": "http://live07.inlive.co.kr:16950"
     },
     {
       "tag": "📻 추억음악",
       "name": "24시 명품",
       "streamUrl": "http://live07.inlive.co.kr:14390"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -122,8 +137,23 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "같이, 갈래?? 볕 주으러...",
+      "name": "˚ 뉴에이지 &amp; 클래식 ",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "같이, 갈래? 볕 주으러...",
       "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "음악에(An Die Musik)",
+      "streamUrl": "http://live10.inlive.co.kr:14430"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "New Age &amp; Piano Strings",
+      "streamUrl": "http://live09.inlive.co.kr:12730"
     },
     {
       "tag": "🎹 연주",
@@ -134,11 +164,6 @@
       "tag": "🎹 연주",
       "name": "Classical, Arias, Crossover......etc.",
       "streamUrl": "http://live07.inlive.co.kr:15130"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
