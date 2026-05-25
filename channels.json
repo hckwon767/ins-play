@@ -2,13 +2,18 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "멈춘 내 심장을 뛰게 할 사람",
-      "streamUrl": "http://live07.inlive.co.kr:12820"
+      "name": "..........",
+      "streamUrl": "http://live03.inlive.co.kr:11380"
     },
     {
       "tag": "🎶 가요",
-      "name": "종합",
-      "streamUrl": "http://live03.inlive.co.kr:11380"
+      "name": "◀╋ 내안의 감성ノ。발라드 24시무멘트ノ。♬ ╋▶",
+      "streamUrl": "http://live06.inlive.co.kr:11340"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "멈춘 내 심장을 뛰게 할 사람",
+      "streamUrl": "http://live07.inlive.co.kr:12820"
     },
     {
       "tag": "🎶 가요",
@@ -67,23 +72,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": " 편안한음악방 ",
-      "streamUrl": "http://live03.inlive.co.kr:10990"
+      "name": "24시 명품",
+      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
       "name": "서영호 &amp; II설레는 오늘II 방송",
       "streamUrl": "http://pb1.inlive.co.kr:10010"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "동행하는여정",
-      "streamUrl": "http://live03.inlive.co.kr:13890"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "24시 명품",
-      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
@@ -129,11 +124,6 @@
       "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "Masquerade",
-      "streamUrl": "http://live09.inlive.co.kr:13630"
     },
     {
       "tag": "락&메탈",
