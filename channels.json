@@ -2,28 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《 가요ノ FM 》 바다비",
+      "name": "《 마성의 가요 》 흑장미",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
-      "name": "음악만 가요",
-      "streamUrl": "http://live09.inlive.co.kr:12870"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "꼬마인형ll발라드",
-      "streamUrl": "http://live07.inlive.co.kr:23090"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Ballad Top 50",
-      "streamUrl": "http://live03.inlive.co.kr:11380"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "@@ 트로트 라이브 @@",
-      "streamUrl": "http://live09.inlive.co.kr:15400"
+      "name": "감성발라드",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
     },
     {
       "tag": "🎶 가요",
@@ -32,13 +17,28 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "〃Ballad 。˚",
-      "streamUrl": "http://live07.inlive.co.kr:13780"
+      "name": "편히  듣기",
+      "streamUrl": "http://live07.inlive.co.kr:16690"
     },
     {
       "tag": "🎶 가요",
-      "name": "해피데이, 나이스데이, 그리고  러브데이  ~~~",
-      "streamUrl": "http://live07.inlive.co.kr:20660"
+      "name": "힐링",
+      "streamUrl": "http://live03.inlive.co.kr:11380"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "7080, 올드팝, 경음악,",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Music to day",
+      "streamUrl": "http://live06.inlive.co.kr:15070"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "꼬마인형ll발라드",
+      "streamUrl": "http://live07.inlive.co.kr:23090"
     },
     {
       "tag": "🎶 가요",
@@ -82,18 +82,18 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "스칼레인 ♬라이브. 파일.♬♬",
-      "streamUrl": "http://live10.inlive.co.kr:11710"
+      "name": "˚.ılı. 음악듣기 。라이브 &amp; 음악 좋은친구들..。",
+      "streamUrl": "http://live06.inlive.co.kr:12660"
     },
     {
       "tag": "🎤 노래",
-      "name": "청춘아***사랑아 AI 음악 송출 ~~~~",
-      "streamUrl": "http://live03.inlive.co.kr:13080"
+      "name": "노래할라고 ㅋㅋㅋ",
+      "streamUrl": "http://live06.inlive.co.kr:10390"
     },
     {
       "tag": "🎤 노래",
-      "name": "휴게실, 흡연실",
-      "streamUrl": "http://live07.inlive.co.kr:11450"
+      "name": "혼자 놀자",
+      "streamUrl": "http://live03.inlive.co.kr:10770"
     },
     {
       "tag": "🎤 노래",
@@ -102,13 +102,28 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "즐거운시간",
-      "streamUrl": "http://live03.inlive.co.kr:13230"
+      "name": "╋가수  변월주  음악실 ╋",
+      "streamUrl": "http://live07.inlive.co.kr:11610"
     },
     {
       "tag": "📻 추억음악",
-      "name": "동행하는여정",
-      "streamUrl": "http://live03.inlive.co.kr:13890"
+      "name": "추억의 팝송과 함께하는 음악여행",
+      "streamUrl": "http://live03.inlive.co.kr:12590"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "............",
+      "streamUrl": "http://live06.inlive.co.kr:11870"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": " 편안한음악방 ",
+      "streamUrl": "http://live03.inlive.co.kr:10990"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "행복해지려고 듣는 음악...ノ。",
+      "streamUrl": "http://live07.inlive.co.kr:12610"
     },
     {
       "tag": "📻 추억음악",
@@ -117,38 +132,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Duo",
-      "streamUrl": "http://live10.inlive.co.kr:12960"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "음악이 기억하는 추억 ♡",
-      "streamUrl": "http://live03.inlive.co.kr:14580"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "음악만 ..",
-      "streamUrl": "http://live06.inlive.co.kr:14280"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "추억찾기",
-      "streamUrl": "http://live06.inlive.co.kr:10960"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "추억음악",
-      "streamUrl": "http://live07.inlive.co.kr:16950"
+      "name": "즐거운시간",
+      "streamUrl": "http://live03.inlive.co.kr:13230"
     },
     {
       "tag": "📻 추억음악",
       "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
       "streamUrl": "http://live07.inlive.co.kr:22660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "그냥그래요",
-      "streamUrl": "http://live03.inlive.co.kr:10720"
     },
     {
       "tag": "📻 추억음악",
@@ -172,8 +162,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "마음으로 듣는 멜로디",
-      "streamUrl": "http://live03.inlive.co.kr:12730"
+      "name": "사람들 사이에 섬이 있다",
+      "streamUrl": "http://live06.inlive.co.kr:10490"
     },
     {
       "tag": "🎹 연주",
@@ -182,18 +172,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "♬",
-      "streamUrl": "http://live09.inlive.co.kr:11580"
+      "name": "마음으로 듣는 멜로디",
+      "streamUrl": "http://live03.inlive.co.kr:12730"
     },
     {
       "tag": "🎹 연주",
       "name": "새벽바다",
       "streamUrl": "http://live10.inlive.co.kr:15590"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "New Age &amp; Piano Strings",
-      "streamUrl": "http://live09.inlive.co.kr:12730"
     },
     {
       "tag": "🎹 연주",
@@ -207,11 +192,6 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "음악에(An Die Musik)",
-      "streamUrl": "http://live10.inlive.co.kr:14430"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "Classical, Arias, Crossover......etc.",
       "streamUrl": "http://live07.inlive.co.kr:15130"
     },
@@ -222,13 +202,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "쉼.............",
-      "streamUrl": "http://live09.inlive.co.kr:12010"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "1400~1600",
+      "streamUrl": "http://live06.inlive.co.kr:11600"
     },
     {
       "tag": "락&메탈",
@@ -242,7 +222,7 @@
     },
     {
       "tag": "락&메탈",
-      "name": "ART and ..",
+      "name": "Trash&#039;black&#039;death&#039;doom &#039;N ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
     },
     {
@@ -262,8 +242,8 @@
     },
     {
       "tag": "재즈",
-      "name": "♪늘~ 함께하는 Blues",
-      "streamUrl": "http://live09.inlive.co.kr:11710"
+      "name": "nevertheless",
+      "streamUrl": "http://live07.inlive.co.kr:19250"
     },
     {
       "tag": "재즈",
