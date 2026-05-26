@@ -2,18 +2,18 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "꽃이여사랑이여 ♪。。。음악만 올립니다...",
-      "streamUrl": "http://live09.inlive.co.kr:12870"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
-      "streamUrl": "http://live03.inlive.co.kr:23500"
+      "name": "해피데이, 나이스데이, 그리고  러브데이  ~~~",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
     },
     {
       "tag": "🎶 가요",
       "name": "추억의7080팝 발라드",
       "streamUrl": "http://live03.inlive.co.kr:14450"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
@@ -71,6 +71,31 @@
       "streamUrl": "http://live03.inlive.co.kr:10250"
     },
     {
+      "tag": "🎤 노래",
+      "name": "☞ 현추뮤직 댄스 종합 방송국 ☜",
+      "streamUrl": "http://live10.inlive.co.kr:12730"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "동행하는여정",
+      "streamUrl": "http://live03.inlive.co.kr:13890"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "그냥, 그렇게, 잠시.,",
+      "streamUrl": "http://live07.inlive.co.kr:11510"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "올팝&amp;가요",
+      "streamUrl": "http://live06.inlive.co.kr:12370"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "7080, 올드팝, 경음악,",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
+    },
+    {
       "tag": "📻 추억음악",
       "name": "24시 명품",
       "streamUrl": "http://live07.inlive.co.kr:14390"
@@ -107,7 +132,12 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "같이, 갈래?? 볕 주으러...",
+      "name": "˚ 뉴에이지 &amp; 클래식 ",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "같이, 갈래? 볕 주으러...",
       "streamUrl": "http://live09.inlive.co.kr:14700"
     },
     {
@@ -119,11 +149,6 @@
       "tag": "🎹 연주",
       "name": "쉼.............",
       "streamUrl": "http://live09.inlive.co.kr:12010"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
