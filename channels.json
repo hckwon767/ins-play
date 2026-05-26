@@ -2,8 +2,8 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《 가요ノ Holic 》스타비",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "꽃이여사랑이여 ♪。。。음악만 올립니다...",
+      "streamUrl": "http://live09.inlive.co.kr:12870"
     },
     {
       "tag": "🎶 가요",
@@ -12,13 +12,18 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Ballad Top 30",
-      "streamUrl": "http://live03.inlive.co.kr:11380"
+      "name": "추억의7080팝 발라드",
+      "streamUrl": "http://live03.inlive.co.kr:14450"
     },
     {
       "tag": "🎶 가요",
-      "name": "잔잔..",
-      "streamUrl": "http://live09.inlive.co.kr:10880"
+      "name": "《 가요ノ Holic 》스타비",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Ballad Top 30",
+      "streamUrl": "http://live03.inlive.co.kr:11380"
     },
     {
       "tag": "🎶 가요",
@@ -67,13 +72,18 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
+      "name": "24시 명품",
+      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
-      "name": "♤ 우리들의 블루스 ~~~ ♪",
-      "streamUrl": "http://live09.inlive.co.kr:11040"
+      "name": "추억음악",
+      "streamUrl": "http://live07.inlive.co.kr:16950"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -87,11 +97,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "24시 명품",
-      "streamUrl": "http://live07.inlive.co.kr:14390"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "올드팝 ↖ 7080↗가요의 선율↖추억속으로~↗음악만 나갑니다",
       "streamUrl": "http://live09.inlive.co.kr:10040"
     },
@@ -102,18 +107,13 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "같이, 갈래?? 볕 주으러...",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
       "name": " O  Y",
       "streamUrl": "http://live03.inlive.co.kr:10590"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "평온한*클래시컬뉴에이지피아노OST*치유음악*",
-      "streamUrl": "http://live07.inlive.co.kr:14520"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "음악에(An Die Musik)",
-      "streamUrl": "http://live10.inlive.co.kr:14430"
     },
     {
       "tag": "🎹 연주",
@@ -137,11 +137,6 @@
     },
     {
       "tag": "락&메탈",
-      "name": "그냥듣자 ~",
-      "streamUrl": "http://live09.inlive.co.kr:10830"
-    },
-    {
-      "tag": "락&메탈",
       "name": "ㅃ ㅏ ㄹ ㅣ",
       "streamUrl": "http://live07.inlive.co.kr:10120"
     },
@@ -154,11 +149,6 @@
       "tag": "락&메탈",
       "name": "Rock.metal.BluesRock",
       "streamUrl": "http://live03.inlive.co.kr:10350"
-    },
-    {
-      "tag": "재즈",
-      "name": "hours that never end",
-      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
