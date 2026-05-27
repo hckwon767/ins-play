@@ -2,18 +2,33 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "《좋은아침  IN 가요》터보",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "그때 그 시간 〃 발라드  ..  함께하실 분 모십니다 .",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
       "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
-      "name": "직장인 전용 음악 스파",
-      "streamUrl": "http://live09.inlive.co.kr:12140"
+      "name": "◀╋ 내안의 감성ノ。발라드 24시무멘트ノ。♬ ╋▶",
+      "streamUrl": "http://live06.inlive.co.kr:11340"
     },
     {
       "tag": "🎶 가요",
-      "name": "《 가요ノ Holic 》스타비",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "바로세탁소",
+      "streamUrl": "http://live03.inlive.co.kr:10550"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "감성발라드 음악카페 ...ヘl은ノ。♥Music\u0007방송중입니다,",
+      "streamUrl": "http://live07.inlive.co.kr:12740"
     },
     {
       "tag": "🎶 가요",
@@ -29,11 +44,6 @@
       "tag": "🎶 가요",
       "name": "Ballad Top 30",
       "streamUrl": "http://live03.inlive.co.kr:11380"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "멈춘 내 심장을 뛰게 할 사람",
-      "streamUrl": "http://live07.inlive.co.kr:12820"
     },
     {
       "tag": "🎶 가요",
@@ -66,9 +76,9 @@
       "streamUrl": "http://live07.inlive.co.kr:14120"
     },
     {
-      "tag": "🎶 가요",
-      "name": "가요 리믹스  클럽유로 댄스 전문방송",
-      "streamUrl": "http://live03.inlive.co.kr:10250"
+      "tag": "🎤 노래",
+      "name": "케빈  러쉬중 필요하면 가져가시오",
+      "streamUrl": "http://live06.inlive.co.kr:12660"
     },
     {
       "tag": "🎤 노래",
@@ -76,19 +86,9 @@
       "streamUrl": "http://live10.inlive.co.kr:12730"
     },
     {
-      "tag": "🎤 노래",
-      "name": "연습",
-      "streamUrl": "http://live03.inlive.co.kr:20290"
-    },
-    {
       "tag": "📻 추억음악",
-      "name": "그대만이 &amp; 행복합시당 방송",
-      "streamUrl": "http://live09.inlive.co.kr:17630"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "나팔꽃음악캠프",
-      "streamUrl": "http://live09.inlive.co.kr:11750"
+      "name": "선율 속에서 행복한 힐링",
+      "streamUrl": "http://live03.inlive.co.kr:20490"
     },
     {
       "tag": "📻 추억음악",
@@ -102,13 +102,18 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "올드팝 ,클래식 소품",
+      "streamUrl": "http://live06.inlive.co.kr:12080"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "그냥, 그렇게, 잠시.,",
       "streamUrl": "http://live07.inlive.co.kr:11510"
     },
     {
       "tag": "📻 추억음악",
-      "name": "선율 속에서 행복한 힐링",
-      "streamUrl": "http://live03.inlive.co.kr:20490"
+      "name": "그대만이 &amp; 행복합시당 방송",
+      "streamUrl": "http://live09.inlive.co.kr:17630"
     },
     {
       "tag": "📻 추억음악",
@@ -142,18 +147,23 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "같이, 갈래?? 볕 주으러...",
-      "streamUrl": "http://live09.inlive.co.kr:14700"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "˚ 뉴에이지 &amp; 클래식 ",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": " O  Y",
-      "streamUrl": "http://live03.inlive.co.kr:10590"
+      "name": "같이, 갈래? 볕 주으러...",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "새벽바다",
+      "streamUrl": "http://live10.inlive.co.kr:15590"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "●Turn up the Volume●",
+      "streamUrl": "http://live10.inlive.co.kr:13270"
     },
     {
       "tag": "🎹 연주",
@@ -164,11 +174,6 @@
       "tag": "🎹 연주",
       "name": "♬",
       "streamUrl": "http://live09.inlive.co.kr:11580"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "쉼.............",
-      "streamUrl": "http://live09.inlive.co.kr:12010"
     },
     {
       "tag": "🎹 연주",
@@ -184,6 +189,11 @@
       "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "Melodic Death/Melodic Core外",
+      "streamUrl": "http://live09.inlive.co.kr:10830"
     },
     {
       "tag": "락&메탈",
