@@ -2,6 +2,21 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "그리움에 물들다....",
+      "streamUrl": "http://live06.inlive.co.kr:16350"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": " ",
+      "streamUrl": "http://live09.inlive.co.kr:12140"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "해피데이, 나이스데이, 그리고  러브데이  ~~~",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "《 가요ノ Holic 》스타비",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
@@ -9,11 +24,6 @@
       "tag": "🎶 가요",
       "name": "멈춘 내 심장을 뛰게 할 사람",
       "streamUrl": "http://live07.inlive.co.kr:12820"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "시린 발라드",
-      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
@@ -117,18 +127,28 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "˚ 뉴에이지 &amp; 클래식 ",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "커피 그리고",
+      "streamUrl": "http://live07.inlive.co.kr:11810"
+    },
+    {
+      "tag": "🎹 연주",
       "name": " O  Y",
       "streamUrl": "http://live03.inlive.co.kr:10590"
     },
     {
       "tag": "🎹 연주",
-      "name": "쉼.............",
-      "streamUrl": "http://live09.inlive.co.kr:12010"
+      "name": "..................",
+      "streamUrl": "http://live07.inlive.co.kr:13490"
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": "쉼.............",
+      "streamUrl": "http://live09.inlive.co.kr:12010"
     },
     {
       "tag": "🎹 연주",
@@ -139,11 +159,6 @@
       "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "그냥듣자 ~",
-      "streamUrl": "http://live09.inlive.co.kr:10830"
     },
     {
       "tag": "락&메탈",
