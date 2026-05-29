@@ -7,18 +7,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "The설레임",
-      "streamUrl": "http://live10.inlive.co.kr:12820"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "멈춘 내 심장을 뛰게 할 사람",
       "streamUrl": "http://live07.inlive.co.kr:12820"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "잔잔..",
-      "streamUrl": "http://live09.inlive.co.kr:10880"
     },
     {
       "tag": "🎶 가요",
@@ -67,18 +57,23 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "DJ호",
+      "streamUrl": "http://live06.inlive.co.kr:11060"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "…──\u0007\u0007DBLC01곰돌이함께하는방송 \u0007\u0007──…",
       "streamUrl": "http://live06.inlive.co.kr:10200"
     },
     {
       "tag": "🎤 노래",
-      "name": "별과당신",
-      "streamUrl": "http://live10.inlive.co.kr:11980"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "러쉬방송 ~~~^^",
       "streamUrl": "http://live07.inlive.co.kr:12980"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "24시 명품",
+      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
@@ -102,16 +97,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "4560 추억의 가요발라드 &amp; Old POP 같이 들어요~♬",
-      "streamUrl": "http://live03.inlive.co.kr:10180"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "24시 명품",
-      "streamUrl": "http://live07.inlive.co.kr:14390"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "동행하는여정",
       "streamUrl": "http://live03.inlive.co.kr:13890"
     },
@@ -132,13 +117,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "쉼.............",
-      "streamUrl": "http://live09.inlive.co.kr:12010"
+      "name": " O  Y",
+      "streamUrl": "http://live03.inlive.co.kr:10590"
     },
     {
       "tag": "🎹 연주",
-      "name": " O  Y",
-      "streamUrl": "http://live03.inlive.co.kr:10590"
+      "name": "쉼.............",
+      "streamUrl": "http://live09.inlive.co.kr:12010"
     },
     {
       "tag": "🎹 연주",
