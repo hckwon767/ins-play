@@ -7,8 +7,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "음악 듣고 대!가!!리!! 랑 놀고",
-      "streamUrl": "http://live09.inlive.co.kr:10880"
+      "name": "《 마성의 가요 》 흑장미",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -17,23 +17,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "ㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣ",
-      "streamUrl": "http://live10.inlive.co.kr:13350"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "7080, 올드팝, 경음악,",
       "streamUrl": "http://live07.inlive.co.kr:18430"
     },
     {
       "tag": "🎶 가요",
-      "name": "강학고 방송부",
-      "streamUrl": "http://live06.inlive.co.kr:12200"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "《 마성의 가요 》 흑장미",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "음악 듣고 대!가!!리!! 랑 놀고",
+      "streamUrl": "http://live09.inlive.co.kr:10880"
     },
     {
       "tag": "🎶 가요",
@@ -87,33 +77,8 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "밤9시부터 아침6시까지러쉬방송 ~~~^^",
+      "name": "밤9시부터 아침6시까지러쉬 ~~~^^",
       "streamUrl": "http://live07.inlive.co.kr:12980"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "teest",
-      "streamUrl": "http://live09.inlive.co.kr:12340"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "연습",
-      "streamUrl": "http://live03.inlive.co.kr:20290"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "프리 캐스트 ~날탱타임",
-      "streamUrl": "http://live07.inlive.co.kr:12860"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "추억의 음악 이야기",
-      "streamUrl": "http://live06.inlive.co.kr:10520"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "音樂은 마음의 안식처",
-      "streamUrl": "http://live10.inlive.co.kr:12960"
     },
     {
       "tag": "📻 추억음악",
@@ -122,18 +87,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "나무가 있는 언덕",
-      "streamUrl": "http://live06.inlive.co.kr:13230"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "음악과 함께 행복한 시간 만들어요",
-      "streamUrl": "http://live07.inlive.co.kr:17300"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "샤인의 뮤직 박스",
       "streamUrl": "http://live03.inlive.co.kr:12190"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "音樂은 마음의 안식처",
+      "streamUrl": "http://live10.inlive.co.kr:12960"
     },
     {
       "tag": "📻 추억음악",
@@ -182,13 +142,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "────────°",
-      "streamUrl": "http://live03.inlive.co.kr:10870"
+      "name": " O  Y",
+      "streamUrl": "http://live03.inlive.co.kr:10590"
     },
     {
       "tag": "🎹 연주",
-      "name": "커피 그리고",
-      "streamUrl": "http://live07.inlive.co.kr:11810"
+      "name": "쉼.............",
+      "streamUrl": "http://live09.inlive.co.kr:12010"
     },
     {
       "tag": "🎹 연주",
@@ -217,11 +177,6 @@
     },
     {
       "tag": "락&메탈",
-      "name": "▲ CORE METAL",
-      "streamUrl": "http://live03.inlive.co.kr:10330"
-    },
-    {
-      "tag": "락&메탈",
       "name": "메탈로의 초대",
       "streamUrl": "http://live03.inlive.co.kr:15760"
     },
@@ -239,6 +194,11 @@
       "tag": "락&메탈",
       "name": "Rock.metal.BluesRock",
       "streamUrl": "http://live03.inlive.co.kr:10350"
+    },
+    {
+      "tag": "재즈",
+      "name": "hours that never end",
+      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
