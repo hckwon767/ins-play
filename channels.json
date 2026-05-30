@@ -7,11 +7,6 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "음악 듣고 대!가!!리!! 랑 놀고",
-      "streamUrl": "http://live09.inlive.co.kr:10880"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "요즘 마음도 힘들고 일도 힘드네요",
       "streamUrl": "http://live07.inlive.co.kr:12820"
     },
@@ -57,18 +52,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "음악이 흐르는 시간",
-      "streamUrl": "http://live06.inlive.co.kr:11090"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "밤9시부터 아침6시까지러쉬 ~~~^^",
       "streamUrl": "http://live07.inlive.co.kr:12980"
     },
     {
       "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
+      "name": "Velvet Moon",
+      "streamUrl": "http://live07.inlive.co.kr:14150"
     },
     {
       "tag": "📻 추억음악",
@@ -77,8 +67,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Velvet Moon",
-      "streamUrl": "http://live07.inlive.co.kr:14150"
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -117,11 +107,6 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "♩",
-      "streamUrl": "http://live10.inlive.co.kr:13890"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "Classic, NewAge &amp; Vocal",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
@@ -154,11 +139,6 @@
       "tag": "락&메탈",
       "name": "Rock.metal.BluesRock",
       "streamUrl": "http://live03.inlive.co.kr:10350"
-    },
-    {
-      "tag": "재즈",
-      "name": "hours that never end",
-      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
