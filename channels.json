@@ -7,8 +7,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "ll그리움 &amp; 감성 Music",
-      "streamUrl": "http://live10.inlive.co.kr:14460"
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
@@ -17,8 +17,23 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
-      "streamUrl": "http://live03.inlive.co.kr:23500"
+      "name": "◀╋ 내안의 감성ノ。발라드 24시무멘트ノ。♬ ╋▶",
+      "streamUrl": "http://live06.inlive.co.kr:11340"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "〃Ballad 。˚",
+      "streamUrl": "http://live07.inlive.co.kr:13780"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "º  indie     ",
+      "streamUrl": "http://live10.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "어느날갑자기추억凹ξzr⊆",
+      "streamUrl": "http://live06.inlive.co.kr:10660"
     },
     {
       "tag": "🎶 가요",
@@ -61,9 +76,14 @@
       "streamUrl": "http://live07.inlive.co.kr:14120"
     },
     {
-      "tag": "🎶 가요",
-      "name": "가요 리믹스  클럽유로 댄스 전문방송",
-      "streamUrl": "http://live03.inlive.co.kr:10250"
+      "tag": "🎤 노래",
+      "name": "&quot;함께여서 행복한&quot; 진행:이쁜동해 ◈ 담:송은",
+      "streamUrl": "http://pb1.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "☞ 현추뮤직 댄스 종합 방송국 ☜",
+      "streamUrl": "http://live10.inlive.co.kr:12730"
     },
     {
       "tag": "🎤 노래",
@@ -72,13 +92,18 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "연습",
+      "streamUrl": "http://live03.inlive.co.kr:20290"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "밤9시부터 아침6시까지러쉬 ~~~^^",
       "streamUrl": "http://live07.inlive.co.kr:12980"
     },
     {
       "tag": "📻 추억음악",
-      "name": "Velvet Moon",
-      "streamUrl": "http://live07.inlive.co.kr:14150"
+      "name": "올팝&amp;가요",
+      "streamUrl": "http://live06.inlive.co.kr:12370"
     },
     {
       "tag": "📻 추억음악",
@@ -89,6 +114,16 @@
       "tag": "📻 추억음악",
       "name": "24시 명품",
       "streamUrl": "http://live07.inlive.co.kr:14390"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "7080, 올드팝, 경음악,",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Velvet Moon",
+      "streamUrl": "http://live07.inlive.co.kr:14150"
     },
     {
       "tag": "📻 추억음악",
@@ -132,8 +167,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "#。시를 잊은 그대에게 。。",
-      "streamUrl": "http://live07.inlive.co.kr:12670"
+      "name": "흐름을 거스르며 ..",
+      "streamUrl": "http://live09.inlive.co.kr:10250"
     },
     {
       "tag": "🎹 연주",
@@ -147,8 +182,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "팝업영상~~ [방송중~~]",
-      "streamUrl": "http://live07.inlive.co.kr:13490"
+      "name": "테스트",
+      "streamUrl": "http://live10.inlive.co.kr:11740"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "새벽바다",
+      "streamUrl": "http://live10.inlive.co.kr:15590"
     },
     {
       "tag": "🎹 연주",
@@ -162,18 +202,13 @@
     },
     {
       "tag": "락&메탈",
-      "name": "러~~~~쉬",
-      "streamUrl": "http://live03.inlive.co.kr:10520"
-    },
-    {
-      "tag": "락&메탈",
       "name": "그냥듣자 ~",
       "streamUrl": "http://live09.inlive.co.kr:10830"
     },
     {
       "tag": "락&메탈",
-      "name": "bll w∫tch",
-      "streamUrl": "http://live10.inlive.co.kr:10680"
+      "name": "러~~~~쉬",
+      "streamUrl": "http://live03.inlive.co.kr:10520"
     },
     {
       "tag": "락&메탈",
@@ -182,7 +217,7 @@
     },
     {
       "tag": "락&메탈",
-      "name": "ARTNeo &#039;N metallic progressive ..",
+      "name": "ART and ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
     },
     {
