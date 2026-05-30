@@ -2,8 +2,8 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "듣거나~~~말거나~~~(라이브)",
-      "streamUrl": "http://live06.inlive.co.kr:12580"
+      "name": "The설레임",
+      "streamUrl": "http://live10.inlive.co.kr:12820"
     },
     {
       "tag": "🎶 가요",
@@ -12,23 +12,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "《 마성의 가요 》 흑장미",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "해피데이, 나이스데이, 그리고  러브데이  ~~~",
-      "streamUrl": "http://live07.inlive.co.kr:20660"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "마음으로 듣는(가요 트로트 발라드)",
-      "streamUrl": "http://live03.inlive.co.kr:12730"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "　　　　",
-      "streamUrl": "http://live10.inlive.co.kr:11240"
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
@@ -37,17 +22,22 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "7080, 올드팝, 경음악,",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "강학고 방송부",
       "streamUrl": "http://live06.inlive.co.kr:12200"
     },
     {
       "tag": "🎶 가요",
-      "name": "〃Ballad 。˚",
-      "streamUrl": "http://live07.inlive.co.kr:13780"
+      "name": "《 마성의 가요 》 흑장미",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
-      "name": "멈춘 내 심장을 뛰게 할 사람",
+      "name": "요즘 마음도 힘들고 일도 힘드네요",
       "streamUrl": "http://live07.inlive.co.kr:12820"
     },
     {
@@ -81,34 +71,19 @@
       "streamUrl": "http://live10.inlive.co.kr:14170"
     },
     {
-      "tag": "🎤 노래",
-      "name": "백조아ㅆ방송  *˚라이브&amp;파일 .",
-      "streamUrl": "http://live07.inlive.co.kr:14510"
+      "tag": "🎶 가요",
+      "name": "잠시머물며",
+      "streamUrl": "http://live07.inlive.co.kr:14120"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "가요 리믹스  클럽유로 댄스 전문방송",
+      "streamUrl": "http://live03.inlive.co.kr:10250"
     },
     {
       "tag": "🎤 노래",
       "name": "케이 타임~",
       "streamUrl": "http://live03.inlive.co.kr:12840"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "음악을 사랑하는 사람들의 공간",
-      "streamUrl": "http://live06.inlive.co.kr:10870"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": " 라이브 II Music",
-      "streamUrl": "http://live09.inlive.co.kr:12900"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "연습",
-      "streamUrl": "http://live03.inlive.co.kr:20290"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "확그냥 막그냥",
-      "streamUrl": "http://live09.inlive.co.kr:10300"
     },
     {
       "tag": "🎤 노래",
@@ -122,13 +97,8 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "☞ 현추뮤직 댄스 종합 방송국 ☜",
-      "streamUrl": "http://live10.inlive.co.kr:12730"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Sound Of Virus ~~~   ",
-      "streamUrl": "http://live03.inlive.co.kr:10530"
+      "name": "연습",
+      "streamUrl": "http://live03.inlive.co.kr:20290"
     },
     {
       "tag": "📻 추억음악",
@@ -137,18 +107,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "샤인의 뮤직 박스",
-      "streamUrl": "http://live03.inlive.co.kr:12190"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Again ...",
-      "streamUrl": "http://live03.inlive.co.kr:14910"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "누구나 들을 수 있는",
-      "streamUrl": "http://live10.inlive.co.kr:13420"
+      "name": "추억의 음악 이야기",
+      "streamUrl": "http://live06.inlive.co.kr:10520"
     },
     {
       "tag": "📻 추억음악",
@@ -157,8 +117,23 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "추억의 음악 이야기",
-      "streamUrl": "http://live06.inlive.co.kr:10520"
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "나무가 있는 언덕",
+      "streamUrl": "http://live06.inlive.co.kr:13230"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "음악과 함께 행복한 시간 만들어요",
+      "streamUrl": "http://live07.inlive.co.kr:17300"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "샤인의 뮤직 박스",
+      "streamUrl": "http://live03.inlive.co.kr:12190"
     },
     {
       "tag": "📻 추억음악",
@@ -179,11 +154,6 @@
       "tag": "📻 추억음악",
       "name": "4560 추억의 가요발라드 &amp; Old POP 같이 들어요~♬",
       "streamUrl": "http://live03.inlive.co.kr:10180"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -212,23 +182,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Something More..",
-      "streamUrl": "http://live07.inlive.co.kr:17110"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "soulmate",
-      "streamUrl": "http://live09.inlive.co.kr:12940"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "이 토 록 서 정 적",
-      "streamUrl": "http://live10.inlive.co.kr:15270"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "♩",
-      "streamUrl": "http://live10.inlive.co.kr:13890"
+      "name": "────────°",
+      "streamUrl": "http://live03.inlive.co.kr:10870"
     },
     {
       "tag": "🎹 연주",
@@ -237,18 +192,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Old &amp; Blues",
-      "streamUrl": "http://live07.inlive.co.kr:14890"
+      "name": "♩",
+      "streamUrl": "http://live10.inlive.co.kr:13890"
     },
     {
       "tag": "🎹 연주",
       "name": "Classic, NewAge &amp; Vocal",
       "streamUrl": "http://live10.inlive.co.kr:10280"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
-      "streamUrl": "http://live03.inlive.co.kr:11690"
     },
     {
       "tag": "🎹 연주",
@@ -259,6 +209,16 @@
       "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "on my own",
+      "streamUrl": "http://live10.inlive.co.kr:11250"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "▲ CORE METAL",
+      "streamUrl": "http://live03.inlive.co.kr:10330"
     },
     {
       "tag": "락&메탈",
