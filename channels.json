@@ -2,18 +2,23 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "˚ㅁiㄴi _   All_MUSIC。파라파라",
-      "streamUrl": "http://live09.inlive.co.kr:10740"
+      "name": "고운 음악이 흐르는 곳...",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "해피데이, 나이스데이, 그리고  러브데이  ~~~",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
       "name": "《 마성의 가요 》 흑장미",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "~무지개 음악공간~",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -52,23 +57,23 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤노크멘트",
-      "streamUrl": "http://live07.inlive.co.kr:15800"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "올팝&amp;가요",
-      "streamUrl": "http://live06.inlive.co.kr:12370"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "24시 명품",
       "streamUrl": "http://live07.inlive.co.kr:14390"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "굿모닝 도장 찍으로 가는 날...",
+      "streamUrl": "http://live06.inlive.co.kr:14280"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "샤인의 뮤직 박스",
+      "streamUrl": "http://live03.inlive.co.kr:12190"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -92,18 +97,28 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Łσυё is.. ",
+      "name": "행복으로 가는 아름다운 여정.. ",
       "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
-      "name": "평온한*클래시컬뉴에이지피아노OST*치유음악*",
-      "streamUrl": "http://live07.inlive.co.kr:14520"
+      "name": "˚ 뉴에이지 &amp; 클래식 ",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": "영상 (뮤비)",
+      "streamUrl": "http://live07.inlive.co.kr:13490"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "마음으로 듣는 멜로디",
+      "streamUrl": "http://live03.inlive.co.kr:12730"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "같이, 갈래? 볕 주으러...",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
     },
     {
       "tag": "🎹 연주",
