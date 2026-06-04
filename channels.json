@@ -2,13 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《마음으로듣는가요》연이",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "멈춘 내 심장을 뛰게 할 사람",
+      "streamUrl": "http://live07.inlive.co.kr:12820"
     },
     {
       "tag": "🎶 가요",
-      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
-      "streamUrl": "http://live03.inlive.co.kr:23500"
+      "name": "《마음으로듣는가요》연이",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -51,14 +51,9 @@
       "streamUrl": "http://live03.inlive.co.kr:10250"
     },
     {
-      "tag": "🎤 노래",
-      "name": "혼자 놀자",
-      "streamUrl": "http://live03.inlive.co.kr:10770"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "즐거운방송 ~~~^^",
-      "streamUrl": "http://live07.inlive.co.kr:12980"
+      "tag": "📻 추억음악",
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -69,11 +64,6 @@
       "tag": "📻 추억음악",
       "name": "추억의 올드팝과 가요를 가슴속에 묻고",
       "streamUrl": "http://live09.inlive.co.kr:16670"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
