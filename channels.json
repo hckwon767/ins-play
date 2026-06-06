@@ -7,18 +7,28 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "《 마성의 가요 》 흑장미",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
-      "name": "소유방",
-      "streamUrl": "http://live10.inlive.co.kr:12080"
+      "name": "추억의7080팝 발라드",
+      "streamUrl": "http://live03.inlive.co.kr:14450"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "◀╋ 내안의 감성ノ。발라드 24시무멘트ノ。♬ ╋▶",
+      "streamUrl": "http://live06.inlive.co.kr:11340"
     },
     {
       "tag": "🎶 가요",
       "name": "요즘 몸도 마음도 많이 힘들다",
       "streamUrl": "http://live07.inlive.co.kr:12820"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "《 마성의 가요 》 흑장미",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -49,16 +59,6 @@
       "tag": "🎶 가요",
       "name": "가요 리믹스  클럽유로 댄스 전문방송",
       "streamUrl": "http://live03.inlive.co.kr:10250"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "오래 된 라이브",
-      "streamUrl": "http://live10.inlive.co.kr:14710"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "케이 타임~",
-      "streamUrl": "http://live03.inlive.co.kr:12840"
     },
     {
       "tag": "📻 추억음악",
@@ -107,6 +107,11 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "Łσυё is.. ",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "쉼.............",
       "streamUrl": "http://live09.inlive.co.kr:12010"
     },
@@ -124,11 +129,6 @@
       "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "음악만~",
-      "streamUrl": "http://live03.inlive.co.kr:10330"
     },
     {
       "tag": "락&메탈",
