@@ -7,13 +7,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": " ",
-      "streamUrl": "http://live09.inlive.co.kr:12140"
+      "name": "♬ 감성 발라드 가요 ♬ 지나간 시절이 그리울 때 ♬ 향긋한 커피 한 잔과 함께 ♬",
+      "streamUrl": "http://live03.inlive.co.kr:11400"
     },
     {
       "tag": "🎶 가요",
-      "name": "♬ 감성 발라드 가요 ♬ 지나간 시절이 그리울 때 ♬ 향긋한 커피 한 잔과 함께 ♬",
-      "streamUrl": "http://live03.inlive.co.kr:11400"
+      "name": "〃Ballad 。˚",
+      "streamUrl": "http://live07.inlive.co.kr:13780"
     },
     {
       "tag": "🎶 가요",
@@ -81,14 +81,14 @@
       "streamUrl": "http://live10.inlive.co.kr:12730"
     },
     {
-      "tag": "🎤 노래",
-      "name": "확그냥 막그냥",
-      "streamUrl": "http://live09.inlive.co.kr:10300"
-    },
-    {
       "tag": "📻 추억음악",
       "name": "추억의 music",
       "streamUrl": "http://live03.inlive.co.kr:12900"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Rain &amp; Coffee ~~",
+      "streamUrl": "http://live09.inlive.co.kr:13650"
     },
     {
       "tag": "📻 추억음악",
@@ -127,11 +127,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "서정7080, 올드팝etc",
-      "streamUrl": "http://live10.inlive.co.kr:12710"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "추억의 올드팝과 가요를 가슴속에 묻고",
       "streamUrl": "http://live09.inlive.co.kr:16670"
     },
@@ -152,6 +147,11 @@
     },
     {
       "tag": "🎹 연주",
+      "name": ".. ",
+      "streamUrl": "http://live10.inlive.co.kr:11840"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "# New Age &amp; Classic ♪",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
@@ -159,11 +159,6 @@
       "tag": "🎹 연주",
       "name": "커피 그리고",
       "streamUrl": "http://live07.inlive.co.kr:11810"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "새벽바다",
-      "streamUrl": "http://live10.inlive.co.kr:15590"
     },
     {
       "tag": "🎹 연주",
@@ -192,12 +187,17 @@
     },
     {
       "tag": "락&메탈",
+      "name": "MelodicMetal",
+      "streamUrl": "http://live06.inlive.co.kr:10720"
+    },
+    {
+      "tag": "락&메탈",
       "name": "메탈로의 초대",
       "streamUrl": "http://live03.inlive.co.kr:15760"
     },
     {
       "tag": "락&메탈",
-      "name": "ARTNeo &#039;N metallic progressive ..",
+      "name": "ART and ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
     },
     {
