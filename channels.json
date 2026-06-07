@@ -2,23 +2,18 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "오늘도 행복하세요~!",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
-      "streamUrl": "http://live03.inlive.co.kr:23500"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "잔잔..",
-      "streamUrl": "http://live09.inlive.co.kr:10880"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "《마음으로듣는가요》연이",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "부재중1통",
+      "streamUrl": "http://live03.inlive.co.kr:16710"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "오늘도 행복하세요~!",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -39,11 +34,6 @@
       "tag": "🎶 가요",
       "name": "추억의7080팝 발라드",
       "streamUrl": "http://live03.inlive.co.kr:14450"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "요즘 몸도 마음도 많이 힘들다",
-      "streamUrl": "http://live07.inlive.co.kr:12820"
     },
     {
       "tag": "🎶 가요",
@@ -72,8 +62,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "음만 송출 되요~",
-      "streamUrl": "http://live06.inlive.co.kr:11440"
+      "name": "즐거운방송 ~~~^^",
+      "streamUrl": "http://live07.inlive.co.kr:12980"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "테스트",
+      "streamUrl": "http://live06.inlive.co.kr:11410"
     },
     {
       "tag": "🎤 노래",
@@ -82,33 +77,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "프리 캐스트 ~날탱타임",
-      "streamUrl": "http://live07.inlive.co.kr:12860"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "☆그리운 우리들의 추억이 있는 곳☆ &quot;추억속으로 7080o&quot;",
-      "streamUrl": "http://pb2.inlive.co.kr:10130"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
       "streamUrl": "http://live07.inlive.co.kr:22660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "나에게 들려주는 노래",
-      "streamUrl": "http://live03.inlive.co.kr:16050"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "여름밤을 더 특별하게 만드는 음악 백투더 올드뮤직 12시30분 종방예정 //",
-      "streamUrl": "http://live07.inlive.co.kr:19800"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "행복해지려고 듣는 음악...ノ。",
-      "streamUrl": "http://live07.inlive.co.kr:12610"
     },
     {
       "tag": "📻 추억음악",
@@ -147,33 +117,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "행복으로 가는 아름다운 여정.. ",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "짬뽕",
-      "streamUrl": "http://live03.inlive.co.kr:18560"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "뮤직테러",
       "streamUrl": "http://live06.inlive.co.kr:12630"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "월드, 연주 .. ",
-      "streamUrl": "http://live10.inlive.co.kr:11840"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "커피 그리고",
-      "streamUrl": "http://live07.inlive.co.kr:11810"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "# New Age &amp; Classic ♪",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
