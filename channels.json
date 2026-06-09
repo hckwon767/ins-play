@@ -2,83 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《 가요 ノ 뮤직N 》 키드",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "~무지개 음악공간~",
       "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
-      "name": "음악 듣고 갈래?",
-      "streamUrl": "http://live09.inlive.co.kr:10880"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "〃Ballad 。˚",
-      "streamUrl": "http://live07.inlive.co.kr:13780"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "인디 듣기..",
-      "streamUrl": "http://live10.inlive.co.kr:10800"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "ユ㈂η는 좋은 ㅅг己Б입니㈂г°&#039;",
-      "streamUrl": "http://live07.inlive.co.kr:11690"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "&quot;오늘이 더 좋아지는 시간! &quot;",
-      "streamUrl": "http://live10.inlive.co.kr:11760"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "아임ll수Live♬♪♩♪.....",
-      "streamUrl": "http://live03.inlive.co.kr:15090"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "ㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣㅣ",
-      "streamUrl": "http://live10.inlive.co.kr:13350"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "스며들기 좋은날",
-      "streamUrl": "http://live07.inlive.co.kr:14030"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "JUST DO IT",
-      "streamUrl": "http://live06.inlive.co.kr:11320"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "낭만시대 7080",
-      "streamUrl": "http://live06.inlive.co.kr:10810"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "《지금e순간》",
-      "streamUrl": "http://live03.inlive.co.kr:13650"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "The Music",
-      "streamUrl": "http://live06.inlive.co.kr:10970"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "그곳에가면ll",
-      "streamUrl": "http://live07.inlive.co.kr:11070"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "케빈",
-      "streamUrl": "http://live10.inlive.co.kr:11180"
+      "name": "《마음으로듣는가요》연이",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -87,8 +17,18 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "커피 한잔과 당신",
-      "streamUrl": "http://live03.inlive.co.kr:10670"
+      "name": "ユ㈂η는 좋은 ㅅг己Б입니㈂г°&#039;",
+      "streamUrl": "http://live07.inlive.co.kr:11690"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "《지금e순간》",
+      "streamUrl": "http://live03.inlive.co.kr:13650"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "케빈",
+      "streamUrl": "http://live10.inlive.co.kr:11180"
     },
     {
       "tag": "🎶 가요",
@@ -96,24 +36,29 @@
       "streamUrl": "http://live07.inlive.co.kr:23090"
     },
     {
-      "tag": "🎤 노래",
-      "name": "케이 타임~",
-      "streamUrl": "http://live03.inlive.co.kr:12840"
+      "tag": "🎶 가요",
+      "name": "추억의7080팝 발라드",
+      "streamUrl": "http://live03.inlive.co.kr:14450"
     },
     {
-      "tag": "🎤 노래",
-      "name": "천천히...",
-      "streamUrl": "http://live06.inlive.co.kr:11290"
+      "tag": "🎶 가요",
+      "name": "잠시머물며",
+      "streamUrl": "http://live07.inlive.co.kr:14120"
     },
     {
-      "tag": "🎤 노래",
-      "name": "혼자 놀자",
-      "streamUrl": "http://live03.inlive.co.kr:10770"
+      "tag": "🎶 가요",
+      "name": "그시절 그곡부터 최근까지~♬ (무맨트&amp;잠수)",
+      "streamUrl": "http://live07.inlive.co.kr:15630"
     },
     {
-      "tag": "🎤 노래",
-      "name": "연습",
-      "streamUrl": "http://live03.inlive.co.kr:20290"
+      "tag": "🎶 가요",
+      "name": "INLIVECAST",
+      "streamUrl": "http://live10.inlive.co.kr:14170"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "가요 리믹스  클럽유로 댄스 전문방송",
+      "streamUrl": "http://live03.inlive.co.kr:10250"
     },
     {
       "tag": "🎤 노래",
@@ -122,33 +67,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "...",
-      "streamUrl": "http://live03.inlive.co.kr:16660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "7080, 올드팝, 경음악,",
-      "streamUrl": "http://live07.inlive.co.kr:18430"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "나무가 있는 언덕",
-      "streamUrl": "http://live06.inlive.co.kr:13230"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "옛가요 (南仁樹등)",
-      "streamUrl": "http://live10.inlive.co.kr:12710"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "♬ 7080 가요 ♡ 올드팝송 ♬ 향긋한 커피 한 잔과 함께 ♬",
-      "streamUrl": "http://live03.inlive.co.kr:11400"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "°OH플트己l°//#파일#힐링#라이브#수다#잠수#짬뽕//",
-      "streamUrl": "http://live03.inlive.co.kr:13680"
+      "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤",
+      "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
@@ -186,39 +106,9 @@
       "streamUrl": "http://live09.inlive.co.kr:10040"
     },
     {
-      "tag": "📻 추억음악",
-      "name": "INLIVECAST",
-      "streamUrl": "http://live10.inlive.co.kr:14170"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "행복으로 가는 아름다운 여정.. ",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
-    },
-    {
       "tag": "🎹 연주",
       "name": "마음으로 듣는 힐링음악",
       "streamUrl": "http://live03.inlive.co.kr:12730"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Et Cetera",
-      "streamUrl": "http://live07.inlive.co.kr:17240"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "사람들 사이에 섬이 있다",
-      "streamUrl": "http://live06.inlive.co.kr:10490"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "짬뽕",
-      "streamUrl": "http://live03.inlive.co.kr:18560"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "# New Age &amp; Classic ♪",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
@@ -234,21 +124,6 @@
       "tag": "락&메탈",
       "name": "그냥듣자 ~",
       "streamUrl": "http://live09.inlive.co.kr:10830"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "▲ CORE METAL",
-      "streamUrl": "http://live03.inlive.co.kr:10330"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "러~~~~쉬",
-      "streamUrl": "http://live06.inlive.co.kr:11230"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "메탈로의 초대",
-      "streamUrl": "http://live03.inlive.co.kr:15760"
     },
     {
       "tag": "락&메탈",
