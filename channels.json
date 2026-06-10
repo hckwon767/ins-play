@@ -2,18 +2,23 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《마음으로듣는가요》연이",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "추억의7080팝 발라드",
       "streamUrl": "http://live03.inlive.co.kr:14450"
     },
     {
       "tag": "🎶 가요",
-      "name": "━╋º▶시 린 발라드 파일방송◀º╋━♡",
-      "streamUrl": "http://live10.inlive.co.kr:10620"
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "요즘 몸도 마음도 많이 힘들다",
+      "streamUrl": "http://live07.inlive.co.kr:12820"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "《마음으로듣는가요》연이",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -62,11 +67,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "나에게 들려주는 노래",
-      "streamUrl": "http://live03.inlive.co.kr:16050"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "°OH플트己l°//#파일#힐링#라이브#수다#잠수#짬뽕//",
       "streamUrl": "http://live03.inlive.co.kr:13680"
     },
@@ -107,6 +107,21 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "『 뉴에이지 &amp; 클래식 』",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "커피 그리고",
+      "streamUrl": "http://live07.inlive.co.kr:11810"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "같이, 갈래?? 볕 주으러...",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
     },
@@ -114,11 +129,6 @@
       "tag": "🎹 연주",
       "name": "ㅎㅇ",
       "streamUrl": "http://live09.inlive.co.kr:15270"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "그냥듣자 ~",
-      "streamUrl": "http://live09.inlive.co.kr:10830"
     },
     {
       "tag": "락&메탈",
@@ -134,11 +144,6 @@
       "tag": "락&메탈",
       "name": "nonstopMUSIC2 컨트리/락",
       "streamUrl": "http://live06.inlive.co.kr:12030"
-    },
-    {
-      "tag": "재즈",
-      "name": "hours that never end",
-      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
