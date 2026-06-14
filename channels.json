@@ -2,6 +2,21 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "추억의7080팝 발라드",
+      "streamUrl": "http://live03.inlive.co.kr:14450"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "편한 대로  ˚.ılı. 음악듣기 。",
+      "streamUrl": "http://live10.inlive.co.kr:11180"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "《마음으로듣는가요》연이",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
@@ -17,13 +32,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "오늘도 행복하세요~!",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
+      "name": "어느날갑자기추억凹ξzr⊆",
+      "streamUrl": "http://live06.inlive.co.kr:10660"
     },
     {
       "tag": "🎶 가요",
-      "name": "어느날갑자기추억凹ξzr⊆",
-      "streamUrl": "http://live06.inlive.co.kr:10660"
+      "name": "오늘도 행복하세요~!",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -57,13 +72,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "♬7080&amp;대학&amp;강변가요제,,,,,러쉬 .",
-      "streamUrl": "http://live07.inlive.co.kr:15800"
+      "name": "♤ 음악에 기대 쉼 ~~~ ♪",
+      "streamUrl": "http://live09.inlive.co.kr:11040"
     },
     {
       "tag": "📻 추억음악",
-      "name": "쟌느 &amp; 팜므 방송",
-      "streamUrl": "http://live10.inlive.co.kr:11490"
+      "name": "♬7080&amp;대학&amp;강변가요제,,,,,러쉬 .",
+      "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
@@ -92,13 +107,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "영상&amp; (뮤직비디오}&amp;음악파일",
-      "streamUrl": "http://live07.inlive.co.kr:13490"
+      "name": "나 예 휴 ",
+      "streamUrl": "http://live09.inlive.co.kr:10620"
     },
     {
       "tag": "🎹 연주",
-      "name": "˚ 뉴에이지 &amp; 클래식 ",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": "영상&amp; (뮤직비디오}&amp;음악파일",
+      "streamUrl": "http://live07.inlive.co.kr:13490"
     },
     {
       "tag": "🎹 연주",
