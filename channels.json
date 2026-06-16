@@ -2,13 +2,28 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《 마성의 가요 》 흑장미",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "━╋º▶시 린 발라드 파일방송◀º╋━♡ 진행 :산사하늘",
+      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
-      "name": "━╋º▶시 린 발라드 파일방송◀º╋━♡ 진행 :산사하늘",
-      "streamUrl": "http://live10.inlive.co.kr:10620"
+      "name": "커피 한잔과 당신",
+      "streamUrl": "http://live03.inlive.co.kr:10670"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "뮤직 힐링",
+      "streamUrl": "http://live09.inlive.co.kr:10380"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "《 마성의 가요 》 흑장미",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -52,6 +67,11 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "☞ 현추뮤직 댄스 종합 방송국 ☜",
+      "streamUrl": "http://live10.inlive.co.kr:12730"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ",
       "streamUrl": "http://live07.inlive.co.kr:14990"
     },
@@ -62,8 +82,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "힐링",
-      "streamUrl": "http://live03.inlive.co.kr:20490"
+      "name": "그냥, 그렇게, 잠시.,",
+      "streamUrl": "http://live07.inlive.co.kr:11510"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "추억찾기",
+      "streamUrl": "http://live06.inlive.co.kr:10960"
     },
     {
       "tag": "📻 추억음악",
@@ -112,8 +137,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "커피 그리고",
-      "streamUrl": "http://live07.inlive.co.kr:11810"
+      "name": "˚ 뉴에이지 &amp; 클래식 ",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
@@ -127,13 +152,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "나 예 휴 ",
-      "streamUrl": "http://live09.inlive.co.kr:10620"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": "커피 그리고",
+      "streamUrl": "http://live07.inlive.co.kr:11810"
     },
     {
       "tag": "🎹 연주",
