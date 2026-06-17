@@ -2,6 +2,21 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "추억의7080팝 발라드",
+      "streamUrl": "http://live03.inlive.co.kr:14450"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "장시간 태스트( rush)  송출이안되거나 방이 없어질수도있읍니다",
+      "streamUrl": "http://live09.inlive.co.kr:14550"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "《 가요ノ Holic 》스타비",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
@@ -9,11 +24,6 @@
       "tag": "🎶 가요",
       "name": "가\\요\\종\\합\\트\\로\\트\\",
       "streamUrl": "http://live03.inlive.co.kr:11380"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "추억의7080팝 발라드",
-      "streamUrl": "http://live03.inlive.co.kr:14450"
     },
     {
       "tag": "🎶 가요",
@@ -49,6 +59,16 @@
       "tag": "🎶 가요",
       "name": "가요 리믹스  클럽유로 댄스 전문방송",
       "streamUrl": "http://live03.inlive.co.kr:10250"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "♬ 우리들의 편안한휴식 공간♬",
+      "streamUrl": "http://live09.inlive.co.kr:14230"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "음악속에서",
+      "streamUrl": "http://live03.inlive.co.kr:10170"
     },
     {
       "tag": "🎤 노래",
@@ -99,6 +119,16 @@
       "tag": "🎹 연주",
       "name": "행복으로 가는 아름다운 여정.. ",
       "streamUrl": "http://live09.inlive.co.kr:18070"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "같이, 갈래?? 볕 주으러...",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "커피 그리고",
+      "streamUrl": "http://live07.inlive.co.kr:11810"
     },
     {
       "tag": "🎹 연주",
