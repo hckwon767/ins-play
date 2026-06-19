@@ -2,6 +2,11 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "고운 음악이 흐르는 곳...",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
       "streamUrl": "http://live03.inlive.co.kr:23500"
     },
@@ -14,11 +19,6 @@
       "tag": "🎶 가요",
       "name": "별빛이 흐르는",
       "streamUrl": "http://live10.inlive.co.kr:11960"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "~무지개 음악공간~",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -57,6 +57,11 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "♬ 우리들의 편안한휴식 공간♬",
+      "streamUrl": "http://live09.inlive.co.kr:14230"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "음악속에서",
       "streamUrl": "http://live03.inlive.co.kr:10170"
     },
@@ -77,6 +82,11 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "힐링",
+      "streamUrl": "http://live03.inlive.co.kr:20490"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "ost",
       "streamUrl": "http://live03.inlive.co.kr:10720"
     },
@@ -84,11 +94,6 @@
       "tag": "📻 추억음악",
       "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
       "streamUrl": "http://live07.inlive.co.kr:22660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "♬7080&amp;대학&amp;강변..부족함  이해,,,랜덤 러쉬",
-      "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
@@ -127,6 +132,16 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "행복으로 가는 아름다운 여정.. ",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "사색에,잠기며........",
+      "streamUrl": "http://live07.inlive.co.kr:11490"
+    },
+    {
+      "tag": "🎹 연주",
       "name": " O  Y",
       "streamUrl": "http://live03.inlive.co.kr:10590"
     },
@@ -134,11 +149,6 @@
       "tag": "🎹 연주",
       "name": "뮤직테러",
       "streamUrl": "http://live06.inlive.co.kr:12630"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
