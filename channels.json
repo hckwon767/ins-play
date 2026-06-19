@@ -2,13 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《 마성의 가요 》 흑장미",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
-      "name": "저랑 함께 해요",
-      "streamUrl": "http://live07.inlive.co.kr:11090"
+      "name": "《 마성의 가요 》 흑장미",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -57,16 +57,6 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "케이 타임~",
-      "streamUrl": "http://live03.inlive.co.kr:12840"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "teest",
-      "streamUrl": "http://live09.inlive.co.kr:12340"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "음악속에서",
       "streamUrl": "http://live03.inlive.co.kr:10170"
     },
@@ -82,13 +72,18 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
+      "name": "♤ 음악에 기대 쉼 ~~~ ♪",
+      "streamUrl": "http://live09.inlive.co.kr:11040"
     },
     {
       "tag": "📻 추억음악",
       "name": "ost",
       "streamUrl": "http://live03.inlive.co.kr:10720"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -137,11 +132,6 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Łσυё is.. ",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "뮤직테러",
       "streamUrl": "http://live06.inlive.co.kr:12630"
     },
@@ -174,6 +164,11 @@
       "tag": "락&메탈",
       "name": "ARTNeo &#039;N metallic progressive ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
+    },
+    {
+      "tag": "재즈",
+      "name": "hours that never end",
+      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
