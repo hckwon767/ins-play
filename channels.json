@@ -2,8 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "오늘도 행복하세요~!",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
+      "name": "별빛이 흐르는",
+      "streamUrl": "http://live10.inlive.co.kr:11960"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
@@ -12,13 +17,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "별빛이 흐르는",
-      "streamUrl": "http://live10.inlive.co.kr:11960"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "저랑 함께 해요",
-      "streamUrl": "http://live07.inlive.co.kr:11090"
+      "name": "오늘도 행복하세요~!",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -59,11 +59,6 @@
       "tag": "🎶 가요",
       "name": "잠시머물며",
       "streamUrl": "http://live07.inlive.co.kr:14120"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "teest",
-      "streamUrl": "http://live09.inlive.co.kr:12340"
     },
     {
       "tag": "🎤 노래",
@@ -129,11 +124,6 @@
       "tag": "📻 추억음악",
       "name": "올드팝 ↖ 7080↗가요의 선율↖추억속으로~↗음악만 나갑니다",
       "streamUrl": "http://live09.inlive.co.kr:10040"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "행복으로 가는 아름다운 여정.. ",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
