@@ -12,13 +12,28 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "♬ 가슴시린 가요 발라드 ♬ 추억의 음악 편지 ♬ 향긋한 커피 한 잔과 함께 ♬",
+      "streamUrl": "http://live03.inlive.co.kr:11400"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "바로세탁소",
+      "streamUrl": "http://live03.inlive.co.kr:10550"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "비오는 날의 수채화 (발라드)",
       "streamUrl": "http://live07.inlive.co.kr:10680"
     },
     {
       "tag": "🎶 가요",
-      "name": "♬ 가슴시린 가요 발라드 ♬ 추억의 음악 편지 ♬ 향긋한 커피 한 잔과 함께 ♬",
-      "streamUrl": "http://live03.inlive.co.kr:11400"
+      "name": "도깨비음악방송",
+      "streamUrl": "http://live06.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "헐크",
+      "streamUrl": "http://live10.inlive.co.kr:10360"
     },
     {
       "tag": "🎶 가요",
@@ -29,11 +44,6 @@
       "tag": "🎶 가요",
       "name": "《 마성의 가요 》 흑장미",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "별빛이 흐르는",
-      "streamUrl": "http://live10.inlive.co.kr:11960"
     },
     {
       "tag": "🎶 가요",
@@ -61,19 +71,9 @@
       "streamUrl": "http://live03.inlive.co.kr:14450"
     },
     {
-      "tag": "🎶 가요",
-      "name": "커피한잔과 함께 떠나는 추억의 음악여행",
-      "streamUrl": "http://live03.inlive.co.kr:15230"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "잠시머물며",
-      "streamUrl": "http://live07.inlive.co.kr:14120"
-    },
-    {
       "tag": "🎤 노래",
-      "name": "♬ 우리들의 편안한휴식 공간♬",
-      "streamUrl": "http://live09.inlive.co.kr:14230"
+      "name": "하늘별작은오솔길라이브",
+      "streamUrl": "http://live09.inlive.co.kr:10930"
     },
     {
       "tag": "🎤 노래",
@@ -92,13 +92,18 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "찐한 커피와 찐한 음악으로 ..",
+      "streamUrl": "http://live03.inlive.co.kr:13680"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "♬7080&amp;대학&amp;강변가요제,,,랜덤 러쉬",
       "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
-      "name": "24시 명품",
-      "streamUrl": "http://live07.inlive.co.kr:14390"
+      "name": "7080, 올드팝, 경음악,",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
     },
     {
       "tag": "📻 추억음악",
@@ -107,13 +112,28 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "24시 명품",
+      "streamUrl": "http://live07.inlive.co.kr:14390"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "그냥, 그렇게, 잠시.,",
       "streamUrl": "http://live07.inlive.co.kr:11510"
     },
     {
       "tag": "📻 추억음악",
-      "name": "7080, 올드팝, 경음악,",
-      "streamUrl": "http://live07.inlive.co.kr:18430"
+      "name": "Rain &amp; Coffee ~~",
+      "streamUrl": "http://live09.inlive.co.kr:13650"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "옛가요",
+      "streamUrl": "http://live03.inlive.co.kr:15670"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "추억찾기",
+      "streamUrl": "http://live06.inlive.co.kr:10960"
     },
     {
       "tag": "📻 추억음악",
@@ -124,11 +144,6 @@
       "tag": "📻 추억음악",
       "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
       "streamUrl": "http://live07.inlive.co.kr:22660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "찐한 커피와 찐한 음악으로 ..",
-      "streamUrl": "http://live03.inlive.co.kr:13680"
     },
     {
       "tag": "📻 추억음악",
@@ -147,8 +162,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "올드팝 ↖ 7080↗가요의 선율↖추억속으로~↗음악만 나갑니다",
-      "streamUrl": "http://live09.inlive.co.kr:10040"
+      "name": "커피한잔과 함께 떠나는 추억의 음악여행",
+      "streamUrl": "http://live03.inlive.co.kr:15230"
     },
     {
       "tag": "🎹 연주",
@@ -157,8 +172,18 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "사색에,잠기며........",
-      "streamUrl": "http://live07.inlive.co.kr:11490"
+      "name": "나만의 음악세계 .. ",
+      "streamUrl": "http://live09.inlive.co.kr:10250"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Musik Liebe",
+      "streamUrl": "http://live07.inlive.co.kr:12670"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
+      "streamUrl": "http://live03.inlive.co.kr:11690"
     },
     {
       "tag": "🎹 연주",
@@ -169,6 +194,16 @@
       "tag": "🎹 연주",
       "name": "Neuti25",
       "streamUrl": "http://live09.inlive.co.kr:15550"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "새벽바다",
+      "streamUrl": "http://live10.inlive.co.kr:15590"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "사색에,잠기며........",
+      "streamUrl": "http://live07.inlive.co.kr:11490"
     },
     {
       "tag": "🎹 연주",
