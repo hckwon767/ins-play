@@ -2,6 +2,21 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "《마음으로듣는가요》연이",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "그날이후™ 와 함께하는 방송",
+      "streamUrl": "http://live10.inlive.co.kr:11720"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "저랑 함께 해요",
+      "streamUrl": "http://live07.inlive.co.kr:11090"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "오늘도 행복하세요~!",
       "streamUrl": "http://live10.inlive.co.kr:16520"
     },
@@ -9,26 +24,6 @@
       "tag": "🎶 가요",
       "name": "할일하며 듣는..",
       "streamUrl": "http://live10.inlive.co.kr:12180"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "《마음으로듣는가요》연이",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "음악만 나가요",
-      "streamUrl": "http://live07.inlive.co.kr:11300"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
-      "streamUrl": "http://live03.inlive.co.kr:23500"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "별빛이 흐르는",
-      "streamUrl": "http://live10.inlive.co.kr:11960"
     },
     {
       "tag": "🎶 가요",
@@ -77,18 +72,8 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "케빈",
-      "streamUrl": "http://live10.inlive.co.kr:11180"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "J방송(라이부 쬐금)",
       "streamUrl": "http://live06.inlive.co.kr:11010"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "혼자 놀자",
-      "streamUrl": "http://live03.inlive.co.kr:10770"
     },
     {
       "tag": "🎤 노래",
@@ -104,11 +89,6 @@
       "tag": "🎤 노래",
       "name": "한키의팝스&amp;가요라이브~~~",
       "streamUrl": "http://live03.inlive.co.kr:12620"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "☆그리운 우리들의 추억이 있는 곳☆ &quot;추억속으로 7080o&quot;",
-      "streamUrl": "http://pb2.inlive.co.kr:10130"
     },
     {
       "tag": "📻 추억음악",
@@ -152,13 +132,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "행복으로 가는 아름다운 여정.. ",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "짬뽕",
-      "streamUrl": "http://live03.inlive.co.kr:18560"
+      "name": " O  Y",
+      "streamUrl": "http://live03.inlive.co.kr:10590"
     },
     {
       "tag": "🎹 연주",
@@ -197,13 +172,13 @@
     },
     {
       "tag": "재즈",
-      "name": "Jazz  Vocal",
-      "streamUrl": "http://live06.inlive.co.kr:11990"
+      "name": "hours that never end",
+      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
-      "name": "hours that never end",
-      "streamUrl": "http://live06.inlive.co.kr:12650"
+      "name": "Jazz  Vocal",
+      "streamUrl": "http://live06.inlive.co.kr:11990"
     },
     {
       "tag": "재즈",
