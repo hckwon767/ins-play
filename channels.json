@@ -2,8 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "《 가요ノ Holic 》스타비",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "음악만 나가요",
+      "streamUrl": "http://live07.inlive.co.kr:11300"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "잠수 음악^^",
+      "streamUrl": "http://live10.inlive.co.kr:10410"
     },
     {
       "tag": "🎶 가요",
@@ -12,13 +17,18 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "해피데이, 나이스데이, 그리고  러브데이  ~~~",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
       "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
-      "name": "~무지개 음악공간~",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
+      "name": "《 가요ノ Holic 》스타비",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -59,6 +69,11 @@
       "tag": "🎶 가요",
       "name": "잠시머물며",
       "streamUrl": "http://live07.inlive.co.kr:14120"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "☞ 현추뮤직 댄스 종합 방송국 ☜",
+      "streamUrl": "http://live10.inlive.co.kr:12730"
     },
     {
       "tag": "🎤 노래",
@@ -132,18 +147,18 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "행복으로 가는 아름다운 여정.. ",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "길 위에 그림자",
       "streamUrl": "http://live07.inlive.co.kr:11810"
     },
     {
       "tag": "🎹 연주",
-      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
-      "streamUrl": "http://live03.inlive.co.kr:11690"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": "같이, 갈래?? 볕 주으러...",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
     },
     {
       "tag": "🎹 연주",
