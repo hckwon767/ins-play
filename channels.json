@@ -7,23 +7,23 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "《 가요 ノ 뮤직N 》 키드",
+      "name": "《 가요ノ Holic 》스타비",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
-      "name": "사랑과 우정사이",
-      "streamUrl": "http://live10.inlive.co.kr:11690"
+      "name": "별빛이 흐르는",
+      "streamUrl": "http://live10.inlive.co.kr:11960"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "저랑 함께 해요",
+      "streamUrl": "http://live07.inlive.co.kr:11090"
     },
     {
       "tag": "🎶 가요",
       "name": "날쌘돌이 방송",
       "streamUrl": "http://live10.inlive.co.kr:12350"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "The Music",
-      "streamUrl": "http://live06.inlive.co.kr:10970"
     },
     {
       "tag": "🎶 가요",
@@ -62,28 +62,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "호테(러쉬)  &amp; 라이브아지트 방송",
-      "streamUrl": "http://live06.inlive.co.kr:10870"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": " 라이브 II Music",
-      "streamUrl": "http://live09.inlive.co.kr:12900"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "케빈",
+      "name": "˚.ılı. 듣기할까? 。",
       "streamUrl": "http://live10.inlive.co.kr:11180"
     },
     {
       "tag": "🎤 노래",
-      "name": "II수아II &amp; A joyful (즐거운) 음악여행",
-      "streamUrl": "http://live06.inlive.co.kr:11330"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "묵찍이",
-      "streamUrl": "http://live03.inlive.co.kr:11720"
+      "name": "호테(러쉬)  &amp; 라이브아지트 방송",
+      "streamUrl": "http://live06.inlive.co.kr:10870"
     },
     {
       "tag": "🎤 노래",
@@ -102,18 +87,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "행복해지려고 듣는 음악...ノ。",
-      "streamUrl": "http://live07.inlive.co.kr:12610"
+      "name": "이것저것",
+      "streamUrl": "http://live03.inlive.co.kr:10720"
     },
     {
       "tag": "📻 추억음악",
-      "name": "♬ 7080 가요 ♡ 올드팝송 ♬ 향긋한 커피 한 잔과 함께 ♬",
-      "streamUrl": "http://live03.inlive.co.kr:11400"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "별헤는밤",
-      "streamUrl": "http://live06.inlive.co.kr:10340"
+      "name": "아를르의 여인",
+      "streamUrl": "http://live10.inlive.co.kr:11490"
     },
     {
       "tag": "📻 추억음악",
@@ -122,23 +102,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "추억 힐링",
-      "streamUrl": "http://live03.inlive.co.kr:11780"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "7080, 올드팝, 경음악,",
-      "streamUrl": "http://live07.inlive.co.kr:18430"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤러쉬",
       "streamUrl": "http://live07.inlive.co.kr:15800"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "추억여행 ( OLD POP .. ETC)",
-      "streamUrl": "http://live09.inlive.co.kr:11060"
     },
     {
       "tag": "📻 추억음악",
@@ -177,13 +142,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "가고 오는 계절의 틈```",
-      "streamUrl": "http://live06.inlive.co.kr:13570"
+      "name": "┕〓Amigo Music Date〓┙",
+      "streamUrl": "http://pb3.inlive.co.kr:10040"
     },
     {
       "tag": "🎹 연주",
-      "name": "짬뽕",
-      "streamUrl": "http://live03.inlive.co.kr:18560"
+      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
+      "streamUrl": "http://live03.inlive.co.kr:11690"
     },
     {
       "tag": "🎹 연주",
@@ -222,11 +187,6 @@
     },
     {
       "tag": "락&메탈",
-      "name": "메탈로의 초대",
-      "streamUrl": "http://live03.inlive.co.kr:15760"
-    },
-    {
-      "tag": "락&메탈",
       "name": "nonstopMUSIC2 컨트리/락",
       "streamUrl": "http://live06.inlive.co.kr:12030"
     },
@@ -242,6 +202,16 @@
     },
     {
       "tag": "재즈",
+      "name": "쉿!",
+      "streamUrl": "http://live07.inlive.co.kr:15200"
+    },
+    {
+      "tag": "재즈",
+      "name": "Rush .... .",
+      "streamUrl": "http://live07.inlive.co.kr:14530"
+    },
+    {
+      "tag": "재즈",
       "name": "nevertheless",
       "streamUrl": "http://live07.inlive.co.kr:19250"
     },
@@ -249,11 +219,6 @@
       "tag": "재즈",
       "name": "Jazz  Vocal",
       "streamUrl": "http://live06.inlive.co.kr:11990"
-    },
-    {
-      "tag": "재즈",
-      "name": "쉿!",
-      "streamUrl": "http://live07.inlive.co.kr:15200"
     }
   ]
 }
