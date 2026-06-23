@@ -2,23 +2,23 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "~무지개 음악공간~",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "《 가요ノ Holic 》스타비",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
-      "name": "별빛이 흐르는",
-      "streamUrl": "http://live10.inlive.co.kr:11960"
+      "name": "JUST DO IT",
+      "streamUrl": "http://live06.inlive.co.kr:11320"
     },
     {
       "tag": "🎶 가요",
-      "name": "저랑 함께 해요",
-      "streamUrl": "http://live07.inlive.co.kr:11090"
+      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "~무지개 음악공간~",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -87,13 +87,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "이것저것",
-      "streamUrl": "http://live03.inlive.co.kr:10720"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "아를르의 여인",
-      "streamUrl": "http://live10.inlive.co.kr:11490"
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -109,11 +104,6 @@
       "tag": "📻 추억음악",
       "name": "24시 명품",
       "streamUrl": "http://live07.inlive.co.kr:14390"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -137,23 +127,18 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "행복으로 가는 아름다운 여정.. ",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "┕〓Amigo Music Date〓┙",
       "streamUrl": "http://pb3.inlive.co.kr:10040"
     },
     {
       "tag": "🎹 연주",
-      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
-      "streamUrl": "http://live03.inlive.co.kr:11690"
+      "name": "길 위에 그림자",
+      "streamUrl": "http://live07.inlive.co.kr:11810"
     },
     {
       "tag": "🎹 연주",
-      "name": "길 위에 그림자",
-      "streamUrl": "http://live07.inlive.co.kr:11810"
+      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
+      "streamUrl": "http://live03.inlive.co.kr:11690"
     },
     {
       "tag": "🎹 연주",
@@ -204,11 +189,6 @@
       "tag": "재즈",
       "name": "쉿!",
       "streamUrl": "http://live07.inlive.co.kr:15200"
-    },
-    {
-      "tag": "재즈",
-      "name": "Rush .... .",
-      "streamUrl": "http://live07.inlive.co.kr:14530"
     },
     {
       "tag": "재즈",
