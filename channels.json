@@ -2,6 +2,11 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "오늘도 행복하세요~!",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "잠수 음악^^",
       "streamUrl": "http://live10.inlive.co.kr:10410"
     },
@@ -19,11 +24,6 @@
       "tag": "🎶 가요",
       "name": ".....",
       "streamUrl": "http://live10.inlive.co.kr:12980"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "~무지개 음악공간~",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -77,6 +77,11 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "그냥 그렇게",
+      "streamUrl": "http://live06.inlive.co.kr:13170"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "음악속에서",
       "streamUrl": "http://live03.inlive.co.kr:10170"
     },
@@ -99,6 +104,11 @@
       "tag": "📻 추억음악",
       "name": "그냥, 그렇게, 잠시.,",
       "streamUrl": "http://live07.inlive.co.kr:11510"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "7080, 올드팝, 경음악,",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
     },
     {
       "tag": "📻 추억음악",
@@ -147,8 +157,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "사색에,잠기며........",
-      "streamUrl": "http://live07.inlive.co.kr:11490"
+      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
+      "streamUrl": "http://live03.inlive.co.kr:11690"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "New Age &amp; Piano Strings",
+      "streamUrl": "http://live09.inlive.co.kr:12730"
     },
     {
       "tag": "🎹 연주",
@@ -179,6 +194,11 @@
       "tag": "🎹 연주",
       "name": "이한장의명반",
       "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "해피데이, 나이스데이, 그리고  러브데이  ~~~",
+      "streamUrl": "http://live06.inlive.co.kr:11230"
     },
     {
       "tag": "락&메탈",
