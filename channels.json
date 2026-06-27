@@ -2,6 +2,11 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "잠수 음악^^",
+      "streamUrl": "http://live10.inlive.co.kr:10410"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "속터지게!!~~  음악만^^",
       "streamUrl": "http://live10.inlive.co.kr:11900"
     },
@@ -29,11 +34,6 @@
       "tag": "🎶 가요",
       "name": "CJ모집《 가요 Holic 》",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "━╋º▶시 린 발라드 파일방송◀º╋━♡ 진행 :산사하늘",
-      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
@@ -92,6 +92,16 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤러쉬",
+      "streamUrl": "http://live07.inlive.co.kr:15800"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "그냥, 그렇게, 잠시.,",
+      "streamUrl": "http://live07.inlive.co.kr:11510"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
       "streamUrl": "http://live07.inlive.co.kr:22660"
     },
@@ -99,11 +109,6 @@
       "tag": "📻 추억음악",
       "name": "Jung Ju Young Golden Pop",
       "streamUrl": "http://live03.inlive.co.kr:19700"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤러쉬",
-      "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
@@ -137,7 +142,7 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Łσυё is.. ",
+      "name": "행복으로 가는 아름다운 여정.. ",
       "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
