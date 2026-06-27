@@ -7,13 +7,23 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "잠수 음악^^",
-      "streamUrl": "http://live10.inlive.co.kr:10410"
+      "name": "CJ모집《 가요 Holic 》",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
-      "name": "속터지게!!~~  음악만^^",
-      "streamUrl": "http://live10.inlive.co.kr:11900"
+      "name": "진심 소통방 ....",
+      "streamUrl": "http://live06.inlive.co.kr:11740"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "음악 들을까?",
+      "streamUrl": "http://live06.inlive.co.kr:12530"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "잠수 음악^^",
+      "streamUrl": "http://live10.inlive.co.kr:10410"
     },
     {
       "tag": "🎶 가요",
@@ -29,11 +39,6 @@
       "tag": "🎶 가요",
       "name": "발라드",
       "streamUrl": "http://live07.inlive.co.kr:10680"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "CJ모집《 가요 Holic 》",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -66,19 +71,9 @@
       "streamUrl": "http://live07.inlive.co.kr:15630"
     },
     {
-      "tag": "🎶 가요",
-      "name": "INLIVECAST",
-      "streamUrl": "http://live10.inlive.co.kr:14170"
-    },
-    {
       "tag": "🎤 노래",
       "name": "그냥 그렇게",
       "streamUrl": "http://live06.inlive.co.kr:13170"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "아라가야 방송 (외출중)",
-      "streamUrl": "http://live06.inlive.co.kr:12320"
     },
     {
       "tag": "🎤 노래",
@@ -102,8 +97,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤러쉬",
-      "streamUrl": "http://live07.inlive.co.kr:15800"
+      "name": "별빛이 너에게 물든다◈트롯,가요",
+      "streamUrl": "http://live07.inlive.co.kr:11780"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "그대만이 &amp; 행복합시당 방송",
+      "streamUrl": "http://live09.inlive.co.kr:17630"
     },
     {
       "tag": "📻 추억음악",
@@ -117,13 +117,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "옛가요",
-      "streamUrl": "http://live03.inlive.co.kr:15670"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "60~70년대. 커피 한잔의 여유",
-      "streamUrl": "http://live09.inlive.co.kr:10270"
+      "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤러쉬",
+      "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
@@ -162,6 +157,11 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "INLIVECAST",
+      "streamUrl": "http://live10.inlive.co.kr:14170"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "올드팝 ↖ 7080↗가요의 선율↖추억속으로~↗음악만 나갑니다",
       "streamUrl": "http://live09.inlive.co.kr:10040"
     },
@@ -182,12 +182,7 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "New Age &amp; Piano Strings",
-      "streamUrl": "http://live09.inlive.co.kr:12730"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Europe Jazz &#039;N Trio ..",
+      "name": "Sonate &#039;Europe Jazz &#039;N Trio ..",
       "streamUrl": "http://live06.inlive.co.kr:10380"
     },
     {
@@ -217,7 +212,7 @@
     },
     {
       "tag": "락&메탈",
-      "name": "ARTNeo &#039;N metallic progressive ..",
+      "name": "folk&#039;meldeath&#039;power&#039;Goth ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
     },
     {
