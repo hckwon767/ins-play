@@ -71,14 +71,19 @@
       "streamUrl": "http://live10.inlive.co.kr:14170"
     },
     {
-      "tag": "🎶 가요",
-      "name": "가요 리믹스  클럽유로 댄스 전문방송",
-      "streamUrl": "http://live03.inlive.co.kr:10250"
-    },
-    {
       "tag": "🎤 노래",
       "name": "그냥 그렇게",
       "streamUrl": "http://live06.inlive.co.kr:13170"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "아라가야 방송 (외출중)",
+      "streamUrl": "http://live06.inlive.co.kr:12320"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "☞ 현추뮤직 댄스 종합 방송국 ☜",
+      "streamUrl": "http://live10.inlive.co.kr:12730"
     },
     {
       "tag": "🎤 노래",
@@ -102,13 +107,23 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "7080, 올드팝, 경음악,",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "그냥, 그렇게, 잠시.,",
       "streamUrl": "http://live07.inlive.co.kr:11510"
     },
     {
       "tag": "📻 추억음악",
-      "name": "7080, 올드팝, 경음악,",
-      "streamUrl": "http://live07.inlive.co.kr:18430"
+      "name": "옛가요",
+      "streamUrl": "http://live03.inlive.co.kr:15670"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "60~70년대. 커피 한잔의 여유",
+      "streamUrl": "http://live09.inlive.co.kr:10270"
     },
     {
       "tag": "📻 추억음악",
@@ -162,13 +177,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "New Age &amp; Piano Strings",
-      "streamUrl": "http://live09.inlive.co.kr:12730"
+      "name": "『 뉴에이지 &amp; 클래식 』",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": "New Age &amp; Piano Strings",
+      "streamUrl": "http://live09.inlive.co.kr:12730"
     },
     {
       "tag": "🎹 연주",
