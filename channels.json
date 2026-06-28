@@ -2,18 +2,8 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "~무지개 음악공간~",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "《마음으로듣는가요》연이",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "발라드O인디O팝O트로트X KKUMUL밤10:30분~11:00시작",
-      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
@@ -22,8 +12,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "그곳에가면ll",
-      "streamUrl": "http://live03.inlive.co.kr:12160"
+      "name": "~무지개 음악공간~",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -67,18 +57,8 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "┗▷▶『eU 』와 함께 설레Oi는 음ㅇζ속으로。。。♬♪",
-      "streamUrl": "http://live07.inlive.co.kr:14020"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "호테(러쉬) &amp; 라이브아지트 방송",
       "streamUrl": "http://live06.inlive.co.kr:10870"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "동아리방송",
-      "streamUrl": "http://live10.inlive.co.kr:10400"
     },
     {
       "tag": "🎤 노래",
@@ -97,23 +77,18 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "☆그리운 우리들의 추억이 있는 곳☆ &quot;추억속으로 7080o&quot;",
-      "streamUrl": "http://pb2.inlive.co.kr:10130"
+      "name": "Velvet Moon",
+      "streamUrl": "http://live09.inlive.co.kr:12000"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "편한노래들",
+      "streamUrl": "http://live03.inlive.co.kr:10720"
     },
     {
       "tag": "📻 추억음악",
       "name": "음악만ılı사랑과 추억을 담은 힐링멜로디ılı",
       "streamUrl": "http://live07.inlive.co.kr:22660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "별  헤는 밤",
-      "streamUrl": "http://live06.inlive.co.kr:10340"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Velvet Moon",
-      "streamUrl": "http://live09.inlive.co.kr:12000"
     },
     {
       "tag": "📻 추억음악",
@@ -162,28 +137,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "가고 오는 계절의 틈```",
-      "streamUrl": "http://live06.inlive.co.kr:13570"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "행복으로 가는 아름다운 여정.. ",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "마음으로 듣는 음악힐링",
-      "streamUrl": "http://live03.inlive.co.kr:12730"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "음악나무",
       "streamUrl": "http://live10.inlive.co.kr:10170"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "짬뽕",
-      "streamUrl": "http://live03.inlive.co.kr:18560"
     },
     {
       "tag": "🎹 연주",
@@ -229,11 +184,6 @@
       "tag": "락&메탈",
       "name": "nonstopMUSIC2 컨트리/락",
       "streamUrl": "http://live06.inlive.co.kr:12030"
-    },
-    {
-      "tag": "재즈",
-      "name": "hours that never end",
-      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
