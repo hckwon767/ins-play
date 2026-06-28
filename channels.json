@@ -77,6 +77,21 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤러쉬",
+      "streamUrl": "http://live07.inlive.co.kr:15800"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "음악만【ılı사랑과 추억을 담은 익숙한 멜로디 ılı】",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "테스트 테스트",
+      "streamUrl": "http://live03.inlive.co.kr:10050"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "Velvet Moon",
       "streamUrl": "http://live09.inlive.co.kr:12000"
     },
@@ -84,16 +99,6 @@
       "tag": "📻 추억음악",
       "name": "편한노래들",
       "streamUrl": "http://live03.inlive.co.kr:10720"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "음악만ılı사랑과 추억을 담은 힐링멜로디ılı",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "♬7080&amp;대학&amp;강변가요제 뮤직 ..,랜덤러쉬",
-      "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
@@ -134,11 +139,6 @@
       "tag": "📻 추억음악",
       "name": "올드팝 ↖ 7080↗가요의 선율↖추억속으로~↗음악만 나갑니다",
       "streamUrl": "http://live09.inlive.co.kr:10040"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "음악나무",
-      "streamUrl": "http://live10.inlive.co.kr:10170"
     },
     {
       "tag": "🎹 연주",
@@ -184,6 +184,11 @@
       "tag": "락&메탈",
       "name": "nonstopMUSIC2 컨트리/락",
       "streamUrl": "http://live06.inlive.co.kr:12030"
+    },
+    {
+      "tag": "재즈",
+      "name": "hours that never end",
+      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
