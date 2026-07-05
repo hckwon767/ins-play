@@ -52,11 +52,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "prog竊folk..",
-      "streamUrl": "http://live03.inlive.co.kr:11820"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "24",
       "streamUrl": "http://live07.inlive.co.kr:14390"
     },
@@ -84,11 +79,6 @@
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:13890"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
@@ -124,11 +114,6 @@
       "tag": "락&메탈",
       "name": "Classic, metallic &#039;N hard ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
-    },
-    {
-      "tag": "재즈",
-      "name": "hours that never end",
-      "streamUrl": "http://live06.inlive.co.kr:12650"
     }
   ]
 }
