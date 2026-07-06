@@ -8,6 +8,11 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
@@ -48,7 +53,42 @@
     {
       "tag": "🎤 노래",
       "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:14230"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live06.inlive.co.kr:10870"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:12730"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10170"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "With all the music in the world",
+      "streamUrl": "http://live06.inlive.co.kr:21250"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "洹몃",
+      "streamUrl": "http://live07.inlive.co.kr:11510"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:11040"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "24",
+      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
@@ -59,11 +99,6 @@
       "tag": "📻 추억음악",
       "name": "Jung Ju Young Golden Pop",
       "streamUrl": "http://live03.inlive.co.kr:19700"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "24",
-      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
@@ -87,13 +122,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "媛",
-      "streamUrl": "http://live09.inlive.co.kr:14700"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": "媛",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
     },
     {
       "tag": "🎹 연주",
@@ -104,11 +139,6 @@
       "tag": "🎹 연주",
       "name": "Europe Jazz &#039;N Trio ..",
       "streamUrl": "http://live06.inlive.co.kr:10380"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:12060"
     },
     {
       "tag": "락&메탈",
