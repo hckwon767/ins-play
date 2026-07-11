@@ -2,23 +2,18 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "怨",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "CJ紐⑥",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:20660"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:16350"
     },
     {
       "tag": "🎶 가요",
@@ -52,11 +47,6 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "諛⑹≪",
-      "streamUrl": "http://live03.inlive.co.kr:10190"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:12730"
     },
@@ -67,13 +57,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "With all the music in the world",
-      "streamUrl": "http://live06.inlive.co.kr:21250"
+      "name": "Inlive_Station",
+      "streamUrl": "http://pb2.inlive.co.kr:10130"
     },
     {
       "tag": "📻 추억음악",
-      "name": "7080 ",
-      "streamUrl": "http://live10.inlive.co.kr:12960"
+      "name": "Old Pop&#039;s ",
+      "streamUrl": "http://live06.inlive.co.kr:11640"
     },
     {
       "tag": "📻 추억음악",
