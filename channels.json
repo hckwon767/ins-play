@@ -2,8 +2,23 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "而ㅽ",
+      "streamUrl": "http://live03.inlive.co.kr:10670"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "諛濡",
+      "streamUrl": "http://live03.inlive.co.kr:10550"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:12160"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:19280"
     },
     {
       "tag": "🎶 가요",
@@ -57,13 +72,18 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "24",
-      "streamUrl": "http://live07.inlive.co.kr:14390"
+      "name": "With all the music in the world",
+      "streamUrl": "http://live06.inlive.co.kr:21250"
     },
     {
       "tag": "📻 추억음악",
       "name": "洹몃",
       "streamUrl": "http://live07.inlive.co.kr:11510"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "24",
+      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
