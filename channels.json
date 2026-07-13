@@ -38,6 +38,11 @@
     {
       "tag": "🎤 노래",
       "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:12730"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:11180"
     },
     {
@@ -97,7 +102,7 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
+      "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
