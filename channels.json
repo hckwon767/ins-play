@@ -52,6 +52,11 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "&quot;",
+      "streamUrl": "http://pb1.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10170"
     },
@@ -67,13 +72,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "臾듭吏 諛",
-      "streamUrl": "http://live10.inlive.co.kr:12960"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "異",
-      "streamUrl": "http://live03.inlive.co.kr:12900"
+      "name": "Euro Disco  &amp; 醫",
+      "streamUrl": "http://live10.inlive.co.kr:11530"
     },
     {
       "tag": "📻 추억음악",
@@ -106,24 +106,29 @@
       "streamUrl": "http://live03.inlive.co.kr:12190"
     },
     {
-      "tag": "🎹 연주",
+      "tag": "📻 추억음악",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
+      "streamUrl": "http://live09.inlive.co.kr:10040"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "**異",
+      "streamUrl": "http://live06.inlive.co.kr:11690"
     },
     {
       "tag": "🎹 연주",
-      "name": "Rodongyo",
-      "streamUrl": "http://live06.inlive.co.kr:11300"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
+      "name": "Classic, NewAge &amp; Vocal",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": "媛",
-      "streamUrl": "http://live09.inlive.co.kr:14700"
+      "name": "Romantic Jazz 蹂댁뺄&amp;",
+      "streamUrl": "http://live07.inlive.co.kr:21990"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
