@@ -2,7 +2,7 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "CJ紐⑥",
+      "name": "Inlive_Station",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
@@ -18,12 +18,12 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:10550"
+      "streamUrl": "http://live03.inlive.co.kr:11400"
     },
     {
       "tag": "🎶 가요",
-      "name": "媛",
-      "streamUrl": "http://live03.inlive.co.kr:11890"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:12460"
     },
     {
       "tag": "🎶 가요",
@@ -67,6 +67,11 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "諛깆“",
+      "streamUrl": "http://live07.inlive.co.kr:14510"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10170"
     },
@@ -74,6 +79,11 @@
       "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:12730"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "異",
+      "streamUrl": "http://live10.inlive.co.kr:13320"
     },
     {
       "tag": "📻 추억음악",
@@ -123,17 +133,22 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:16760"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:18070"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:10370"
     },
     {
       "tag": "🎹 연주",
       "name": "Classic, NewAge &amp; Vocal",
       "streamUrl": "http://live10.inlive.co.kr:10280"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:16760"
     },
     {
       "tag": "🎹 연주",
