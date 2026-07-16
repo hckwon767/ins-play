@@ -2,7 +2,7 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
+      "name": "~臾댁",
       "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
@@ -12,13 +12,18 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:11400"
+      "name": "諛",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
     },
     {
       "tag": "🎶 가요",
-      "name": "@@ ",
-      "streamUrl": "http://live09.inlive.co.kr:13470"
+      "name": "洹몃곕",
+      "streamUrl": "http://live03.inlive.co.kr:14870"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
@@ -49,16 +54,6 @@
       "tag": "🎶 가요",
       "name": "INLIVECAST",
       "streamUrl": "http://live10.inlive.co.kr:14170"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "媛",
-      "streamUrl": "http://live07.inlive.co.kr:11800"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:12900"
     },
     {
       "tag": "🎤 노래",
@@ -103,7 +98,7 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:16760"
+      "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
@@ -127,13 +122,8 @@
     },
     {
       "tag": "락&메탈",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:10330"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "Rock.metal.BluesRock",
-      "streamUrl": "http://live03.inlive.co.kr:10350"
+      "name": "洹몃λｌ ~",
+      "streamUrl": "http://live09.inlive.co.kr:10830"
     },
     {
       "tag": "락&메탈",
