@@ -2,8 +2,23 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "異",
       "streamUrl": "http://live03.inlive.co.kr:14450"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:20660"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "洹몃곕",
+      "streamUrl": "http://live03.inlive.co.kr:14870"
     },
     {
       "tag": "🎶 가요",
@@ -14,11 +29,6 @@
       "tag": "🎶 가요",
       "name": "CJ紐⑥",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -92,7 +102,7 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
+      "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
