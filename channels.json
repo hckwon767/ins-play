@@ -2,7 +2,7 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "CJ紐⑥",
+      "name": "Inlive_Station",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
@@ -13,12 +13,12 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:10550"
+      "streamUrl": "http://live07.inlive.co.kr:12160"
     },
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:12160"
+      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
@@ -47,13 +47,8 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "&quot;",
-      "streamUrl": "http://pb1.inlive.co.kr:10070"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:10870"
+      "name": "媛",
+      "streamUrl": "http://live07.inlive.co.kr:11800"
     },
     {
       "tag": "🎤 노래",
@@ -91,11 +86,6 @@
       "streamUrl": "http://live09.inlive.co.kr:10040"
     },
     {
-      "tag": "📻 추억음악",
-      "name": "**異",
-      "streamUrl": "http://live06.inlive.co.kr:11690"
-    },
-    {
       "tag": "🎹 연주",
       "name": "Romantic Jazz 蹂댁뺄&amp;",
       "streamUrl": "http://live07.inlive.co.kr:21990"
@@ -122,8 +112,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "concerto &#039;N symphony ..",
+      "name": "Europe Jazz &#039;N Trio ..",
       "streamUrl": "http://live06.inlive.co.kr:10380"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "李곕",
+      "streamUrl": "http://live09.inlive.co.kr:10690"
     },
     {
       "tag": "락&메탈",
@@ -137,7 +132,7 @@
     },
     {
       "tag": "락&메탈",
-      "name": "Post &#039;N neo folk,math ..",
+      "name": "ART Rock and ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
     },
     {
