@@ -57,8 +57,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "Inlive_Station",
+      "name": "&quot;",
       "streamUrl": "http://pb1.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:14990"
     },
     {
       "tag": "🎤 노래",
@@ -69,21 +74,6 @@
       "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10170"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://pb3.inlive.co.kr:10040"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://pb3.inlive.co.kr:10120"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:13440"
     },
     {
       "tag": "📻 추억음악",
@@ -122,8 +112,13 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "Romantic Jazz 蹂댁뺄&amp;",
+      "streamUrl": "http://live07.inlive.co.kr:21990"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
+      "streamUrl": "http://live07.inlive.co.kr:16760"
     },
     {
       "tag": "🎹 연주",
@@ -132,12 +127,12 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "媛",
-      "streamUrl": "http://live09.inlive.co.kr:14700"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic ARTe ..",
+      "name": "concerto &#039;N symphony ..",
       "streamUrl": "http://live06.inlive.co.kr:10380"
     },
     {
@@ -164,11 +159,6 @@
       "tag": "락&메탈",
       "name": "nonstopMUSIC2 而⑦몃━/",
       "streamUrl": "http://live06.inlive.co.kr:12030"
-    },
-    {
-      "tag": "재즈",
-      "name": "留",
-      "streamUrl": "http://live06.inlive.co.kr:10350"
     }
   ]
 }
