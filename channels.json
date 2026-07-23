@@ -33,6 +33,11 @@
     {
       "tag": "🎤 노래",
       "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:12730"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
       "streamUrl": "http://live06.inlive.co.kr:10870"
     },
     {
@@ -42,13 +47,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
+      "name": "24",
+      "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
-      "name": "24",
-      "streamUrl": "http://live07.inlive.co.kr:14390"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
