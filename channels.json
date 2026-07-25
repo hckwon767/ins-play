@@ -7,6 +7,21 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "諛",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:11090"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10620"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "Tears Song",
       "streamUrl": "http://live09.inlive.co.kr:12930"
     },
@@ -37,18 +52,28 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "媛",
-      "streamUrl": "http://live07.inlive.co.kr:11800"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "媛",
       "streamUrl": "http://live09.inlive.co.kr:12900"
     },
     {
       "tag": "🎤 노래",
       "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:10300"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "媛",
+      "streamUrl": "http://live07.inlive.co.kr:11800"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10170"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:12860"
     },
     {
       "tag": "📻 추억음악",
@@ -97,6 +122,11 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "classic  new age and so on",
+      "streamUrl": "http://live09.inlive.co.kr:14320"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "Classic, NewAge &amp; Vocal",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
@@ -119,16 +149,6 @@
       "tag": "락&메탈",
       "name": "Ex",
       "streamUrl": "http://live09.inlive.co.kr:13280"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:10330"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "Metal~",
-      "streamUrl": "http://live09.inlive.co.kr:12500"
     },
     {
       "tag": "락&메탈",
