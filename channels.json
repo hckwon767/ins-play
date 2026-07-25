@@ -2,23 +2,18 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "~臾댁",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "CJ紐⑥",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
-      "name": "(",
-      "streamUrl": "http://live06.inlive.co.kr:16350"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
-      "name": "媛",
-      "streamUrl": "http://live03.inlive.co.kr:11890"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
@@ -49,6 +44,16 @@
       "tag": "🎶 가요",
       "name": "洹몄",
       "streamUrl": "http://live07.inlive.co.kr:15630"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "&quot;",
+      "streamUrl": "http://pb1.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:10300"
     },
     {
       "tag": "🎤 노래",
@@ -117,6 +122,11 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live06.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "Europe Jazz &#039;N Trio ..",
       "streamUrl": "http://live06.inlive.co.kr:10380"
     },
@@ -137,7 +147,7 @@
     },
     {
       "tag": "락&메탈",
-      "name": "Trash&#039;black&#039;death&#039;doom &#039;N ..",
+      "name": "Classic, metallic &#039;N hard ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
     },
     {
