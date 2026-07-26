@@ -2,7 +2,7 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "~臾댁",
+      "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
@@ -13,7 +13,17 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:11870"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:10620"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:11130"
     },
     {
       "tag": "🎶 가요",
@@ -42,13 +52,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:11180"
+      "name": "&quot;",
+      "streamUrl": "http://pb1.inlive.co.kr:10070"
     },
     {
       "tag": "🎤 노래",
-      "name": "利嫄곗",
-      "streamUrl": "http://live06.inlive.co.kr:10280"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:11180"
     },
     {
       "tag": "🎤 노래",
@@ -59,6 +69,11 @@
       "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10170"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:15210"
     },
     {
       "tag": "📻 추억음악",
@@ -112,7 +127,7 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Sonate &#039;Europe Jazz &#039;N Trio ..",
+      "name": "Europe Jazz &#039;N Trio ..",
       "streamUrl": "http://live06.inlive.co.kr:10380"
     },
     {
@@ -127,18 +142,13 @@
     },
     {
       "tag": "락&메탈",
-      "name": "Metal~",
-      "streamUrl": "http://live09.inlive.co.kr:12500"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:13190"
     },
     {
       "tag": "락&메탈",
       "name": "CORE RADIO",
       "streamUrl": "http://live03.inlive.co.kr:10330"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "Rock.metal.BluesRock",
-      "streamUrl": "http://live03.inlive.co.kr:10350"
     },
     {
       "tag": "락&메탈",
