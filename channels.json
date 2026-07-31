@@ -7,6 +7,11 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:12480"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "Ballad Top 30",
       "streamUrl": "http://live03.inlive.co.kr:11380"
     },
@@ -63,6 +68,16 @@
     {
       "tag": "🎤 노래",
       "name": "Inlive_Station",
+      "streamUrl": "http://pb1.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "利嫄곗댁＜留",
+      "streamUrl": "http://live10.inlive.co.kr:10410"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
       "streamUrl": "http://live06.inlive.co.kr:10870"
     },
     {
@@ -77,8 +92,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:12880"
+      "name": "Golden Pop Best ",
+      "streamUrl": "http://live06.inlive.co.kr:11280"
     },
     {
       "tag": "📻 추억음악",
@@ -133,17 +148,17 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:12010"
     },
     {
       "tag": "🎹 연주",
       "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
       "streamUrl": "http://live03.inlive.co.kr:11690"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
