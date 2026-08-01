@@ -7,11 +7,6 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "CJ紐⑥",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
@@ -28,12 +23,17 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:13130"
+      "streamUrl": "http://live03.inlive.co.kr:11000"
     },
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:10620"
+      "streamUrl": "http://live10.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:12480"
     },
     {
       "tag": "🎶 가요",
@@ -44,6 +44,16 @@
       "tag": "🎶 가요",
       "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:14120"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:11240"
     },
     {
       "tag": "🎶 가요",
@@ -71,11 +81,6 @@
       "streamUrl": "http://live07.inlive.co.kr:15630"
     },
     {
-      "tag": "🎶 가요",
-      "name": "INLIVECAST",
-      "streamUrl": "http://live10.inlive.co.kr:14170"
-    },
-    {
       "tag": "🎤 노래",
       "name": "媛",
       "streamUrl": "http://live07.inlive.co.kr:11800"
@@ -92,18 +97,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "留",
-      "streamUrl": "http://live09.inlive.co.kr:13600"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:10300"
     },
     {
       "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:14230"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:12730"
+      "name": "媛",
+      "streamUrl": "http://live09.inlive.co.kr:10770"
     },
     {
       "tag": "🎤 노래",
@@ -112,13 +112,28 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Melody",
-      "streamUrl": "http://live03.inlive.co.kr:10530"
+      "name": "rock n",
+      "streamUrl": "http://live10.inlive.co.kr:10900"
     },
     {
       "tag": "📻 추억음악",
-      "name": "rock n",
-      "streamUrl": "http://live10.inlive.co.kr:10900"
+      "name": "7080, ",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:11310"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "異",
+      "streamUrl": "http://live06.inlive.co.kr:10360"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:17260"
     },
     {
       "tag": "📻 추억음악",
@@ -171,19 +186,24 @@
       "streamUrl": "http://live09.inlive.co.kr:10040"
     },
     {
+      "tag": "📻 추억음악",
+      "name": "INLIVECAST",
+      "streamUrl": "http://live10.inlive.co.kr:14170"
+    },
+    {
       "tag": "🎹 연주",
       "name": "議곗⑺ ",
       "streamUrl": "http://live10.inlive.co.kr:10950"
     },
     {
       "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:12010"
+      "name": "Backspace..",
+      "streamUrl": "http://live07.inlive.co.kr:17110"
     },
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:10050"
+      "streamUrl": "http://live09.inlive.co.kr:12010"
     },
     {
       "tag": "🎹 연주",
@@ -222,13 +242,13 @@
     },
     {
       "tag": "락&메탈",
-      "name": "洹몃λｌ ~",
-      "streamUrl": "http://live09.inlive.co.kr:10830"
+      "name": "釉",
+      "streamUrl": "http://live09.inlive.co.kr:12130"
     },
     {
       "tag": "락&메탈",
-      "name": "釉",
-      "streamUrl": "http://live09.inlive.co.kr:12130"
+      "name": "洹몃λｌ ~",
+      "streamUrl": "http://live09.inlive.co.kr:10830"
     },
     {
       "tag": "락&메탈",
