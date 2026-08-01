@@ -2,23 +2,18 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "媛",
       "streamUrl": "http://live07.inlive.co.kr:10680"
     },
     {
       "tag": "🎶 가요",
-      "name": "7080諛",
-      "streamUrl": "http://live06.inlive.co.kr:10440"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:11000"
+      "name": "7080諛",
+      "streamUrl": "http://live06.inlive.co.kr:10440"
     },
     {
       "tag": "🎶 가요",
@@ -92,23 +87,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:13210"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "24",
       "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
-      "name": "異",
-      "streamUrl": "http://live10.inlive.co.kr:13320"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:11310"
+      "streamUrl": "http://live10.inlive.co.kr:13210"
     },
     {
       "tag": "📻 추억음악",
@@ -152,13 +137,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "媛怨",
-      "streamUrl": "http://live06.inlive.co.kr:13570"
+      "name": "Beyond The Beat",
+      "streamUrl": "http://live10.inlive.co.kr:10270"
     },
     {
       "tag": "🎹 연주",
-      "name": "Beyond The Beat",
-      "streamUrl": "http://live10.inlive.co.kr:10270"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:11320"
     },
     {
       "tag": "🎹 연주",
