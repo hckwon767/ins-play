@@ -2,6 +2,16 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:14870"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "硫異 ",
+      "streamUrl": "http://live07.inlive.co.kr:12820"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "媛",
       "streamUrl": "http://live07.inlive.co.kr:10680"
     },
@@ -24,11 +34,6 @@
       "tag": "🎶 가요",
       "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:14120"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "蹂遺遺",
-      "streamUrl": "http://live09.inlive.co.kr:12020"
     },
     {
       "tag": "🎶 가요",
@@ -82,18 +87,13 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:17260"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "24",
       "streamUrl": "http://live07.inlive.co.kr:14390"
     },
     {
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:13210"
+      "streamUrl": "http://live03.inlive.co.kr:17260"
     },
     {
       "tag": "📻 추억음악",
@@ -133,17 +133,12 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
+      "streamUrl": "http://live03.inlive.co.kr:11320"
     },
     {
       "tag": "🎹 연주",
       "name": "Beyond The Beat",
       "streamUrl": "http://live10.inlive.co.kr:10270"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:11320"
     },
     {
       "tag": "🎹 연주",
@@ -182,11 +177,6 @@
     },
     {
       "tag": "락&메탈",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:12130"
-    },
-    {
-      "tag": "락&메탈",
       "name": "Rock.metal.BluesRock",
       "streamUrl": "http://live03.inlive.co.kr:10350"
     },
@@ -209,11 +199,6 @@
       "tag": "재즈",
       "name": "hours that never end",
       "streamUrl": "http://live06.inlive.co.kr:12650"
-    },
-    {
-      "tag": "재즈",
-      "name": "Jazz  Vocal",
-      "streamUrl": "http://live06.inlive.co.kr:11990"
     }
   ]
 }
