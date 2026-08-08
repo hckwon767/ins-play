@@ -2,8 +2,23 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "諛濡",
+      "streamUrl": "http://live03.inlive.co.kr:10550"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:16350"
+      "streamUrl": "http://live03.inlive.co.kr:10290"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "諛",
+      "streamUrl": "http://live07.inlive.co.kr:10680"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
@@ -12,23 +27,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "二쇰",
-      "streamUrl": "http://live03.inlive.co.kr:14870"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "諛濡",
-      "streamUrl": "http://live03.inlive.co.kr:10550"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "7080, ",
       "streamUrl": "http://live07.inlive.co.kr:18430"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
@@ -77,13 +77,28 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "洹몃 ",
-      "streamUrl": "http://live10.inlive.co.kr:10410"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:10300"
     },
     {
       "tag": "🎤 노래",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:10300"
+      "streamUrl": "http://live10.inlive.co.kr:12730"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:10190"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "湲곗듭",
+      "streamUrl": "http://live09.inlive.co.kr:10260"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "洹몃 ",
+      "streamUrl": "http://live10.inlive.co.kr:10410"
     },
     {
       "tag": "🎤 노래",
@@ -102,13 +117,23 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Old Record ",
-      "streamUrl": "http://live07.inlive.co.kr:12190"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:11310"
     },
     {
       "tag": "📻 추억음악",
-      "name": "洹몃",
-      "streamUrl": "http://live07.inlive.co.kr:11510"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:14580"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:10420"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Old Record ",
+      "streamUrl": "http://live07.inlive.co.kr:12190"
     },
     {
       "tag": "📻 추억음악",
@@ -158,12 +183,17 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "streamUrl": "http://live07.inlive.co.kr:10570"
     },
     {
       "tag": "🎹 연주",
       "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
       "streamUrl": "http://live03.inlive.co.kr:11690"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:15590"
     },
     {
       "tag": "🎹 연주",
@@ -173,7 +203,7 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:10510"
+      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
@@ -187,13 +217,18 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Europe Jazz &#039;N Trio ..",
+      "name": "Sonate &#039;Europe Jazz &#039;N Trio ..",
       "streamUrl": "http://live06.inlive.co.kr:10380"
     },
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live06.inlive.co.kr:11230"
     },
     {
       "tag": "락&메탈",
