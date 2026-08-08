@@ -17,13 +17,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "CJ紐⑥",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "name": "裕ㅼ",
+      "streamUrl": "http://live06.inlive.co.kr:11520"
     },
     {
       "tag": "🎶 가요",
-      "name": "裕ㅼ",
-      "streamUrl": "http://live06.inlive.co.kr:11520"
+      "name": "CJ紐⑥",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
       "tag": "🎶 가요",
@@ -108,17 +108,17 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:12060"
     },
     {
       "tag": "🎹 연주",
       "name": "Classic, NewAge &amp; Vocal",
       "streamUrl": "http://live10.inlive.co.kr:10280"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:11430"
     },
     {
       "tag": "🎹 연주",
@@ -154,11 +154,6 @@
       "tag": "락&메탈",
       "name": "nonstopMUSIC2 而⑦몃━/",
       "streamUrl": "http://live06.inlive.co.kr:12030"
-    },
-    {
-      "tag": "재즈",
-      "name": "hours that never end",
-      "streamUrl": "http://live06.inlive.co.kr:12650"
     }
   ]
 }
