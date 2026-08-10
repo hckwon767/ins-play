@@ -7,8 +7,18 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:12140"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "媛",
       "streamUrl": "http://live03.inlive.co.kr:11890"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:10330"
     },
     {
       "tag": "🎶 가요",
@@ -22,33 +32,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Ballad Top 30",
-      "streamUrl": "http://live03.inlive.co.kr:11380"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10550"
     },
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:12160"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:20990"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "瑗щ",
       "streamUrl": "http://live07.inlive.co.kr:23090"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:20660"
     },
     {
       "tag": "🎶 가요",
@@ -77,13 +67,18 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "&quot;",
+      "streamUrl": "http://pb1.inlive.co.kr:10070"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:11070"
     },
     {
       "tag": "🎤 노래",
       "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:16470"
+      "streamUrl": "http://live03.inlive.co.kr:16190"
     },
     {
       "tag": "🎤 노래",
@@ -102,28 +97,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:12080"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "With all the music in the world",
-      "streamUrl": "http://live06.inlive.co.kr:21250"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "硫",
-      "streamUrl": "http://live03.inlive.co.kr:12650"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "All the music in the world.",
-      "streamUrl": "http://live10.inlive.co.kr:10010"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:14580"
+      "name": "^^",
+      "streamUrl": "http://live06.inlive.co.kr:11010"
     },
     {
       "tag": "📻 추억음악",
@@ -176,6 +151,16 @@
       "streamUrl": "http://live03.inlive.co.kr:13890"
     },
     {
+      "tag": "📻 추억음악",
+      "name": "而ㅽ쇳",
+      "streamUrl": "http://live03.inlive.co.kr:15230"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:10040"
+    },
+    {
       "tag": "🎹 연주",
       "name": "議곗⑺ ",
       "streamUrl": "http://live10.inlive.co.kr:10950"
@@ -184,6 +169,16 @@
       "tag": "🎹 연주",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:18070"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "媛",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Romantic Jazz 蹂댁뺄&amp;",
+      "streamUrl": "http://live07.inlive.co.kr:21990"
     },
     {
       "tag": "🎹 연주",
@@ -202,11 +197,6 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "媛",
-      "streamUrl": "http://live09.inlive.co.kr:14700"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:12060"
     },
@@ -222,8 +212,8 @@
     },
     {
       "tag": "락&메탈",
-      "name": "...  ",
-      "streamUrl": "http://live03.inlive.co.kr:13190"
+      "name": "僊ith先r僊ith先錫t",
+      "streamUrl": "http://live10.inlive.co.kr:14130"
     },
     {
       "tag": "락&메탈",
@@ -244,6 +234,11 @@
       "tag": "락&메탈",
       "name": "Rock.metal.BluesRock",
       "streamUrl": "http://live03.inlive.co.kr:10350"
+    },
+    {
+      "tag": "재즈",
+      "name": "nevertheless",
+      "streamUrl": "http://live07.inlive.co.kr:19250"
     },
     {
       "tag": "재즈",
