@@ -12,18 +12,18 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:10550"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "媛",
       "streamUrl": "http://live03.inlive.co.kr:11890"
     },
     {
       "tag": "🎶 가요",
-      "name": "吏",
-      "streamUrl": "http://live06.inlive.co.kr:11740"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:10550"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "7080, ",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
     },
     {
       "tag": "🎶 가요",
@@ -67,16 +67,6 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "&quot;",
-      "streamUrl": "http://pb1.inlive.co.kr:10070"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:14990"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:11070"
     },
@@ -94,6 +84,11 @@
       "tag": "📻 추억음악",
       "name": "媛",
       "streamUrl": "http://live07.inlive.co.kr:11800"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Melody",
+      "streamUrl": "http://live03.inlive.co.kr:10530"
     },
     {
       "tag": "📻 추억음악",
@@ -147,18 +142,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
       "streamUrl": "http://live03.inlive.co.kr:11690"
     },
     {
       "tag": "🎹 연주",
-      "name": "裕ㅼ",
-      "streamUrl": "http://live06.inlive.co.kr:12630"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
@@ -174,11 +164,6 @@
       "tag": "🎹 연주",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:12010"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:15590"
     },
     {
       "tag": "🎹 연주",
@@ -204,11 +189,6 @@
       "tag": "락&메탈",
       "name": "硫",
       "streamUrl": "http://live03.inlive.co.kr:15760"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "Black Metal (2026",
-      "streamUrl": "http://live09.inlive.co.kr:12130"
     },
     {
       "tag": "락&메탈",
