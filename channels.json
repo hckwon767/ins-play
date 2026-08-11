@@ -13,11 +13,6 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:14460"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
     {
@@ -129,6 +124,11 @@
       "tag": "🎹 연주",
       "name": "媛",
       "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "On&#039;s FM",
+      "streamUrl": "http://live03.inlive.co.kr:13200"
     },
     {
       "tag": "🎹 연주",
