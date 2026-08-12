@@ -3,12 +3,22 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:10620"
+      "streamUrl": "http://live06.inlive.co.kr:16350"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:12140"
     },
     {
       "tag": "🎶 가요",
       "name": "諛",
       "streamUrl": "http://live07.inlive.co.kr:10680"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:11390"
     },
     {
       "tag": "🎶 가요",
@@ -67,13 +77,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:12810"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "洹몃",
-      "streamUrl": "http://live07.inlive.co.kr:11510"
+      "name": "踰",
+      "streamUrl": "http://live09.inlive.co.kr:17630"
     },
     {
       "tag": "📻 추억음악",
@@ -82,8 +87,23 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "洹몃",
+      "streamUrl": "http://live07.inlive.co.kr:11510"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:11310"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "異",
       "streamUrl": "http://live06.inlive.co.kr:10960"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:12810"
     },
     {
       "tag": "📻 추억음악",
@@ -131,11 +151,6 @@
       "streamUrl": "http://live03.inlive.co.kr:15230"
     },
     {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:10040"
-    },
-    {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:18070"
@@ -169,6 +184,11 @@
       "tag": "🎹 연주",
       "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:11480"
     },
     {
       "tag": "락&메탈",
