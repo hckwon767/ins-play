@@ -12,11 +12,6 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "怨",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "7080",
       "streamUrl": "http://live09.inlive.co.kr:13150"
     },
@@ -124,6 +119,11 @@
       "tag": "🎹 연주",
       "name": "媛",
       "streamUrl": "http://live09.inlive.co.kr:14700"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:12010"
     },
     {
       "tag": "🎹 연주",
