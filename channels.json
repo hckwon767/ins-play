@@ -7,18 +7,18 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "洹몃 洹",
-      "streamUrl": "http://live07.inlive.co.kr:20660"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "諛濡",
-      "streamUrl": "http://live03.inlive.co.kr:10550"
+      "name": "洹몃━",
+      "streamUrl": "http://live06.inlive.co.kr:16350"
     },
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:10380"
+      "streamUrl": "http://live07.inlive.co.kr:20660"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "瑗щ",
+      "streamUrl": "http://live07.inlive.co.kr:23090"
     },
     {
       "tag": "🎶 가요",
@@ -27,8 +27,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "諛",
-      "streamUrl": "http://live09.inlive.co.kr:12660"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:10550"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:14600"
     },
     {
       "tag": "🎶 가요",
@@ -37,8 +42,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "쨘  indie  ",
-      "streamUrl": "http://live10.inlive.co.kr:14700"
+      "name": "諛",
+      "streamUrl": "http://live09.inlive.co.kr:12660"
     },
     {
       "tag": "🎶 가요",
@@ -49,11 +54,6 @@
       "tag": "🎶 가요",
       "name": "ll",
       "streamUrl": "http://live07.inlive.co.kr:11440"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "瑗щ",
-      "streamUrl": "http://live07.inlive.co.kr:23090"
     },
     {
       "tag": "🎶 가요",
@@ -87,13 +87,18 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Pop Music ",
-      "streamUrl": "http://live07.inlive.co.kr:12950"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:11800"
     },
     {
       "tag": "📻 추억음악",
-      "name": "Old Record ",
-      "streamUrl": "http://live07.inlive.co.kr:12190"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:17300"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "HuMan story",
+      "streamUrl": "http://live07.inlive.co.kr:10060"
     },
     {
       "tag": "📻 추억음악",
@@ -107,8 +112,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "異",
-      "streamUrl": "http://live10.inlive.co.kr:11310"
+      "name": "Old Record ",
+      "streamUrl": "http://live07.inlive.co.kr:12190"
     },
     {
       "tag": "📻 추억음악",
@@ -151,14 +156,14 @@
       "streamUrl": "http://live03.inlive.co.kr:12190"
     },
     {
-      "tag": "📻 추억음악",
-      "name": "而ㅽ쇳",
-      "streamUrl": "http://live03.inlive.co.kr:15230"
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:10040"
+      "tag": "🎹 연주",
+      "name": "吏щ",
+      "streamUrl": "http://live03.inlive.co.kr:18560"
     },
     {
       "tag": "🎹 연주",
@@ -178,17 +183,12 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:12010"
+      "name": "Classic ARTe ..",
+      "streamUrl": "http://live06.inlive.co.kr:10380"
     },
     {
       "tag": "🎹 연주",
@@ -212,6 +212,11 @@
     },
     {
       "tag": "락&메탈",
+      "name": "Tech/EX metallic Progressive &#039;N ..",
+      "streamUrl": "http://live07.inlive.co.kr:12340"
+    },
+    {
+      "tag": "락&메탈",
       "name": "nonstopMUSIC2 而⑦몃━/",
       "streamUrl": "http://live06.inlive.co.kr:12030"
     },
@@ -219,11 +224,6 @@
       "tag": "재즈",
       "name": "hours that never end",
       "streamUrl": "http://live06.inlive.co.kr:12650"
-    },
-    {
-      "tag": "재즈",
-      "name": "nevertheless",
-      "streamUrl": "http://live07.inlive.co.kr:19250"
     },
     {
       "tag": "재즈",
