@@ -2,7 +2,7 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
+      "name": "臾댁",
       "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
@@ -12,13 +12,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "7080",
-      "streamUrl": "http://live09.inlive.co.kr:13150"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:12160"
     },
     {
       "tag": "🎶 가요",
-      "name": "湲곗듭 嫄룸 ",
-      "streamUrl": "http://live10.inlive.co.kr:10120"
+      "name": "7080",
+      "streamUrl": "http://live09.inlive.co.kr:13150"
     },
     {
       "tag": "🎶 가요",
@@ -88,17 +88,17 @@
     {
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:12810"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
       "name": "24",
       "streamUrl": "http://live07.inlive.co.kr:14390"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:12810"
     },
     {
       "tag": "📻 추억음악",
@@ -194,6 +194,11 @@
       "tag": "재즈",
       "name": "_",
       "streamUrl": "http://live10.inlive.co.kr:10470"
+    },
+    {
+      "tag": "재즈",
+      "name": "hours that never end",
+      "streamUrl": "http://live06.inlive.co.kr:12650"
     },
     {
       "tag": "재즈",
