@@ -7,8 +7,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "援용え",
-      "streamUrl": "http://live03.inlive.co.kr:14870"
+      "name": "利嫄댁ы",
+      "streamUrl": "http://live06.inlive.co.kr:11330"
     },
     {
       "tag": "🎶 가요",
@@ -77,18 +77,38 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://pb1.inlive.co.kr:10070"
+      "name": "洹몃",
+      "streamUrl": "http://live10.inlive.co.kr:10410"
     },
     {
       "tag": "🎤 노래",
-      "name": "洹몃",
-      "streamUrl": "http://live10.inlive.co.kr:10410"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:14230"
+    },
+    {
+      "tag": "🎤 노래",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:10300"
     },
     {
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:15800"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Old Record ",
+      "streamUrl": "http://live07.inlive.co.kr:12190"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live06.inlive.co.kr:11280"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "洹몃",
+      "streamUrl": "http://live07.inlive.co.kr:11510"
     },
     {
       "tag": "📻 추억음악",
@@ -153,7 +173,27 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:12010"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:12730"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:15590"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Rest`Diving..",
+      "streamUrl": "http://live06.inlive.co.kr:10680"
     },
     {
       "tag": "🎹 연주",
@@ -192,11 +232,6 @@
     },
     {
       "tag": "재즈",
-      "name": "_",
-      "streamUrl": "http://live10.inlive.co.kr:10470"
-    },
-    {
-      "tag": "재즈",
       "name": "hours that never end",
       "streamUrl": "http://live06.inlive.co.kr:12650"
     },
@@ -204,11 +239,6 @@
       "tag": "재즈",
       "name": "Jazz Groove",
       "streamUrl": "http://live06.inlive.co.kr:11990"
-    },
-    {
-      "tag": "재즈",
-      "name": "nevertheless",
-      "streamUrl": "http://live07.inlive.co.kr:19250"
     }
   ]
 }
