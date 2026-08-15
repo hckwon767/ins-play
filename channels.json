@@ -2,16 +2,6 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:13950"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "諛",
-      "streamUrl": "http://live09.inlive.co.kr:12660"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "~臾댁",
       "streamUrl": "http://live10.inlive.co.kr:16520"
     },
@@ -48,16 +38,6 @@
     {
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "EURO QUEEN 諛⑹",
-      "streamUrl": "http://live03.inlive.co.kr:11250"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "二쇱",
       "streamUrl": "http://live03.inlive.co.kr:15050"
     },
     {
@@ -67,8 +47,13 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "EURO QUEEN 諛⑹",
+      "streamUrl": "http://live03.inlive.co.kr:11250"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:12210"
+      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
