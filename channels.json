@@ -2,11 +2,6 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "~臾댁",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "CJ紐⑥",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
     },
@@ -18,17 +13,7 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:13950"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:11900"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "臾대",
-      "streamUrl": "http://live07.inlive.co.kr:11110"
     },
     {
       "tag": "🎶 가요",
@@ -37,8 +22,8 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:11240"
+      "name": "~臾댁",
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
@@ -104,11 +89,6 @@
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:11250"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:12190"
     },
     {
       "tag": "📻 추억음악",
@@ -209,11 +189,6 @@
       "tag": "락&메탈",
       "name": "nonstopMUSIC2 而⑦몃━/",
       "streamUrl": "http://live06.inlive.co.kr:12030"
-    },
-    {
-      "tag": "재즈",
-      "name": "Rush .....",
-      "streamUrl": "http://live07.inlive.co.kr:14530"
     },
     {
       "tag": "재즈",
