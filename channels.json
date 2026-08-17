@@ -8,12 +8,12 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
+      "streamUrl": "http://live07.inlive.co.kr:11500"
     },
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:11500"
+      "streamUrl": "http://live03.inlive.co.kr:14040"
     },
     {
       "tag": "🎶 가요",
@@ -23,7 +23,7 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:14040"
+      "streamUrl": "http://live07.inlive.co.kr:16030"
     },
     {
       "tag": "🎶 가요",
@@ -67,13 +67,13 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "紐⑺",
-      "streamUrl": "http://live09.inlive.co.kr:12590"
+      "name": "&quot;",
+      "streamUrl": "http://pb1.inlive.co.kr:10070"
     },
     {
       "tag": "🎤 노래",
-      "name": "hark live",
-      "streamUrl": "http://live06.inlive.co.kr:11320"
+      "name": "以zl",
+      "streamUrl": "http://live03.inlive.co.kr:13210"
     },
     {
       "tag": "🎤 노래",
@@ -107,11 +107,6 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "BGM ...",
-      "streamUrl": "http://live03.inlive.co.kr:12650"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:11310"
     },
@@ -122,8 +117,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "異",
-      "streamUrl": "http://live07.inlive.co.kr:10530"
+      "name": "BGM ...",
+      "streamUrl": "http://live03.inlive.co.kr:12650"
     },
     {
       "tag": "📻 추억음악",
@@ -237,12 +232,17 @@
     },
     {
       "tag": "락&메탈",
+      "name": "CORE RADIO",
+      "streamUrl": "http://live03.inlive.co.kr:10330"
+    },
+    {
+      "tag": "락&메탈",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:11480"
     },
     {
       "tag": "락&메탈",
-      "name": "Tech/EX metallic Progressive &#039;N ..",
+      "name": "Trash&#039;black&#039;death&#039;doom &#039;N ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
     },
     {
