@@ -18,22 +18,17 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:20990"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:10380"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10550"
     },
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:17500"
+      "streamUrl": "http://live09.inlive.co.kr:10910"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:20990"
     },
     {
       "tag": "🎶 가요",
@@ -82,6 +77,11 @@
     },
     {
       "tag": "🎤 노래",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:10770"
+    },
+    {
+      "tag": "🎤 노래",
       "name": "利嫄곗",
       "streamUrl": "http://live07.inlive.co.kr:13580"
     },
@@ -102,6 +102,11 @@
     },
     {
       "tag": "📻 추억음악",
+      "name": "All the music in the world. (18:00~ 永)",
+      "streamUrl": "http://live10.inlive.co.kr:10010"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:11040"
     },
@@ -109,11 +114,6 @@
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
       "streamUrl": "http://live06.inlive.co.kr:12080"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "HuMan story",
-      "streamUrl": "http://live07.inlive.co.kr:10060"
     },
     {
       "tag": "📻 추억음악",
