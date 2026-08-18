@@ -107,6 +107,11 @@
     },
     {
       "tag": "🎹 연주",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live09.inlive.co.kr:18070"
+    },
+    {
+      "tag": "🎹 연주",
       "name": "EU Jazz &#039;N Trio ..",
       "streamUrl": "http://live06.inlive.co.kr:10380"
     },
@@ -149,11 +154,6 @@
       "tag": "재즈",
       "name": "[ JAZZ Oz`s Muzik Room",
       "streamUrl": "http://live03.inlive.co.kr:17540"
-    },
-    {
-      "tag": "재즈",
-      "name": "nevertheless",
-      "streamUrl": "http://live07.inlive.co.kr:19250"
     },
     {
       "tag": "재즈",
