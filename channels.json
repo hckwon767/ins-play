@@ -7,7 +7,7 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Just",
+      "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:20660"
     },
     {
@@ -23,17 +23,17 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:12160"
+      "streamUrl": "http://live10.inlive.co.kr:10620"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:10930"
     },
     {
       "tag": "🎶 가요",
       "name": "洹몄",
       "streamUrl": "http://live07.inlive.co.kr:15630"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:10620"
     },
     {
       "tag": "🎶 가요",
@@ -93,17 +93,17 @@
     {
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:10980"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
       "streamUrl": "http://live06.inlive.co.kr:14280"
     },
     {
       "tag": "📻 추억음악",
+      "name": "All the music in the world.",
+      "streamUrl": "http://live09.inlive.co.kr:13200"
+    },
+    {
+      "tag": "📻 추억음악",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:11040"
+      "streamUrl": "http://live03.inlive.co.kr:13890"
     },
     {
       "tag": "📻 추억음악",
@@ -183,7 +183,12 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:18070"
+      "streamUrl": "http://live10.inlive.co.kr:10280"
+    },
+    {
+      "tag": "🎹 연주",
+      "name": "Progressive &amp; So Forth.",
+      "streamUrl": "http://live09.inlive.co.kr:12610"
     },
     {
       "tag": "🎹 연주",
@@ -193,7 +198,7 @@
     {
       "tag": "🎹 연주",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
@@ -229,6 +234,16 @@
       "tag": "🎹 연주",
       "name": "Inlive_Station",
       "streamUrl": "http://live10.inlive.co.kr:12060"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:13190"
+    },
+    {
+      "tag": "락&메탈",
+      "name": "鍮",
+      "streamUrl": "http://live03.inlive.co.kr:18140"
     },
     {
       "tag": "락&메탈",
