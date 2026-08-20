@@ -3,12 +3,17 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "streamUrl": "http://live10.inlive.co.kr:16520"
     },
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:16520"
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Ballad Top 30",
+      "streamUrl": "http://live03.inlive.co.kr:11380"
     },
     {
       "tag": "🎶 가요",
@@ -19,11 +24,6 @@
       "tag": "🎶 가요",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:11650"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "善븍ㅼe善삳쇱대",
-      "streamUrl": "http://live07.inlive.co.kr:10120"
     },
     {
       "tag": "🎶 가요",
