@@ -2,13 +2,18 @@
   "channels": [
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:16350"
+      "name": "7080, ",
+      "streamUrl": "http://live07.inlive.co.kr:18430"
     },
     {
       "tag": "🎶 가요",
-      "name": "7080, ",
-      "streamUrl": "http://live07.inlive.co.kr:18430"
+      "name": "異",
+      "streamUrl": "http://live03.inlive.co.kr:14450"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live06.inlive.co.kr:16350"
     },
     {
       "tag": "🎶 가요",
@@ -64,11 +69,6 @@
       "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:16470"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live06.inlive.co.kr:14490"
     },
     {
       "tag": "🎤 노래",
@@ -132,13 +132,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "EU Jazz &#039;N Trio ..",
-      "streamUrl": "http://live06.inlive.co.kr:10380"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10280"
     },
     {
       "tag": "🎹 연주",
-      "name": "Classic, NewAge &amp; Vocal",
-      "streamUrl": "http://live10.inlive.co.kr:10280"
+      "name": "EU Jazz &#039;N Trio ..",
+      "streamUrl": "http://live06.inlive.co.kr:10380"
     },
     {
       "tag": "🎹 연주",
