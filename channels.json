@@ -2,6 +2,11 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "째 ",
+      "streamUrl": "http://live10.inlive.co.kr:11260"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "諛ㅼ",
       "streamUrl": "http://live06.inlive.co.kr:11640"
     },
