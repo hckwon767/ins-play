@@ -12,8 +12,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:11240"
+      "name": "諛",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "臾대",
+      "streamUrl": "http://live07.inlive.co.kr:11110"
     },
     {
       "tag": "🎶 가요",
@@ -22,18 +27,13 @@
     },
     {
       "tag": "🎶 가요",
-      "name": ".",
-      "streamUrl": "http://live09.inlive.co.kr:14920"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "諛",
-      "streamUrl": "http://live03.inlive.co.kr:23500"
-    },
-    {
-      "tag": "🎶 가요",
       "name": "裕ㅼ",
       "streamUrl": "http://live06.inlive.co.kr:11520"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:11240"
     },
     {
       "tag": "🎶 가요",
@@ -77,18 +77,18 @@
     },
     {
       "tag": "🎤 노래",
-      "name": "耳鍮",
-      "streamUrl": "http://live10.inlive.co.kr:11180"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:14650"
-    },
-    {
-      "tag": "🎤 노래",
       "name": "Inlive_Station",
       "streamUrl": "http://live03.inlive.co.kr:10040"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:22660"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "7080醫",
+      "streamUrl": "http://live07.inlive.co.kr:15800"
     },
     {
       "tag": "📻 추억음악",
@@ -102,18 +102,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:15800"
-    },
-    {
-      "tag": "📻 추억음악",
       "name": "24",
       "streamUrl": "http://live07.inlive.co.kr:14390"
-    },
-    {
-      "tag": "📻 추억음악",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
       "tag": "📻 추억음악",
@@ -147,13 +137,8 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "紐쎌 (~23:30)",
-      "streamUrl": "http://live10.inlive.co.kr:11030"
-    },
-    {
-      "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:17650"
+      "name": "Frei aber Einsam &quot; Classical, Pop, etc.&quot;",
+      "streamUrl": "http://live03.inlive.co.kr:11690"
     },
     {
       "tag": "🎹 연주",
@@ -184,11 +169,6 @@
       "tag": "락&메탈",
       "name": "on my own",
       "streamUrl": "http://live07.inlive.co.kr:10160"
-    },
-    {
-      "tag": "락&메탈",
-      "name": "硫",
-      "streamUrl": "http://live03.inlive.co.kr:15760"
     },
     {
       "tag": "락&메탈",
