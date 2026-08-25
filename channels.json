@@ -68,6 +68,11 @@
     {
       "tag": "📻 추억음악",
       "name": "Inlive_Station",
+      "streamUrl": "http://live06.inlive.co.kr:11460"
+    },
+    {
+      "tag": "📻 추억음악",
+      "name": "Inlive_Station",
       "streamUrl": "http://live07.inlive.co.kr:22660"
     },
     {
