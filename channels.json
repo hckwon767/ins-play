@@ -2,18 +2,13 @@
   "channels": [
     {
       "tag": "🎶 가요",
+      "name": "諛",
+      "streamUrl": "http://live03.inlive.co.kr:23500"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "CJ紐⑥",
       "streamUrl": "http://pb1.inlive.co.kr:10050"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:10800"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "7080, 寃쎌",
-      "streamUrl": "http://live07.inlive.co.kr:18430"
     },
     {
       "tag": "🎶 가요",
@@ -24,11 +19,6 @@
       "tag": "🎶 가요",
       "name": "瑗щ",
       "streamUrl": "http://live07.inlive.co.kr:23090"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:14120"
     },
     {
       "tag": "🎶 가요",
@@ -72,8 +62,8 @@
     },
     {
       "tag": "📻 추억음악",
-      "name": "my ",
-      "streamUrl": "http://live10.inlive.co.kr:10190"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live03.inlive.co.kr:10050"
     },
     {
       "tag": "📻 추억음악",
@@ -122,13 +112,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "裕ㅼ",
-      "streamUrl": "http://live06.inlive.co.kr:12630"
+      "name": "Inlive_Station",
+      "streamUrl": "http://live10.inlive.co.kr:10100"
     },
     {
       "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live07.inlive.co.kr:12960"
+      "name": "裕ㅼ",
+      "streamUrl": "http://live06.inlive.co.kr:12630"
     },
     {
       "tag": "🎹 연주",
@@ -157,11 +147,6 @@
     },
     {
       "tag": "락&메탈",
-      "name": "CORE RADIO",
-      "streamUrl": "http://live03.inlive.co.kr:10330"
-    },
-    {
-      "tag": "락&메탈",
       "name": "ART Rock and ..",
       "streamUrl": "http://live07.inlive.co.kr:12340"
     },
@@ -169,11 +154,6 @@
       "tag": "락&메탈",
       "name": "nonstopMUSIC2 而⑦몃━/",
       "streamUrl": "http://live06.inlive.co.kr:12030"
-    },
-    {
-      "tag": "재즈",
-      "name": "_",
-      "streamUrl": "http://live10.inlive.co.kr:10470"
     },
     {
       "tag": "재즈",
