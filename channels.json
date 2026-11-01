@@ -3,7 +3,12 @@
     {
       "tag": "🎶 가요",
       "name": "Inlive_Station",
-      "streamUrl": "http://pb1.inlive.co.kr:10050"
+      "streamUrl": "http://live10.inlive.co.kr:11880"
+    },
+    {
+      "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://live07.inlive.co.kr:10680"
     },
     {
       "tag": "🎶 가요",
@@ -12,33 +17,23 @@
     },
     {
       "tag": "🎶 가요",
+      "name": "肄由ъ蹂댁ㅼ",
+      "streamUrl": "http://live03.inlive.co.kr:17280"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "7080異",
       "streamUrl": "http://live03.inlive.co.kr:12480"
     },
     {
       "tag": "🎶 가요",
+      "name": "Inlive_Station",
+      "streamUrl": "http://pb1.inlive.co.kr:10050"
+    },
+    {
+      "tag": "🎶 가요",
       "name": "硫異 ",
       "streamUrl": "http://live07.inlive.co.kr:12820"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:13350"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "\u000e\u000e",
-      "streamUrl": "http://live10.inlive.co.kr:10180"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live10.inlive.co.kr:11670"
-    },
-    {
-      "tag": "🎶 가요",
-      "name": "肄由ъ蹂댁ㅼ",
-      "streamUrl": "http://live03.inlive.co.kr:17280"
     },
     {
       "tag": "🎶 가요",
@@ -79,11 +74,6 @@
       "tag": "🎶 가요",
       "name": "洹몄",
       "streamUrl": "http://live07.inlive.co.kr:15630"
-    },
-    {
-      "tag": "🎤 노래",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live03.inlive.co.kr:14180"
     },
     {
       "tag": "🎤 노래",
@@ -142,18 +132,13 @@
     },
     {
       "tag": "🎹 연주",
-      "name": "...",
-      "streamUrl": "http://live07.inlive.co.kr:10480"
-    },
-    {
-      "tag": "🎹 연주",
       "name": "Inlive_Station",
       "streamUrl": "http://live09.inlive.co.kr:18070"
     },
     {
       "tag": "🎹 연주",
-      "name": "Inlive_Station",
-      "streamUrl": "http://live09.inlive.co.kr:11980"
+      "name": "媛",
+      "streamUrl": "http://live09.inlive.co.kr:14700"
     },
     {
       "tag": "🎹 연주",
