@@ -5,6 +5,8 @@ https://cast2.sayclub.com/saycast2/24sky/llhls.m3u8
 https://listen.moe/kpop/fallback
 #EXTINF:-1 ,Korean city pop
 http://65.21.61.215:8000/citypoptwo
+#EXTINF:-1 ,yojosuknam Radio
+https://stream.yojosuknam.com/live.mp3
 #EXTINF:-1,KBS 1라디오
 https://radio.bsod.kr/stream?stn=kbs&ch=1radio
 #EXTINF:-1,KBS 2라디오
